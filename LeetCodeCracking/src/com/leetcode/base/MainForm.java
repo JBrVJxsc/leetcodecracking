@@ -51,7 +51,7 @@ public class MainForm {
     }
 
     private void initForm() {
-        frame = new JFrame("Algorithms") {
+        frame = new JFrame("LeetCode") {
             public JFrame init() {
                 enableEvents(ConsoleAWTEvent.EVENT_ID);
                 return this;
