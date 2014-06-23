@@ -23,6 +23,6 @@ public class a1 extends BaseAlgorithm implements IAlgorithm {
 
     @Override
     public void run() {
-
+        print("TEST");
     }
 }
