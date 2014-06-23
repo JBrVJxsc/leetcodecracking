@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Algorithms" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="6b4277ce-5c5c-47c6-b5f7-54d28bd268af" name="Default" comment="" />
+    <ignored path="Algorithms.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Algorithms" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="LinkedListQueue.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="764" max-vertical-offset="1343">
+              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scope_settings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profiles_settings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Who.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Who.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compiler.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="encodings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="misc.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modules.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uiDesigner.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2227">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21441442" vertical-offset="0" max-vertical-offset="555">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/grahamscan/GrahamScan.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/bag/bags/LinkedListBag.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stack/stacks/LinkedListStackPlus.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/mergesorts/exercises/Exercise1.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/interfaces/ISort.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/insertionsort/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/selectionsort/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/shellsort/Shellsort.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/mergesorts/Merging.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stack/exercises/Exercise1.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/mergesorts/BottomUpMergesort.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/mergesorts/Mergesort.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise2.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/shuffling/KnuthShuffle.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/shuffling/exercises/Exercise1.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Selection.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise3.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quickselect.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/BaseAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise4.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Partitioning3way.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/queues/ArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stacks/LinkedListStack.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quicksort3way.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stacks/LinkedListStackPlus.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/programmingassignments/Deque.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/programmingassignments/RandomizedQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise1.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/unionfind/programmingassignments/submit/Percolation.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/interfaces/IQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/UnorderedMaxPQ.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/ResizingArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/ArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/MaxPQ.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/exercises/Exercise1.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/Heapsorts/Heapsort.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/StdDraw.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/common/StdDraw.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/BaseSort.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Partitioning.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/heapsorts/Heapsort.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/exercises/Exercise4.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quicksort.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Points.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Brute.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Fast.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Point.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise5.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/symboltables/BST.java" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="false" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="vcs.Subversion" />
+    <property name="options.splitter.main.proportions" value="0.28916666" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntries" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="219" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="226" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="225" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="75" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="127" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="1018" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="180" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="186" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="186" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="179" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="180" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="979" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="fo&#9;FILE&#9;file://E:/Computer Science/Code/Algorithms/src/com/algorithms/algorithms/sort/mergesorts/package-info.java&#10;Objects&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/util/Objects.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libraries/stdlib-package.jar!/" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.algorithms.algorithms.sort" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Computer Science\Code\Algorithms\src\com\algorithms\algorithms\unionfind\programmingassignments" />
+      <recent name="E:\Computer Science\Code\Algorithms\src\com\algorithms\algorithms\stacksandqueues" />
+      <recent name="E:\Computer Science\Code\Algorithms\src\com\algorithms\algorithms\sort" />
+      <recent name="E:\Computer Science\Code\Algorithms\src\com\algorithms\algorithms\sort\elementarysorts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainForm">
+    <configuration default="false" name="MainForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.base.MainForm" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.MainForm" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.MainForm" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing" cleanupOnStartRun="true">
+    <configuration>C:\Users\Who\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b4277ce-5c5c-47c6-b5f7-54d28bd268af" name="Default" comment="" />
+      <created>1396616637212</created>
+      <updated>1396616637212</updated>
+    </task>
+    <task id="LOCAL-00001" summary="测试SVN。2014年4月4日22:41:50。">
+      <created>1396622738135</created>
+      <updated>1396622738135</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1396622772105</created>
+      <updated>1396622772105</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1396622855103</created>
+      <updated>1396622855103</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1396623156105</created>
+      <updated>1396623156105</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1396628322102</created>
+      <updated>1396628322102</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1397108495104</created>
+      <updated>1397108495104</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1397109121105</created>
+      <updated>1397109121105</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1397111760102</created>
+      <updated>1397111760102</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1397121809136</created>
+      <updated>1397121809136</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1397125683107</created>
+      <updated>1397125683107</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1397126200106</created>
+      <updated>1397126200106</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1397133631106</created>
+      <updated>1397133631106</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1397134123104</created>
+      <updated>1397134123104</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1397134302102</created>
+      <updated>1397134302102</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1397144974106</created>
+      <updated>1397144974106</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1397145081106</created>
+      <updated>1397145081106</updated>
+    </task>
+    <task id="LOCAL-00017">
+      <created>1397212025127</created>
+      <updated>1397212025127</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1397212951102</created>
+      <updated>1397212951103</updated>
+    </task>
+    <task id="LOCAL-00019">
+      <created>1397213970102</created>
+      <updated>1397213970102</updated>
+    </task>
+    <task id="LOCAL-00020">
+      <created>1397213994106</created>
+      <updated>1397213994106</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1397214991106</created>
+      <updated>1397214991106</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1397215219103</created>
+      <updated>1397215219103</updated>
+    </task>
+    <task id="LOCAL-00023">
+      <created>1397215315103</created>
+      <updated>1397215315103</updated>
+    </task>
+    <task id="LOCAL-00024">
+      <created>1397215356102</created>
+      <updated>1397215356102</updated>
+    </task>
+    <task id="LOCAL-00025">
+      <created>1397227454106</created>
+      <updated>1397227454106</updated>
+    </task>
+    <task id="LOCAL-00026">
+      <created>1397227512103</created>
+      <updated>1397227512103</updated>
+    </task>
+    <task id="LOCAL-00027">
+      <created>1397229224106</created>
+      <updated>1397229224106</updated>
+    </task>
+    <task id="LOCAL-00028">
+      <created>1397266846140</created>
+      <updated>1397266846140</updated>
+    </task>
+    <task id="LOCAL-00029">
+      <created>1397268109106</created>
+      <updated>1397268109106</updated>
+    </task>
+    <task id="LOCAL-00030">
+      <created>1397268478106</created>
+      <updated>1397268478106</updated>
+    </task>
+    <task id="LOCAL-00031">
+      <created>1397270814106</created>
+      <updated>1397270814106</updated>
+    </task>
+    <task id="LOCAL-00032">
+      <created>1397273345106</created>
+      <updated>1397273345106</updated>
+    </task>
+    <task id="LOCAL-00033">
+      <created>1397281167103</created>
+      <updated>1397281167103</updated>
+    </task>
+    <task id="LOCAL-00034">
+      <created>1397282558106</created>
+      <updated>1397282558106</updated>
+    </task>
+    <task id="LOCAL-00035">
+      <created>1397282722103</created>
+      <updated>1397282722103</updated>
+    </task>
+    <task id="LOCAL-00036">
+      <created>1397295873106</created>
+      <updated>1397295873106</updated>
+    </task>
+    <task id="LOCAL-00037">
+      <created>1397296764106</created>
+      <updated>1397296764106</updated>
+    </task>
+    <task id="LOCAL-00038">
+      <created>1397296918107</created>
+      <updated>1397296918107</updated>
+    </task>
+    <task id="LOCAL-00039">
+      <created>1397297178106</created>
+      <updated>1397297178106</updated>
+    </task>
+    <task id="LOCAL-00040">
+      <created>1397297717102</created>
+      <updated>1397297717102</updated>
+    </task>
+    <task id="LOCAL-00041">
+      <created>1397309768106</created>
+      <updated>1397309768106</updated>
+    </task>
+    <task id="LOCAL-00042">
+      <created>1397310464103</created>
+      <updated>1397310464103</updated>
+    </task>
+    <task id="LOCAL-00043">
+      <created>1397315131106</created>
+      <updated>1397315131106</updated>
+    </task>
+    <task id="LOCAL-00044">
+      <created>1397315702107</created>
+      <updated>1397315702107</updated>
+    </task>
+    <task id="LOCAL-00045">
+      <created>1397316915106</created>
+      <updated>1397316915106</updated>
+    </task>
+    <task id="LOCAL-00046">
+      <created>1397320931106</created>
+      <updated>1397320931106</updated>
+    </task>
+    <task id="LOCAL-00047">
+      <created>1397349301197</created>
+      <updated>1397349301197</updated>
+    </task>
+    <task id="LOCAL-00048">
+      <created>1397397764135</created>
+      <updated>1397397764135</updated>
+    </task>
+    <task id="LOCAL-00049">
+      <created>1397398007100</created>
+      <updated>1397398007100</updated>
+    </task>
+    <task id="LOCAL-00050">
+      <created>1397398239100</created>
+      <updated>1397398239100</updated>
+    </task>
+    <task id="LOCAL-00051">
+      <created>1397399693111</created>
+      <updated>1397399693111</updated>
+    </task>
+    <task id="LOCAL-00052">
+      <created>1397399862115</created>
+      <updated>1397399862115</updated>
+    </task>
+    <task id="LOCAL-00053">
+      <created>1397402168103</created>
+      <updated>1397402168103</updated>
+    </task>
+    <task id="LOCAL-00054">
+      <created>1397402761115</created>
+      <updated>1397402761115</updated>
+    </task>
+    <task id="LOCAL-00055">
+      <created>1397450287119</created>
+      <updated>1397450287119</updated>
+    </task>
+    <task id="LOCAL-00056">
+      <created>1397453686105</created>
+      <updated>1397453686106</updated>
+    </task>
+    <task id="LOCAL-00057">
+      <created>1397609994118</created>
+      <updated>1397609994118</updated>
+    </task>
+    <task id="LOCAL-00058">
+      <created>1397612910106</created>
+      <updated>1397612910106</updated>
+    </task>
+    <task id="LOCAL-00059">
+      <created>1397613011104</created>
+      <updated>1397613011104</updated>
+    </task>
+    <task id="LOCAL-00060">
+      <created>1397613136107</created>
+      <updated>1397613136107</updated>
+    </task>
+    <task id="LOCAL-00061">
+      <created>1397613236102</created>
+      <updated>1397613236103</updated>
+    </task>
+    <task id="LOCAL-00062">
+      <created>1397725858106</created>
+      <updated>1397725858106</updated>
+    </task>
+    <task id="LOCAL-00063">
+      <created>1397731608103</created>
+      <updated>1397731608103</updated>
+    </task>
+    <task id="LOCAL-00064">
+      <created>1397732284107</created>
+      <updated>1397732284107</updated>
+    </task>
+    <task id="LOCAL-00065">
+      <created>1397750969104</created>
+      <updated>1397750969104</updated>
+    </task>
+    <task id="LOCAL-00066">
+      <created>1397752675102</created>
+      <updated>1397752675103</updated>
+    </task>
+    <task id="LOCAL-00067">
+      <created>1397752701103</created>
+      <updated>1397752701103</updated>
+    </task>
+    <task id="LOCAL-00068">
+      <created>1397754532105</created>
+      <updated>1397754532105</updated>
+    </task>
+    <task id="LOCAL-00069">
+      <created>1397755473105</created>
+      <updated>1397755473106</updated>
+    </task>
+    <task id="LOCAL-00070">
+      <created>1397755656102</created>
+      <updated>1397755656102</updated>
+    </task>
+    <task id="LOCAL-00071">
+      <created>1397757790104</created>
+      <updated>1397757790104</updated>
+    </task>
+    <task id="LOCAL-00072">
+      <created>1397791825147</created>
+      <updated>1397791825147</updated>
+    </task>
+    <task id="LOCAL-00073">
+      <created>1397793072104</created>
+      <updated>1397793072104</updated>
+    </task>
+    <task id="LOCAL-00074">
+      <created>1397794351106</created>
+      <updated>1397794351106</updated>
+    </task>
+    <task id="LOCAL-00075">
+      <created>1397795298107</created>
+      <updated>1397795298107</updated>
+    </task>
+    <task id="LOCAL-00076">
+      <created>1397798870107</created>
+      <updated>1397798870107</updated>
+    </task>
+    <task id="LOCAL-00077">
+      <created>1397799531106</created>
+      <updated>1397799531107</updated>
+    </task>
+    <task id="LOCAL-00078">
+      <created>1397816108107</created>
+      <updated>1397816108107</updated>
+    </task>
+    <task id="LOCAL-00079">
+      <created>1397822815104</created>
+      <updated>1397822815104</updated>
+    </task>
+    <task id="LOCAL-00080">
+      <created>1397870617131</created>
+      <updated>1397870617131</updated>
+    </task>
+    <task id="LOCAL-00081">
+      <created>1397876052107</created>
+      <updated>1397876052107</updated>
+    </task>
+    <task id="LOCAL-00082">
+      <created>1397876324106</created>
+      <updated>1397876324106</updated>
+    </task>
+    <task id="LOCAL-00083">
+      <created>1397876362105</created>
+      <updated>1397876362105</updated>
+    </task>
+    <task id="LOCAL-00084">
+      <created>1397909611133</created>
+      <updated>1397909611133</updated>
+    </task>
+    <task id="LOCAL-00085">
+      <created>1397917828106</created>
+      <updated>1397917828106</updated>
+    </task>
+    <task id="LOCAL-00086">
+      <created>1397917850105</created>
+      <updated>1397917850105</updated>
+    </task>
+    <task id="LOCAL-00087">
+      <created>1397921398105</created>
+      <updated>1397921398106</updated>
+    </task>
+    <task id="LOCAL-00088">
+      <created>1397922610105</created>
+      <updated>1397922610105</updated>
+    </task>
+    <task id="LOCAL-00089">
+      <created>1397925004103</created>
+      <updated>1397925004103</updated>
+    </task>
+    <task id="LOCAL-00090">
+      <created>1397963397119</created>
+      <updated>1397963397119</updated>
+    </task>
+    <task id="LOCAL-00091">
+      <created>1397963792106</created>
+      <updated>1397963792107</updated>
+    </task>
+    <task id="LOCAL-00092">
+      <created>1397964022114</created>
+      <updated>1397964022114</updated>
+    </task>
+    <task id="LOCAL-00093">
+      <created>1397964712101</created>
+      <updated>1397964712101</updated>
+    </task>
+    <task id="LOCAL-00094">
+      <created>1397964773102</created>
+      <updated>1397964773102</updated>
+    </task>
+    <task id="LOCAL-00095">
+      <created>1397972448114</created>
+      <updated>1397972448114</updated>
+    </task>
+    <task id="LOCAL-00096">
+      <created>1397997178106</created>
+      <updated>1397997178106</updated>
+    </task>
+    <task id="LOCAL-00097">
+      <created>1398000128106</created>
+      <updated>1398000128106</updated>
+    </task>
+    <task id="LOCAL-00098">
+      <created>1398001979106</created>
+      <updated>1398001979106</updated>
+    </task>
+    <task id="LOCAL-00099">
+      <created>1398009410102</created>
+      <updated>1398009410102</updated>
+    </task>
+    <task id="LOCAL-00100">
+      <created>1398060206109</created>
+      <updated>1398060206109</updated>
+    </task>
+    <task id="LOCAL-00101">
+      <created>1398061215102</created>
+      <updated>1398061215102</updated>
+    </task>
+    <task id="LOCAL-00102">
+      <created>1398063987106</created>
+      <updated>1398063987106</updated>
+    </task>
+    <task id="LOCAL-00103">
+      <created>1398064524102</created>
+      <updated>1398064524102</updated>
+    </task>
+    <task id="LOCAL-00104">
+      <created>1398064575105</created>
+      <updated>1398064575105</updated>
+    </task>
+    <task id="LOCAL-00105">
+      <created>1398066677106</created>
+      <updated>1398066677106</updated>
+    </task>
+    <task id="LOCAL-00106">
+      <created>1398068350105</created>
+      <updated>1398068350106</updated>
+    </task>
+    <task id="LOCAL-00107">
+      <created>1398073195102</created>
+      <updated>1398073195102</updated>
+    </task>
+    <task id="LOCAL-00108">
+      <created>1398073539105</created>
+      <updated>1398073539105</updated>
+    </task>
+    <task id="LOCAL-00109">
+      <created>1398075591103</created>
+      <updated>1398075591103</updated>
+    </task>
+    <task id="LOCAL-00110">
+      <created>1398076058105</created>
+      <updated>1398076058105</updated>
+    </task>
+    <task id="LOCAL-00111">
+      <created>1398085662105</created>
+      <updated>1398085662106</updated>
+    </task>
+    <task id="LOCAL-00112">
+      <created>1398086090103</created>
+      <updated>1398086090103</updated>
+    </task>
+    <task id="LOCAL-00113">
+      <created>1398135575118</created>
+      <updated>1398135575118</updated>
+    </task>
+    <task id="LOCAL-00114">
+      <created>1398150764108</created>
+      <updated>1398150764108</updated>
+    </task>
+    <task id="LOCAL-00115">
+      <created>1398154224104</created>
+      <updated>1398154224104</updated>
+    </task>
+    <task id="LOCAL-00116">
+      <created>1398177453114</created>
+      <updated>1398177453114</updated>
+    </task>
+    <task id="LOCAL-00117">
+      <created>1398177826103</created>
+      <updated>1398177826103</updated>
+    </task>
+    <task id="LOCAL-00118">
+      <created>1398232923110</created>
+      <updated>1398232923110</updated>
+    </task>
+    <task id="LOCAL-00119">
+      <created>1398233122107</created>
+      <updated>1398233122107</updated>
+    </task>
+    <task id="LOCAL-00120">
+      <created>1398234604106</created>
+      <updated>1398234604106</updated>
+    </task>
+    <task id="LOCAL-00121">
+      <created>1398256010108</created>
+      <updated>1398256010108</updated>
+    </task>
+    <task id="LOCAL-00122">
+      <created>1398256544106</created>
+      <updated>1398256544106</updated>
+    </task>
+    <task id="LOCAL-00123">
+      <created>1398257701103</created>
+      <updated>1398257701103</updated>
+    </task>
+    <task id="LOCAL-00124">
+      <created>1398258538103</created>
+      <updated>1398258538103</updated>
+    </task>
+    <task id="LOCAL-00125">
+      <created>1398259212104</created>
+      <updated>1398259212104</updated>
+    </task>
+    <task id="LOCAL-00126">
+      <created>1398259854102</created>
+      <updated>1398259854102</updated>
+    </task>
+    <task id="LOCAL-00127">
+      <created>1398260926106</created>
+      <updated>1398260926106</updated>
+    </task>
+    <task id="LOCAL-00128">
+      <created>1398261501107</created>
+      <updated>1398261501107</updated>
+    </task>
+    <task id="LOCAL-00129">
+      <created>1398261595105</created>
+      <updated>1398261595105</updated>
+    </task>
+    <task id="LOCAL-00130">
+      <created>1398301269104</created>
+      <updated>1398301269104</updated>
+    </task>
+    <task id="LOCAL-00131">
+      <created>1398301781130</created>
+      <updated>1398301781130</updated>
+    </task>
+    <task id="LOCAL-00132">
+      <created>1398302076103</created>
+      <updated>1398302076103</updated>
+    </task>
+    <task id="LOCAL-00133">
+      <created>1398302116106</created>
+      <updated>1398302116106</updated>
+    </task>
+    <task id="LOCAL-00134">
+      <created>1398302162105</created>
+      <updated>1398302162106</updated>
+    </task>
+    <task id="LOCAL-00135">
+      <created>1398302205106</created>
+      <updated>1398302205106</updated>
+    </task>
+    <task id="LOCAL-00136">
+      <created>1398302311104</created>
+      <updated>1398302311104</updated>
+    </task>
+    <task id="LOCAL-00137">
+      <created>1398302369102</created>
+      <updated>1398302369102</updated>
+    </task>
+    <task id="LOCAL-00138">
+      <created>1398302423106</created>
+      <updated>1398302423106</updated>
+    </task>
+    <task id="LOCAL-00139">
+      <created>1398302633107</created>
+      <updated>1398302633107</updated>
+    </task>
+    <task id="LOCAL-00140">
+      <created>1398302715106</created>
+      <updated>1398302715106</updated>
+    </task>
+    <task id="LOCAL-00141">
+      <created>1398303036105</created>
+      <updated>1398303036105</updated>
+    </task>
+    <task id="LOCAL-00142">
+      <created>1398304927105</created>
+      <updated>1398304927105</updated>
+    </task>
+    <task id="LOCAL-00143">
+      <created>1398315839107</created>
+      <updated>1398315839107</updated>
+    </task>
+    <task id="LOCAL-00144">
+      <created>1398330673108</created>
+      <updated>1398330673108</updated>
+    </task>
+    <task id="LOCAL-00145">
+      <created>1398330834103</created>
+      <updated>1398330834103</updated>
+    </task>
+    <task id="LOCAL-00146">
+      <created>1398331259104</created>
+      <updated>1398331259104</updated>
+    </task>
+    <task id="LOCAL-00147">
+      <created>1398331779102</created>
+      <updated>1398331779102</updated>
+    </task>
+    <task id="LOCAL-00148">
+      <created>1398333641106</created>
+      <updated>1398333641106</updated>
+    </task>
+    <task id="LOCAL-00149">
+      <created>1398340177211</created>
+      <updated>1398340177211</updated>
+    </task>
+    <task id="LOCAL-00150">
+      <created>1398355087107</created>
+      <updated>1398355087107</updated>
+    </task>
+    <task id="LOCAL-00151">
+      <created>1398355399105</created>
+      <updated>1398355399105</updated>
+    </task>
+    <task id="LOCAL-00152">
+      <created>1398356316105</created>
+      <updated>1398356316105</updated>
+    </task>
+    <task id="LOCAL-00153">
+      <created>1398390765108</created>
+      <updated>1398390765108</updated>
+    </task>
+    <task id="LOCAL-00154">
+      <created>1398393227102</created>
+      <updated>1398393227102</updated>
+    </task>
+    <task id="LOCAL-00155">
+      <created>1398399264104</created>
+      <updated>1398399264104</updated>
+    </task>
+    <task id="LOCAL-00156">
+      <created>1398399616102</created>
+      <updated>1398399616103</updated>
+    </task>
+    <task id="LOCAL-00157">
+      <created>1398437050107</created>
+      <updated>1398437050107</updated>
+    </task>
+    <task id="LOCAL-00158">
+      <created>1398437849107</created>
+      <updated>1398437849107</updated>
+    </task>
+    <task id="LOCAL-00159">
+      <created>1398438529107</created>
+      <updated>1398438529107</updated>
+    </task>
+    <task id="LOCAL-00160">
+      <created>1398438580107</created>
+      <updated>1398438580107</updated>
+    </task>
+    <task id="LOCAL-00161">
+      <created>1398479230230</created>
+      <updated>1398479230230</updated>
+    </task>
+    <task id="LOCAL-00162">
+      <created>1398481473108</created>
+      <updated>1398481473108</updated>
+    </task>
+    <task id="LOCAL-00163">
+      <created>1398516061117</created>
+      <updated>1398516061117</updated>
+    </task>
+    <task id="LOCAL-00164">
+      <created>1398563504110</created>
+      <updated>1398563504110</updated>
+    </task>
+    <task id="LOCAL-00165">
+      <created>1398563565106</created>
+      <updated>1398563565106</updated>
+    </task>
+    <task id="LOCAL-00166">
+      <created>1398563650106</created>
+      <updated>1398563650106</updated>
+    </task>
+    <task id="LOCAL-00167">
+      <created>1398563816106</created>
+      <updated>1398563816106</updated>
+    </task>
+    <task id="LOCAL-00168">
+      <created>1398563902106</created>
+      <updated>1398563902106</updated>
+    </task>
+    <task id="LOCAL-00169">
+      <created>1398576572106</created>
+      <updated>1398576572106</updated>
+    </task>
+    <task id="LOCAL-00170">
+      <created>1398592974104</created>
+      <updated>1398592974104</updated>
+    </task>
+    <task id="LOCAL-00171">
+      <created>1398593800107</created>
+      <updated>1398593800107</updated>
+    </task>
+    <task id="LOCAL-00172">
+      <created>1398613925103</created>
+      <updated>1398613925103</updated>
+    </task>
+    <task id="LOCAL-00173">
+      <created>1398615732103</created>
+      <updated>1398615732103</updated>
+    </task>
+    <task id="LOCAL-00174">
+      <created>1398616784103</created>
+      <updated>1398616784103</updated>
+    </task>
+    <task id="LOCAL-00175">
+      <created>1398677457136</created>
+      <updated>1398677457136</updated>
+    </task>
+    <task id="LOCAL-00176">
+      <created>1398677656103</created>
+      <updated>1398677656103</updated>
+    </task>
+    <task id="LOCAL-00177">
+      <created>1398678965103</created>
+      <updated>1398678965103</updated>
+    </task>
+    <task id="LOCAL-00178">
+      <created>1398695054107</created>
+      <updated>1398695054107</updated>
+    </task>
+    <task id="LOCAL-00179">
+      <created>1398695679103</created>
+      <updated>1398695679103</updated>
+    </task>
+    <task id="LOCAL-00180">
+      <created>1398696481107</created>
+      <updated>1398696481107</updated>
+    </task>
+    <task id="LOCAL-00181">
+      <created>1398696892106</created>
+      <updated>1398696892106</updated>
+    </task>
+    <task id="LOCAL-00182">
+      <created>1398697014104</created>
+      <updated>1398697014104</updated>
+    </task>
+    <task id="LOCAL-00183">
+      <created>1398697169103</created>
+      <updated>1398697169103</updated>
+    </task>
+    <task id="LOCAL-00184">
+      <created>1398697255103</created>
+      <updated>1398697255103</updated>
+    </task>
+    <task id="LOCAL-00185">
+      <created>1398698054105</created>
+      <updated>1398698054105</updated>
+    </task>
+    <task id="LOCAL-00186">
+      <created>1398698338110</created>
+      <updated>1398698338110</updated>
+    </task>
+    <task id="LOCAL-00187">
+      <created>1398698356107</created>
+      <updated>1398698356107</updated>
+    </task>
+    <task id="LOCAL-00188">
+      <created>1398749318136</created>
+      <updated>1398749318136</updated>
+    </task>
+    <task id="LOCAL-00189">
+      <created>1398767467111</created>
+      <updated>1398767467111</updated>
+    </task>
+    <task id="LOCAL-00190">
+      <created>1398767529107</created>
+      <updated>1398767529107</updated>
+    </task>
+    <task id="LOCAL-00191">
+      <created>1398784644108</created>
+      <updated>1398784644108</updated>
+    </task>
+    <task id="LOCAL-00192">
+      <created>1398822486121</created>
+      <updated>1398822486121</updated>
+    </task>
+    <task id="LOCAL-00193">
+      <created>1398822578107</created>
+      <updated>1398822578107</updated>
+    </task>
+    <task id="LOCAL-00194">
+      <created>1398823314107</created>
+      <updated>1398823314107</updated>
+    </task>
+    <task id="LOCAL-00195">
+      <created>1398845091115</created>
+      <updated>1398845091115</updated>
+    </task>
+    <task id="LOCAL-00196">
+      <created>1398845565107</created>
+      <updated>1398845565107</updated>
+    </task>
+    <task id="LOCAL-00197">
+      <created>1398848419134</created>
+      <updated>1398848419134</updated>
+    </task>
+    <task id="LOCAL-00198">
+      <created>1398848552103</created>
+      <updated>1398848552104</updated>
+    </task>
+    <task id="LOCAL-00199">
+      <created>1398848629105</created>
+      <updated>1398848629105</updated>
+    </task>
+    <task id="LOCAL-00200">
+      <created>1398850477106</created>
+      <updated>1398850477106</updated>
+    </task>
+    <task id="LOCAL-00201">
+      <created>1398865457106</created>
+      <updated>1398865457106</updated>
+    </task>
+    <task id="LOCAL-00202">
+      <created>1398865821105</created>
+      <updated>1398865821105</updated>
+    </task>
+    <task id="LOCAL-00203">
+      <created>1398911954133</created>
+      <updated>1398911954133</updated>
+    </task>
+    <task id="LOCAL-00204">
+      <created>1398922974103</created>
+      <updated>1398922974103</updated>
+    </task>
+    <task id="LOCAL-00205">
+      <created>1398947769106</created>
+      <updated>1398947769106</updated>
+    </task>
+    <task id="LOCAL-00206">
+      <created>1398947820102</created>
+      <updated>1398947820102</updated>
+    </task>
+    <task id="LOCAL-00207">
+      <created>1399086510130</created>
+      <updated>1399086510130</updated>
+    </task>
+    <task id="LOCAL-00208">
+      <created>1399107773103</created>
+      <updated>1399107773103</updated>
+    </task>
+    <task id="LOCAL-00209">
+      <created>1399133538105</created>
+      <updated>1399133538105</updated>
+    </task>
+    <task id="LOCAL-00210">
+      <created>1399133584107</created>
+      <updated>1399133584107</updated>
+    </task>
+    <task id="LOCAL-00211">
+      <created>1399174459145</created>
+      <updated>1399174459145</updated>
+    </task>
+    <task id="LOCAL-00212">
+      <created>1399180267107</created>
+      <updated>1399180267107</updated>
+    </task>
+    <task id="LOCAL-00213">
+      <created>1399180784106</created>
+      <updated>1399180784106</updated>
+    </task>
+    <task id="LOCAL-00214">
+      <created>1399182798107</created>
+      <updated>1399182798107</updated>
+    </task>
+    <task id="LOCAL-00215">
+      <created>1399183166106</created>
+      <updated>1399183166106</updated>
+    </task>
+    <task id="LOCAL-00216">
+      <created>1399195592106</created>
+      <updated>1399195592106</updated>
+    </task>
+    <task id="LOCAL-00217">
+      <created>1399216090107</created>
+      <updated>1399216090107</updated>
+    </task>
+    <task id="LOCAL-00218">
+      <created>1399218348106</created>
+      <updated>1399218348106</updated>
+    </task>
+    <task id="LOCAL-00219">
+      <created>1399218439106</created>
+      <updated>1399218439106</updated>
+    </task>
+    <task id="LOCAL-00220">
+      <created>1399385959132</created>
+      <updated>1399385959132</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327112" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24427083" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3837472" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3478261" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21229868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30248308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2897839" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41722223" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3223684" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2897839" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327112" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41819942" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24427083" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39787027" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3478261" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913843" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32623428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3550652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48499516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="测试SVN。2014年4月4日22:41:50。" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/queue/programmingassignments/RandomizedQueue.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/queue/programmingassignments/tests/Test2.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/queue/programmingassignments/RandomizedQueue.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/queue/programmingassignments/RandomizedQueue.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/queue/programmingassignments/RandomizedQueue.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/Shellsort.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/Shellsort.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quicksort3way.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../Libraries/stdlib-package.jar!/edu/princeton/cs/introcs/StdDraw.java</url>
+          <line>410</line>
+          <properties />
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../Libraries/stdlib-package.jar!/edu/princeton/cs/introcs/StdDraw.java</url>
+          <line>281</line>
+          <properties />
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../Libraries/stdlib-package.jar!/edu/princeton/cs/introcs/StdDraw.java</url>
+          <line>282</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../Libraries/stdlib-package.jar!/edu/princeton/cs/introcs/StdDraw.java</url>
+          <line>411</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="253" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stacks/interfaces/IStackPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08744856" vertical-offset="0" max-vertical-offset="972">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stacks/LinkedListStackPlus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3925703" vertical-offset="0" max-vertical-offset="1343">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stacks/LinkedListStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34136546" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quickselect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29016066" vertical-offset="0" max-vertical-offset="996">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/programmingassignments/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47530866" vertical-offset="1391" max-vertical-offset="2363">
+          <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/unionfind/UnionFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/CommonCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/interfaces/IQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/UnorderedMaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/interfaces/IAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/exercises/Exercise1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1717">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/awt/Graphics2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8076" max-vertical-offset="20502">
+          <caret line="523" column="25" selection-start-line="523" selection-start-column="25" selection-end-line="523" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/grahamscan/CompareModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/awt/geom/Ellipse2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3180" max-vertical-offset="7123">
+          <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/grahamscan/Point2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/grahamscan/DrawingDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
+          <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/grahamscan/GrahamScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="2295">
+          <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/exercises/Exercise1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33287102" vertical-offset="1577" max-vertical-offset="8534">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/heapsorts/Heapsort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/exercises/Exercise4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4166" max-vertical-offset="23528">
+          <caret line="301" column="25" selection-start-line="301" selection-start-column="25" selection-end-line="301" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1772" max-vertical-offset="9095">
+          <caret line="147" column="25" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Partitioning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="557" max-vertical-offset="1870">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/base/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1754" max-vertical-offset="4131">
+          <caret line="248" column="34" selection-start-line="248" selection-start-column="34" selection-end-line="248" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Brute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1190">
+          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/BaseSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15685" max-vertical-offset="16881">
+          <caret line="998" column="22" selection-start-line="998" selection-start-column="22" selection-end-line="998" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Fast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="2227">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Points.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="714">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/ResizingArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1241">
+          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/MaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2448">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/common/StdDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="20383">
+          <caret line="62" column="60" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/common/Reflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="958" max-vertical-offset="1513">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/symboltables/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="714">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="764" max-vertical-offset="1343">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Who.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2227">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21441442" vertical-offset="0" max-vertical-offset="555">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Algorithms</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Algorithms</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>stdlib-package</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
