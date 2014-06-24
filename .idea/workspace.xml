@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26cf608c-0266-43f9-8070-01d0d826cf44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p1.java" afterPath="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algorithms.iws" />
@@ -26,15 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="p1.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="p1.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38041002" vertical-offset="360" max-vertical-offset="850">
-              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="850">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p2.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6514806" vertical-offset="122" max-vertical-offset="680">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,6 +105,7 @@
         <option value="$PROJECT_DIR$/LeetCodeCracking/.idea/.name" />
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/BaseProblem.java" />
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p1.java" />
+        <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p2.java" />
       </list>
     </option>
   </component>
@@ -683,7 +700,11 @@
       <created>1403581371737</created>
       <updated>1403581371737</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Code">
+      <created>1403583551731</created>
+      <updated>1403583551731</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -970,12 +991,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38041002" vertical-offset="360" max-vertical-offset="850">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="850">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6514806" vertical-offset="122" max-vertical-offset="680">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
           </folding>
         </state>
       </provider>
