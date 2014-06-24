@@ -20,7 +20,7 @@ public abstract class BaseProblem {
 
     public long getID() {
         String className = getClass().getSimpleName();
-        return Long.parseLong(className.replace("a", ""));
+        return Long.parseLong(className.replace("p", ""));
     }
 
     public abstract String getName();

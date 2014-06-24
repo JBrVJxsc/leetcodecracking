@@ -6,7 +6,7 @@ import com.leetcode.onlinejudge.BaseProblem;
 /**
  * Created by Who on 2014/6/23.
  */
-public class a1 extends BaseProblem implements IProblem {
+public class p1 extends BaseProblem implements IProblem {
 
     @Override
     public String getName() {
