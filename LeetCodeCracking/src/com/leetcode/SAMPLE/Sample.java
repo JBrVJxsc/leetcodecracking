@@ -1,8 +1,8 @@
 package com.leetcode.SAMPLE;
 
 import com.leetcode.base.Parameter;
-import com.leetcode.interfaces.IAlgorithm;
-import com.leetcode.onlinejudge.BaseAlgorithm;
+import com.leetcode.interfaces.IProblem;
+import com.leetcode.onlinejudge.BaseProblem;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 /**
  * Created by Who on 2014/5/23.
  */
-public class Sample extends BaseAlgorithm implements IAlgorithm {
+public class Sample extends BaseProblem implements IProblem {
 
     @Override
     public long getID() {
@@ -34,7 +34,7 @@ public class Sample extends BaseAlgorithm implements IAlgorithm {
 
     @Override
     public void run() {
-        //Every algorithm runs in this method.
+        //Every problem runs in this method.
 
         //Print everything you want to print, by using only one method: print;
         //Show a message box, by using method: show.

@@ -12,7 +12,7 @@ import java.util.Stack;
 /**
  * Created by Who on 2014/4/10.
  */
-public abstract class BaseAlgorithm {
+public abstract class BaseProblem {
 
     private PrintConsoleListener printConsoleListener = new PrintConsoleListener();
     private SetParameterListener setParameterListener = new SetParameterListener();

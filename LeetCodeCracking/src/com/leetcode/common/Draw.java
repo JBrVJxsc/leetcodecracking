@@ -78,7 +78,7 @@ public final class Draw implements ActionListener, MouseListener, MouseMotionLis
     public static final Color BOOK_BLUE = new Color(9, 90, 166);
     public static final Color BOOK_LIGHT_BLUE = new Color(103, 198, 243);
     /**
-     * Shade of red used in Algorithms 4th edition.
+     * Shade of red used in Problems 4th edition.
      * It is Pantone 1805U. The RGB values are approximately (150, 35, 31).
      */
     public static final Color BOOK_RED = new Color(150, 35, 31);

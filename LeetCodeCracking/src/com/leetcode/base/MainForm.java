@@ -1,7 +1,7 @@
 package com.leetcode.base;
 
 import com.leetcode.common.Reflection;
-import com.leetcode.interfaces.IAlgorithm;
+import com.leetcode.interfaces.IProblem;
 import com.leetcode.listeners.PrintConsoleListener;
 import com.leetcode.listeners.SetParameterListener;
 
@@ -23,12 +23,12 @@ public class MainForm {
     private JFrame frame;
     private JPanel pnlMain;
     private JPanel pnlTop;
-    private JComboBox cmbAlgorithms;
+    private JComboBox cmbProblems;
     private JButton btRun;
     private JTextArea txtConsole;
     private JScrollPane pnlScroll;
 
-    private IAlgorithm currentAlgorithm = null;
+    private IProblem currentProblem = null;
     private ConsoleWorker consoleWorker = null;
     private boolean running = false;
     private long startTime = 0l;
@@ -47,7 +47,7 @@ public class MainForm {
     private void init() {
         initForm();
         initListener();
-        initAlgorithms();
+        initProblems();
     }
 
     private void initForm() {
@@ -86,25 +86,25 @@ public class MainForm {
         txtConsole.setCaretColor(Color.green);
     }
 
-    private void initAlgorithms() {
-        List<Object> algorithmList = null;
+    private void initProblems() {
+        List<Object> problemList = null;
         try {
-            algorithmList = Reflection.getInstancesByInterface(Class.forName("com.leetcode.interfaces.IAlgorithm"), "com.leetcode");
+            problemList = Reflection.getInstancesByInterface(Class.forName("com.leetcode.interfaces.IProblem"), "com.leetcode");
         } catch (ClassNotFoundException e) {
         }
-        Collections.sort(algorithmList, new AlgorithmsComparator());
-        for (int i = algorithmList.size() - 1; i >= 0; i--) {
-            IAlgorithm algorithm = (IAlgorithm) algorithmList.get(i);
-            cmbAlgorithms.addItem(algorithm);
+        Collections.sort(problemList, new ProblemsComparator());
+        for (int i = problemList.size() - 1; i >= 0; i--) {
+            IProblem problem = (IProblem) problemList.get(i);
+            cmbProblems.addItem(problem);
         }
     }
 
     private void initListener() {
-        cmbAlgorithms.addActionListener(new ActionListener() {
+        cmbProblems.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                currentAlgorithm = (IAlgorithm) cmbAlgorithms.getSelectedItem();
-                resetConsole(currentAlgorithm);
+                currentProblem = (IProblem) cmbProblems.getSelectedItem();
+                resetConsole(currentProblem);
             }
         });
 
@@ -113,14 +113,14 @@ public class MainForm {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 if (btRun.getText() == "Run") {
-                    resetConsole(currentAlgorithm);
+                    resetConsole(currentProblem);
                     consoleWorker = null;
                     consoleWorker = new ConsoleWorker(frame);
                     startTime = System.currentTimeMillis();
                     running = true;
                     consoleWorker.start();
                 } else {
-                    printConsole("\n\nAlgorithm has stopped manually.");
+                    printConsole("\n\nProblem has stopped manually.");
                     bottomConsole();
                     endTime = System.currentTimeMillis();
                     String parameterInfo = "";
@@ -141,13 +141,13 @@ public class MainForm {
         });
     }
 
-    private void resetConsole(IAlgorithm algorithm) {
+    private void resetConsole(IProblem problem) {
         txtConsole.setText(null);
-        txtConsole.append("Source code: " + algorithm.getClass().getName() + "\n");
-        if (algorithm.getSummary() == null) {
-            txtConsole.append("Summary: " + algorithm.getName() + "\n");
+        txtConsole.append("Source code: " + problem.getClass().getName() + "\n");
+        if (problem.getSummary() == null) {
+            txtConsole.append("Summary: " + problem.getName() + "\n");
         } else {
-            txtConsole.append("Summary: " + algorithm.getSummary() + "\n");
+            txtConsole.append("Summary: " + problem.getSummary() + "\n");
         }
     }
 
@@ -212,7 +212,7 @@ public class MainForm {
             parameterList = new ArrayList<Parameter>();
             parameterSettingTime = 0l;
             eventQueue = Toolkit.getDefaultToolkit().getSystemEventQueue();
-            currentAlgorithm.addPrintConsoleListener(new PrintConsoleListener() {
+            currentProblem.addPrintConsoleListener(new PrintConsoleListener() {
                 @Override
                 public void print(String string) {
                     try {
@@ -222,7 +222,7 @@ public class MainForm {
                     eventQueue.postEvent(new ConsoleAWTEvent(component, string));
                 }
             });
-            currentAlgorithm.addSetParameterListener(new SetParameterListener() {
+            currentProblem.addSetParameterListener(new SetParameterListener() {
                 @Override
                 public void set(Parameter... parameters) {
                     for (Parameter parameter : parameters) {
@@ -241,7 +241,7 @@ public class MainForm {
             });
             btRun.setText("Stop");
             try {
-                currentAlgorithm.run();
+                currentProblem.run();
             } catch (Exception e) {
                 printConsole("\n\nException:\n" + getExceptionMessage(e));
             }
@@ -260,10 +260,10 @@ public class MainForm {
         }
     }
 
-    class AlgorithmsComparator implements Comparator {
+    class ProblemsComparator implements Comparator {
         @Override
         public int compare(Object o1, Object o2) {
-            if (((IAlgorithm) o1).getID() > ((IAlgorithm) o2).getID()) {
+            if (((IProblem) o1).getID() > ((IProblem) o2).getID()) {
                 return 1;
             }
             return -1;

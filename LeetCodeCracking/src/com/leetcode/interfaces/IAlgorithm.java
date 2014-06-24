@@ -6,7 +6,7 @@ import com.leetcode.listeners.SetParameterListener;
 /**
  * Created by Who on 2014/4/4.
  */
-public interface IAlgorithm {
+public interface IProblem {
     long getID();
 
     String getName();

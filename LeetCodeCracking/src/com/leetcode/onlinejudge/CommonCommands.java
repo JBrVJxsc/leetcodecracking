@@ -1,12 +1,12 @@
 package com.leetcode.onlinejudge;
 
 import com.leetcode.base.Parameter;
-import com.leetcode.interfaces.IAlgorithm;
+import com.leetcode.interfaces.IProblem;
 
 /**
  * Created by Who on 2014/4/17.
  */
-public class CommonCommands extends BaseAlgorithm implements IAlgorithm {
+public class CommonCommands extends BaseProblem implements IProblem {
     @Override
     public long getID() {
         return Long.MIN_VALUE;

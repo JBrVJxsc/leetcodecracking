@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Algorithms" />
+      <artifact name="Problems" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="6b4277ce-5c5c-47c6-b5f7-54d28bd268af" name="Default" comment="" />
-    <ignored path="Algorithms.iws" />
+    <ignored path="Problems.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,12 +29,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Algorithms" />
+    <favorites_list name="Problems" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="LinkedListQueue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/LinkedListQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="764" max-vertical-offset="1343">
               <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
@@ -143,56 +143,56 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/grahamscan/GrahamScan.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/bag/bags/LinkedListBag.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stack/stacks/LinkedListStackPlus.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/mergesorts/exercises/Exercise1.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/interfaces/ISort.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/insertionsort/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/selectionsort/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/shellsort/Shellsort.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/mergesorts/Merging.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stack/exercises/Exercise1.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/mergesorts/BottomUpMergesort.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/mergesorts/Mergesort.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise2.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/shuffling/KnuthShuffle.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/shuffling/exercises/Exercise1.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Selection.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise3.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quickselect.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/BaseAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise4.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Partitioning3way.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/queues/ArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stacks/LinkedListStack.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quicksort3way.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stacks/LinkedListStackPlus.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/programmingassignments/Deque.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/programmingassignments/RandomizedQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise1.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/unionfind/programmingassignments/submit/Percolation.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/interfaces/IQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/UnorderedMaxPQ.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/ResizingArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/ArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/MaxPQ.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/exercises/Exercise1.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/Heapsorts/Heapsort.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/StdDraw.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/common/StdDraw.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/BaseSort.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Partitioning.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/heapsorts/Heapsort.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/exercises/Exercise4.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quicksort.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Points.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Brute.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Fast.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Point.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise5.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithms/algorithms/symboltables/BST.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/convexhull/grahamscan/GrahamScan.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/bag/bags/LinkedListBag.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/stack/stacks/LinkedListStackPlus.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/mergesorts/exercises/Exercise1.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/interfaces/ISort.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/insertionsort/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/selectionsort/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/shellsort/Shellsort.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/mergesorts/Merging.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/stack/exercises/Exercise1.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/mergesorts/BottomUpMergesort.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/mergesorts/Mergesort.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/exercises/Exercise2.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/shuffling/KnuthShuffle.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/shuffling/exercises/Exercise1.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/Selection.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/exercises/Exercise3.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/Quickselect.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/BaseProblem.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/exercises/Exercise4.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/Partitioning3way.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/queues/ArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/stacks/LinkedListStack.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/Quicksort3way.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/stacks/LinkedListStackPlus.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/programmingassignments/Deque.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/programmingassignments/RandomizedQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/exercises/Exercise1.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/unionfind/programmingassignments/submit/Percolation.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/interfaces/IQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/UnorderedMaxPQ.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/ResizingArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/LinkedListQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/ArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/MaxPQ.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/exercises/Exercise1.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/Heapsorts/Heapsort.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/programmingassignments/StdDraw.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/common/StdDraw.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/BaseSort.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/Partitioning.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/heapsorts/Heapsort.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/exercises/Exercise4.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/Quicksort.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/programmingassignments/Points.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/programmingassignments/Brute.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/programmingassignments/Fast.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/programmingassignments/Point.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/exercises/Exercise5.java" />
+        <option value="$PROJECT_DIR$/src/com/problems/problems/symboltables/BST.java" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
@@ -235,17 +235,17 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
+              <option name="myItemId" value="Problems" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
+              <option name="myItemId" value="Problems" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms" />
+              <option name="myItemId" value="Problems" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,23 +299,23 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesJava" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="fo&#9;FILE&#9;file://E:/Computer Science/Code/Algorithms/src/com/algorithms/algorithms/sort/mergesorts/package-info.java&#10;Objects&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/util/Objects.java" />
+    <property name="SearchEverywhereHistoryKey" value="fo&#9;FILE&#9;file://E:/Computer Science/Code/Problems/src/com/problems/problems/sort/mergesorts/package-info.java&#10;Objects&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/util/Objects.java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libraries/stdlib-package.jar!/" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.algorithms.algorithms.sort" />
+      <recent name="com.problems.problems.sort" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Computer Science\Code\Algorithms\src\com\algorithms\algorithms\unionfind\programmingassignments" />
-      <recent name="E:\Computer Science\Code\Algorithms\src\com\algorithms\algorithms\stacksandqueues" />
-      <recent name="E:\Computer Science\Code\Algorithms\src\com\algorithms\algorithms\sort" />
-      <recent name="E:\Computer Science\Code\Algorithms\src\com\algorithms\algorithms\sort\elementarysorts" />
+      <recent name="E:\Computer Science\Code\Problems\src\com\problems\problems\unionfind\programmingassignments" />
+      <recent name="E:\Computer Science\Code\Problems\src\com\problems\problems\stacksandqueues" />
+      <recent name="E:\Computer Science\Code\Problems\src\com\problems\problems\sort" />
+      <recent name="E:\Computer Science\Code\Problems\src\com\problems\problems\sort\elementarysorts" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainForm">
     <configuration default="false" name="MainForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.base.MainForm" />
+      <option name="MAIN_CLASS_NAME" value="com.problems.base.MainForm" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -324,7 +324,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithms" />
+      <module name="Problems" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -1480,49 +1480,49 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/queue/programmingassignments/RandomizedQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/com/problems/problems/queue/programmingassignments/RandomizedQueue.java</url>
           <line>33</line>
           <properties />
           <option name="timeStamp" value="142" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/queue/programmingassignments/tests/Test2.java</url>
+          <url>file://$PROJECT_DIR$/src/com/problems/problems/queue/programmingassignments/tests/Test2.java</url>
           <line>57</line>
           <properties />
           <option name="timeStamp" value="143" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/queue/programmingassignments/RandomizedQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/com/problems/problems/queue/programmingassignments/RandomizedQueue.java</url>
           <line>44</line>
           <properties />
           <option name="timeStamp" value="144" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/queue/programmingassignments/RandomizedQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/com/problems/problems/queue/programmingassignments/RandomizedQueue.java</url>
           <line>69</line>
           <properties />
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/queue/programmingassignments/RandomizedQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/com/problems/problems/queue/programmingassignments/RandomizedQueue.java</url>
           <line>89</line>
           <properties />
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/Shellsort.java</url>
+          <url>file://$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/Shellsort.java</url>
           <line>24</line>
           <properties />
           <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/Shellsort.java</url>
+          <url>file://$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/Shellsort.java</url>
           <line>10</line>
           <properties />
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quicksort3way.java</url>
+          <url>file://$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/Quicksort3way.java</url>
           <line>16</line>
           <properties />
           <option name="timeStamp" value="184" />
@@ -1563,84 +1563,84 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stacks/interfaces/IStackPlus.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/stacks/interfaces/IStackPlus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08744856" vertical-offset="0" max-vertical-offset="972">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stacks/LinkedListStackPlus.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/stacks/LinkedListStackPlus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3925703" vertical-offset="0" max-vertical-offset="1343">
           <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/stacks/LinkedListStack.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/stacks/LinkedListStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34136546" vertical-offset="0" max-vertical-offset="1139">
           <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quickselect.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/Quickselect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29016066" vertical-offset="0" max-vertical-offset="996">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/programmingassignments/Deque.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/programmingassignments/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47530866" vertical-offset="1391" max-vertical-offset="2363">
           <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/unionfind/UnionFind.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/unionfind/UnionFind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/CommonCommands.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/CommonCommands.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/interfaces/IQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/interfaces/IQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/ArrayQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/ArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
           <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/UnorderedMaxPQ.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/UnorderedMaxPQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
           <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="45" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/interfaces/IAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/interfaces/IProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/exercises/Exercise1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/exercises/Exercise1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1717">
           <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
@@ -1654,7 +1654,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/grahamscan/CompareModel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/convexhull/grahamscan/CompareModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1668,28 +1668,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/grahamscan/Point2D.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/convexhull/grahamscan/Point2D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/grahamscan/DrawingDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/convexhull/grahamscan/DrawingDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
           <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/grahamscan/GrahamScan.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/convexhull/grahamscan/GrahamScan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="2295">
           <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/convexhull/exercises/Exercise1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/convexhull/exercises/Exercise1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
           <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="60" selection-end-column="18" />
@@ -1703,14 +1703,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/heapsorts/Heapsort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/heapsorts/Heapsort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/elementarysorts/exercises/Exercise4.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/elementarysorts/exercises/Exercise4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -1731,42 +1731,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Partitioning.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/Partitioning.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="557" max-vertical-offset="1870">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/Quicksort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/Quicksort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise4.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/exercises/Exercise4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/base/MainForm.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/base/MainForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1754" max-vertical-offset="4131">
           <caret line="248" column="34" selection-start-line="248" selection-start-column="34" selection-end-line="248" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Brute.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/programmingassignments/Brute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1190">
           <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/BaseSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/BaseSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
@@ -1780,14 +1780,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Fast.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/programmingassignments/Fast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/exercises/Exercise5.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/exercises/Exercise5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="2227">
           <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
@@ -1795,7 +1795,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Points.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/programmingassignments/Points.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="714">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
@@ -1803,7 +1803,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/ResizingArrayQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/ResizingArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1241">
           <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
@@ -1811,7 +1811,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/MaxPQ.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/MaxPQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2448">
           <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
@@ -1819,7 +1819,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithms.iml">
+    <entry file="file://$PROJECT_DIR$/Problems.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
@@ -1827,7 +1827,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/sort/quicksorts/programmingassignments/Point.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/sort/quicksorts/programmingassignments/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
           <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
@@ -1835,7 +1835,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/common/StdDraw.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/common/StdDraw.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="20383">
           <caret line="62" column="60" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
@@ -1843,7 +1843,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/common/Reflection.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/common/Reflection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="958" max-vertical-offset="1513">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
@@ -1851,7 +1851,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/symboltables/BST.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/symboltables/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="714">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
@@ -1859,7 +1859,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithms/algorithms/stacksandqueues/queues/LinkedListQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/com/problems/problems/stacksandqueues/queues/LinkedListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="764" max-vertical-offset="1343">
           <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
@@ -1945,7 +1945,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Algorithms</last-edited>
+          <last-edited>Problems</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1992,7 +1992,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Algorithms</last-edited>
+          <last-edited>Problems</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

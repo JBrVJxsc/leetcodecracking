@@ -1,12 +1,12 @@
-package com.leetcode.onlinejudge.algorithms;
+package com.leetcode.onlinejudge.problems;
 
-import com.leetcode.interfaces.IAlgorithm;
-import com.leetcode.onlinejudge.BaseAlgorithm;
+import com.leetcode.interfaces.IProblem;
+import com.leetcode.onlinejudge.BaseProblem;
 
 /**
  * Created by Who on 2014/6/23.
  */
-public class a1 extends BaseAlgorithm implements IAlgorithm {
+public class a1 extends BaseProblem implements IProblem {
 
     @Override
     public String getName() {
