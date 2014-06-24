@@ -87,6 +87,7 @@ public class p3 extends BaseProblem implements IProblem {
 
         public int maxPoints(Point[] points) {
             int maxNumber = 0;
+
             ArrayList<Point> pointArrayList = new ArrayList<Point>();
             for (int i = 0; i < points.length; i++) {
                 pointArrayList.add(points[i]);
