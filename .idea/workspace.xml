@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26cf608c-0266-43f9-8070-01d0d826cf44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p3.java" afterPath="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p4.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algorithms.iws" />
@@ -26,15 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="p3.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="p3.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.85714287" vertical-offset="1016" max-vertical-offset="2499">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1016" max-vertical-offset="2499">
               <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getSlope#0;class#Solution#0;class#p3#0" expanded="false" />
                 <element signature="e#3771#3778#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p4.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.79843444" vertical-offset="0" max-vertical-offset="511">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +117,7 @@
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p1.java" />
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p2.java" />
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p3.java" />
+        <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p4.java" />
       </list>
     </option>
   </component>
@@ -731,7 +748,11 @@
       <created>1403605801540</created>
       <updated>1403605801540</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Code">
+      <created>1403674094769</created>
+      <updated>1403674094769</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -795,14 +816,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1275">
@@ -1184,12 +1197,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.85714287" vertical-offset="1016" max-vertical-offset="2499">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1016" max-vertical-offset="2499">
           <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getSlope#0;class#Solution#0;class#p3#0" expanded="false" />
             <element signature="e#3771#3778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79843444" vertical-offset="0" max-vertical-offset="511">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
           </folding>
         </state>
       </provider>
