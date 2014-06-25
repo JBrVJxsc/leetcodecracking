@@ -21,4 +21,20 @@ public class p4 extends BaseProblem implements IProblem {
     public void run() {
 
     }
+
+    public class Solution {
+        public ListNode sortList(ListNode head) {
+            return null;
+        }
+    }
+
+    public class ListNode {
+        private int val;
+        private ListNode next;
+
+        public ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
 }
