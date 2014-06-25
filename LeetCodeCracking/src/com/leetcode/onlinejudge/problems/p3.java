@@ -6,6 +6,7 @@ import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 
 /**
@@ -27,6 +28,11 @@ public class p3 extends BaseProblem implements IProblem {
         Parameter<Integer> number = new Parameter<Integer>(1000);
         set(number);
         Point[] points = getPoints(number.getValue());
+        points = new Point[]{new Point(2, 3), new Point(3, 3), new Point(-5, 3)};
+        print(new Solution().maxPoints(points));
+        points = new Point[]{new Point(0, 0), new Point(-1, -1), new Point(2, 2)};
+        print(new Solution().maxPoints(points));
+        points = new Point[]{new Point(1, 1), new Point(1, 1), new Point(2, 2), new Point(2, 2)};
         print(new Solution().maxPoints(points));
     }
 
@@ -53,11 +59,11 @@ public class p3 extends BaseProblem implements IProblem {
         private Double getSlope(Point point1, Point point2) {
             if (point1.x == point2.x) {
                 if (point1.y > point2.y) {
-                    return Double.NEGATIVE_INFINITY;
+                    return Double.POSITIVE_INFINITY;
                 } else if (point1.y < point2.y) {
-                    return Double.NEGATIVE_INFINITY;
+                    return Double.POSITIVE_INFINITY;
                 } else {
-                    return Double.MIN_VALUE;
+                    return Double.NEGATIVE_INFINITY;
                 }
             }
             return (double) (point2.y - point1.y) / (double) (point2.x - point1.x);
@@ -65,9 +71,18 @@ public class p3 extends BaseProblem implements IProblem {
 
         private int getMaximum(ArrayList<Point> pointArrayList, Point point) {
             int max = 0;
-            double flag = Double.MIN_VALUE;
+            double flag = Double.MAX_VALUE;
             int counter = 0;
+            int originalPointNumber = 0;
             for (int i = 0; i < pointArrayList.size(); i++) {
+                double slope = getSlope(pointArrayList.get(i), point);
+                if (slope == Double.NEGATIVE_INFINITY) {
+                    originalPointNumber++;
+                } else {
+                    break;
+                }
+            }
+            for (int i = originalPointNumber; i < pointArrayList.size(); i++) {
                 double slope = getSlope(pointArrayList.get(i), point);
                 if (flag != slope) {
                     if (counter > max) {
@@ -82,10 +97,15 @@ public class p3 extends BaseProblem implements IProblem {
             if (counter > max) {
                 max = counter;
             }
-            return max;
+            return max + originalPointNumber;
         }
 
         public int maxPoints(Point[] points) {
+
+            if (points.length == 2) {
+                return 2;
+            }
+
             int maxNumber = 0;
 
             ArrayList<Point> pointArrayList = new ArrayList<Point>();
@@ -93,7 +113,7 @@ public class p3 extends BaseProblem implements IProblem {
                 pointArrayList.add(points[i]);
             }
             for (int i = 0; i < points.length; i++) {
-                pointArrayList.sort(new Comparator<Point>() {
+                Collections.sort(pointArrayList, new Comparator<Point>() {
 
                     private Point point;
 
