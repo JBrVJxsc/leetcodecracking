@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26cf608c-0266-43f9-8070-01d0d826cf44" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p7.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/base/MainForm.java" afterPath="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/base/MainForm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algorithms.iws" />
@@ -71,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p6.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="p6.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37550202" vertical-offset="0" max-vertical-offset="799">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
               <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,14 +88,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainForm.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="p7.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="663">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainForm.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/base/MainForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="4165">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.63820225" vertical-offset="2045" max-vertical-offset="4165">
+              <caret line="157" column="5" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
               <folding>
-                <element signature="e#5473#5474#0" expanded="true" />
-                <element signature="e#5547#5548#0" expanded="true" />
+                <element signature="e#5459#5460#0" expanded="true" />
+                <element signature="e#5533#5534#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,7 +192,6 @@
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/SAMPLE/Sample.java" />
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/BaseAlgorithm.java" />
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/algorithms/a1.java" />
-        <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/base/MainForm.java" />
         <option value="$PROJECT_DIR$/LeetCodeCracking/.idea/.name" />
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/BaseProblem.java" />
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p1.java" />
@@ -186,6 +200,8 @@
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p4.java" />
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p5.java" />
         <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p6.java" />
+        <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p7.java" />
+        <option value="$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/base/MainForm.java" />
       </list>
     </option>
   </component>
@@ -896,13 +912,18 @@
       <created>1403698964554</created>
       <updated>1403698964554</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Code">
+      <created>1403699639643</created>
+      <updated>1403699639643</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -921,7 +942,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34846267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1118421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42927632" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -968,13 +988,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/common/Reflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/base/Parameter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="731">
@@ -1201,11 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/base/MainForm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCodeCracking/.idea/.name">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="318">
@@ -1298,17 +1306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/base/MainForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="4165">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="e#5473#5474#0" expanded="true" />
-            <element signature="e#5547#5548#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="935">
@@ -1360,7 +1357,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37550202" vertical-offset="0" max-vertical-offset="799">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1368,6 +1365,34 @@
             <element signature="e#315#316#0" expanded="true" />
             <element signature="e#1033#1034#0" expanded="true" />
             <element signature="e#1065#1066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/base/MainForm.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/onlinejudge/problems/p7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="663">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCodeCracking/src/com/leetcode/base/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63820225" vertical-offset="2045" max-vertical-offset="4165">
+          <caret line="157" column="5" selection-start-line="157" selection-start-column="5" selection-end-line="157" selection-end-column="5" />
+          <folding>
+            <element signature="e#5459#5460#0" expanded="true" />
+            <element signature="e#5533#5534#0" expanded="true" />
           </folding>
         </state>
       </provider>

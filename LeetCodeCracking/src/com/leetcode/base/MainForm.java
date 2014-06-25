@@ -145,9 +145,9 @@ public class MainForm {
         txtConsole.setText(null);
         txtConsole.append("Source code: " + problem.getClass().getName() + "\n");
         if (problem.getSummary() == null) {
-            txtConsole.append("Summary: " + problem.getName() + "\n");
+            txtConsole.append("\n" + problem.getName() + "\n");
         } else {
-            txtConsole.append("Summary: " + problem.getSummary() + "\n");
+            txtConsole.append("\n" + problem.getSummary() + "\n");
         }
     }
 
