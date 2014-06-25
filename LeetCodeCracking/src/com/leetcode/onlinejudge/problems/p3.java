@@ -15,7 +15,7 @@ import java.util.Comparator;
 public class p3 extends BaseProblem implements IProblem {
     @Override
     public String getName() {
-        return "Max Points on a Line ";
+        return "Max Points on a Line";
     }
 
     @Override
