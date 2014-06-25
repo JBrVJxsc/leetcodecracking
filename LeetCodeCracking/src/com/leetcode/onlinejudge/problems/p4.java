@@ -24,13 +24,22 @@ public class p4 extends BaseProblem implements IProblem {
 
     public class Solution {
         public ListNode sortList(ListNode head) {
+            if (head == null) {
+                return null;
+            } else if (head.next == null) {
+                return head;
+            } else {
+                while (head.next != null) {
+
+                }
+            }
             return null;
         }
     }
 
     public class ListNode {
-        private int val;
-        private ListNode next;
+        public int val;
+        public ListNode next;
 
         public ListNode(int x) {
             val = x;
