@@ -26,8 +26,27 @@ public class p10 extends BaseProblem implements IProblem {
     }
 
     public class Solution {
+
+        private int hit(ListNode slow, ListNode fast) {
+            int hit = 0;
+            if (fast == null || fast.next == null) {
+                hit = -1;
+            } else if (slow == fast || slow == fast.next) {
+                hit = 1;
+            }
+            return hit;
+        }
+
         public ListNode detectCycle(ListNode head) {
-            return null;
+            if (head == null) {
+                return null;
+            }
+            ListNode slow = head;
+            ListNode fast = head.next;
+            while (true) {
+                int result = hit(slow, fast);
+                return null;
+            }
         }
     }
 
