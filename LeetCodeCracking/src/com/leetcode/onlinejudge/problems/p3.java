@@ -4,6 +4,7 @@ import com.leetcode.base.Parameter;
 import com.leetcode.common.Random;
 import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
+import com.leetcode.onlinejudge.common.Point;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -134,21 +135,6 @@ public class p3 extends BaseProblem implements IProblem {
                 }
             }
             return maxNumber;
-        }
-    }
-
-    private class Point {
-        private int x;
-        private int y;
-
-        public Point() {
-            x = 0;
-            y = 0;
-        }
-
-        public Point(int a, int b) {
-            x = a;
-            y = b;
         }
     }
 }
