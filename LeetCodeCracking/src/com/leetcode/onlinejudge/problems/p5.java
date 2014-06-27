@@ -2,6 +2,7 @@ package com.leetcode.onlinejudge.problems;
 
 import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
+import com.leetcode.onlinejudge.common.ListNode;
 
 import java.util.Stack;
 
@@ -65,16 +66,6 @@ public class p5 extends BaseProblem implements IProblem {
                 sort(stackNode.pop());
             }
             return head;
-        }
-    }
-
-    public class ListNode {
-        public int val;
-        public ListNode next;
-
-        public ListNode(int x) {
-            val = x;
-            next = null;
         }
     }
 }

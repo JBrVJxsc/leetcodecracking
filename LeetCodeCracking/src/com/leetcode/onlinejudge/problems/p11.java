@@ -7,15 +7,15 @@ import com.leetcode.onlinejudge.common.ListNode;
 /**
  * Created by Who on 2014/6/27.
  */
-public class p10 extends BaseProblem implements IProblem {
+public class p11 extends BaseProblem implements IProblem {
     @Override
     public String getName() {
-        return "[UNSOLVED]Linked List Cycle II";
+        return "Linked List Cycle";
     }
 
     @Override
     public String getSummary() {
-        return "Given a linked list, return the node where the cycle begins. If there is no cycle, return null.\n" +
+        return "Given a linked list, determine if it has a cycle in it.\n" +
                 "Follow up:\n" +
                 "Can you solve it without using extra space?";
     }
@@ -26,10 +26,8 @@ public class p10 extends BaseProblem implements IProblem {
     }
 
     public class Solution {
-        public ListNode detectCycle(ListNode head) {
-            return null;
+        public boolean hasCycle(ListNode head) {
+            return true;
         }
     }
-
-
 }

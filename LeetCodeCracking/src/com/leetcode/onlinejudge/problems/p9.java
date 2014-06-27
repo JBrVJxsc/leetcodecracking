@@ -2,6 +2,7 @@ package com.leetcode.onlinejudge.problems;
 
 import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
+import com.leetcode.onlinejudge.common.ListNode;
 
 /**
  * Created by Who on 2014/6/27.
@@ -30,16 +31,6 @@ public class p9 extends BaseProblem implements IProblem {
     public class Solution {
         public void reorderList(ListNode head) {
 
-        }
-    }
-
-    public class ListNode {
-        public int val;
-        public ListNode next;
-
-        public ListNode(int x) {
-            val = x;
-            next = null;
         }
     }
 }
