@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class p14 extends BaseProblem implements IProblem {
     @Override
     public String getName() {
-        return "Copy List with Random Pointer";
+        return "[UNSOLVED]Copy List with Random Pointer";
     }
 
     @Override
