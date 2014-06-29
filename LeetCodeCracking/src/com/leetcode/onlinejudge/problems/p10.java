@@ -10,7 +10,7 @@ import com.leetcode.onlinejudge.common.ListNode;
 public class p10 extends BaseProblem implements IProblem {
     @Override
     public String getName() {
-        return "[UNSOLVED]Linked List Cycle II";
+        return "[HELPED]Linked List Cycle II";
     }
 
     @Override
@@ -98,7 +98,7 @@ public class p10 extends BaseProblem implements IProblem {
         private ListNode cycleHit(ListNode test, ListNode cycle) {
             //Because there must be a cycle, so there is no need to check if these two args are null.
             ListNode start = cycle;
-            ListNode cycling = cycle;
+            ListNode cycling = cycle.next;
             while (true) {
                 if (test == cycling) {
                     return test;
