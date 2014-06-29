@@ -2,6 +2,7 @@ package com.leetcode.onlinejudge.problems;
 
 import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
+import com.leetcode.onlinejudge.common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +39,6 @@ public class p8 extends BaseProblem implements IProblem {
         print(new Solution().preorderTraversal(root));
     }
 
-
     public class Solution {
 
         private void get(List<Integer> list, TreeNode node) {
@@ -58,16 +58,6 @@ public class p8 extends BaseProblem implements IProblem {
             List<Integer> list = new ArrayList<Integer>();
             get(list, root);
             return list;
-        }
-    }
-
-    public class TreeNode {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-
-        public TreeNode(int x) {
-            val = x;
         }
     }
 }
