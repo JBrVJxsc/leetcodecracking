@@ -61,9 +61,9 @@ public class p29 extends BaseProblem implements IProblem {
             if (root.left == null) {
                 return;
             }
-            root.left.next = root.right;
             connect(root.left);
             connect(root.right);
+            root.left.next = root.right;
             if (root.left.right != null) {
                 root.left.right.next = root.right.left;
             }
