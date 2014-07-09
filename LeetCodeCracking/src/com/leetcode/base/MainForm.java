@@ -84,6 +84,7 @@ public class MainForm {
         txtConsole.setBackground(Color.black);
         txtConsole.setForeground(Color.green);
         txtConsole.setCaretColor(Color.green);
+        btRun.setEnabled(false);
     }
 
     private void initProblems() {
@@ -97,6 +98,7 @@ public class MainForm {
             IProblem problem = (IProblem) problemList.get(i);
             cmbProblems.addItem(problem);
         }
+        btRun.setEnabled(true);
     }
 
     private void initListener() {
