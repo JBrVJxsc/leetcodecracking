@@ -6,16 +6,11 @@ import com.leetcode.onlinejudge.BaseProblem;
 /**
  * Created by Who on 2014/6/23.
  */
-public class p1 extends BaseProblem implements IProblem {
+public class _1_Reverse_Words_in_a_String extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {
         return false;
-    }
-
-    @Override
-    public String getName() {
-        return "Reverse Words in a String";
     }
 
     @Override

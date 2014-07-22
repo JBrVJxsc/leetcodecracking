@@ -9,7 +9,7 @@ import java.util.ArrayList;
 /**
  * Created by Who on 2014/6/28.
  */
-public class p14 extends BaseProblem implements IProblem {
+public class _9_Copy_List_with_Random_Pointer extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {

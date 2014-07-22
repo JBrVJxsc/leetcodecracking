@@ -9,16 +9,11 @@ import java.util.Stack;
 /**
  * Created by Who on 2014/6/25.
  */
-public class p5 extends BaseProblem implements IProblem {
+public class _4_Insertion_Sort_List extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {
         return false;
-    }
-
-    @Override
-    public String getName() {
-        return "Insertion Sort List";
     }
 
     @Override

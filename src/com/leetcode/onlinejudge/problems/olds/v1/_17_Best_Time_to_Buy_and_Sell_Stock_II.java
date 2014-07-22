@@ -9,7 +9,7 @@ import java.util.Collections;
 /**
  * Created by Who on 2014/6/29.
  */
-public class p26 extends BaseProblem implements IProblem {
+public class _17_Best_Time_to_Buy_and_Sell_Stock_II extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {

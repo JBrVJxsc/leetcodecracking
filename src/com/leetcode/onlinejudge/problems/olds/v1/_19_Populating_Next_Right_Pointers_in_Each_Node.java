@@ -7,7 +7,7 @@ import com.leetcode.onlinejudge.common.TreeLinkNode;
 /**
  * Created by Who on 2014/6/30.
  */
-public class p29 extends BaseProblem implements IProblem {
+public class _19_Populating_Next_Right_Pointers_in_Each_Node extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {

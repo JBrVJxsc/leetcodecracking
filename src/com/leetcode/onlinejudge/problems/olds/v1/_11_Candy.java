@@ -6,7 +6,7 @@ import com.leetcode.onlinejudge.BaseProblem;
 /**
  * Created by Who on 2014/6/29.
  */
-public class p17 extends BaseProblem implements IProblem {
+public class _11_Candy extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {

@@ -7,7 +7,7 @@ import com.leetcode.onlinejudge.common.ListNode;
 /**
  * Created by Who on 2014/6/27.
  */
-public class p10 extends BaseProblem implements IProblem {
+public class _7_Linked_List_Cycle_II extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {

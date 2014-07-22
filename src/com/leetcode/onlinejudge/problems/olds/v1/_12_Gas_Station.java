@@ -6,7 +6,7 @@ import com.leetcode.onlinejudge.BaseProblem;
 /**
  * Created by Who on 2014/6/29.
  */
-public class p18 extends BaseProblem implements IProblem {
+public class _12_Gas_Station extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {

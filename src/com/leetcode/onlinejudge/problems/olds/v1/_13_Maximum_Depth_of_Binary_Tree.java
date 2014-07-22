@@ -7,16 +7,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
 /**
  * Created by Who on 2014/6/29.
  */
-public class p22 extends BaseProblem implements IProblem {
+public class _13_Maximum_Depth_of_Binary_Tree extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {
         return false;
-    }
-
-    @Override
-    public String getName() {
-        return "Maximum Depth of Binary Tree";
     }
 
     @Override

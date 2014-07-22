@@ -7,16 +7,11 @@ import com.leetcode.onlinejudge.common.ListNode;
 /**
  * Created by Who on 2014/6/30.
  */
-public class p31 extends BaseProblem implements IProblem {
+public class _21_Remove_Duplicates_from_Sorted_List extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {
         return false;
-    }
-
-    @Override
-    public String getName() {
-        return "Remove Duplicates from Sorted List";
     }
 
     @Override

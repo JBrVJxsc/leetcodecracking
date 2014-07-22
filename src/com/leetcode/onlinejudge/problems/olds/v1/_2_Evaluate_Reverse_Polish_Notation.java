@@ -8,16 +8,11 @@ import java.util.Stack;
 /**
  * Created by Who on 2014/6/24.
  */
-public class p2 extends BaseProblem implements IProblem {
+public class _2_Evaluate_Reverse_Polish_Notation extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {
         return false;
-    }
-
-    @Override
-    public String getName() {
-        return "Evaluate Reverse Polish Notation";
     }
 
     @Override

@@ -6,16 +6,11 @@ import com.leetcode.onlinejudge.BaseProblem;
 /**
  * Created by Who on 2014/6/29.
  */
-public class p25 extends BaseProblem implements IProblem {
+public class _16_Best_Time_to_Buy_and_Sell_Stock extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {
         return false;
-    }
-
-    @Override
-    public String getName() {
-        return "Best Time to Buy and Sell Stock";
     }
 
     @Override

@@ -6,16 +6,11 @@ import com.leetcode.onlinejudge.BaseProblem;
 /**
  * Created by Who on 2014/6/30.
  */
-public class p30 extends BaseProblem implements IProblem {
+public class _20_Search_Insert_Position extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {
         return false;
-    }
-
-    @Override
-    public String getName() {
-        return "Search Insert Position";
     }
 
     @Override

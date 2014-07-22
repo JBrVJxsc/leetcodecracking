@@ -13,16 +13,11 @@ import java.util.Comparator;
 /**
  * Created by Who on 2014/6/24.
  */
-public class p3 extends BaseProblem implements IProblem {
+public class _3_Max_Points_on_a_Line extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {
         return false;
-    }
-
-    @Override
-    public String getName() {
-        return "Max Points on a Line";
     }
 
     @Override

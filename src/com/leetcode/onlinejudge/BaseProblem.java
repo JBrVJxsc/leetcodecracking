@@ -24,10 +24,14 @@ public abstract class BaseProblem {
 
     public long getID() {
         String className = getClass().getSimpleName();
-        return Long.parseLong(className.replace("p", ""));
+        return Long.parseLong(className.split("_")[1]);
     }
 
-    public abstract String getName();
+    public String getName() {
+        String className = getClass().getSimpleName();
+        int index = className.indexOf("_", 1);
+        return className.substring(index + 1).replace("_", " ");
+    }
 
     public void addPrintConsoleListener(PrintConsoleListener printConsoleListener) {
         this.printConsoleListener = (PrintConsoleListener) printConsoleListener;

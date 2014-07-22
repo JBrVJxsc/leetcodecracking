@@ -10,16 +10,11 @@ import java.util.List;
 /**
  * Created by Who on 2014/6/27.
  */
-public class p8 extends BaseProblem implements IProblem {
+public class _6_Binary_Tree_Preorder_Traversal extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {
         return false;
-    }
-
-    @Override
-    public String getName() {
-        return "Binary Tree Preorder Traversal";
     }
 
     @Override

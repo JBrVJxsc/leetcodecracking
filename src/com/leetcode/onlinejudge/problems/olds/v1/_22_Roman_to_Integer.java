@@ -6,16 +6,11 @@ import com.leetcode.onlinejudge.BaseProblem;
 /**
  * Created by Who on 2014/6/30.
  */
-public class p32 extends BaseProblem implements IProblem {
+public class _22_Roman_to_Integer extends BaseProblem implements IProblem {
 
     @Override
     public Boolean isValid() {
         return false;
-    }
-
-    @Override
-    public String getName() {
-        return "Roman to Integer";
     }
 
     @Override
