@@ -18,6 +18,10 @@ public abstract class BaseProblem {
     private SetParameterListener setParameterListener = new SetParameterListener();
     private Stack<Long> timer = new Stack<Long>();
 
+    public Boolean isValid() {
+        return true;
+    }
+
     public long getID() {
         String className = getClass().getSimpleName();
         return Long.parseLong(className.replace("p", ""));

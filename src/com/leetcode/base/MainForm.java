@@ -71,8 +71,9 @@ public class MainForm {
         frame.setLocationRelativeTo(null);
 
         final Toolkit toolkit = Toolkit.getDefaultToolkit();
-        toolkit.addAWTEventListener(new AWTEventListener(){
-            @Override public void eventDispatched(AWTEvent e){
+        toolkit.addAWTEventListener(new AWTEventListener() {
+            @Override
+            public void eventDispatched(AWTEvent e) {
                 if (e.getID() == KeyEvent.KEY_PRESSED) {
                     KeyEvent evt = (KeyEvent) e;
                     if (evt.getKeyCode() == KeyEvent.VK_ESCAPE) {
@@ -81,7 +82,7 @@ public class MainForm {
                     }
                 }
             }
-        },AWTEvent.KEY_EVENT_MASK);
+        }, AWTEvent.KEY_EVENT_MASK);
 
         try {
             UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel");
@@ -106,7 +107,9 @@ public class MainForm {
         Collections.sort(problemList, new ProblemsComparator());
         for (int i = problemList.size() - 1; i >= 0; i--) {
             IProblem problem = (IProblem) problemList.get(i);
-            cmbProblems.addItem(problem);
+            if (problem.isValid()) {
+                cmbProblems.addItem(problem);
+            }
         }
         btRun.setEnabled(true);
         run();
