@@ -115,6 +115,14 @@ public abstract class BaseProblem {
         return print(string);
     }
 
+    protected String print(int[] is, int start, int end) {
+        String string = "";
+        for (int i = start; i <= end; i++) {
+            string += String.valueOf(is[i]) + " ";
+        }
+        return print(string);
+    }
+
     protected String print(Integer i) {
         return print(String.valueOf(i));
     }

@@ -18,8 +18,8 @@ public class _3_Search_in_Rotated_Sorted_Array extends BaseProblem implements IP
     @Override
     public void run() {
         int[] a = new int[]{4, 5, 6, 7, 0, 1, 2};
-        a = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 99, 100, 101};
-        print(new Solution().search(a, 101));
+        a = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        print(new Solution().search(a, 9));
     }
 
     public class Solution {
