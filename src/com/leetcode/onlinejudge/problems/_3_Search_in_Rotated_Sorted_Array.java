@@ -35,23 +35,6 @@ public class _3_Search_in_Rotated_Sorted_Array extends BaseProblem implements IP
                 return find(A, start, middle - 1, target);
             else
                 return find(A, middle + 1, end, target);
-
-//            if (start > end) return -1;
-//            int middle = start + (end - start) / 2;
-//            if (target == A[middle]) return middle;
-//            if (A[start] < A[middle]) {
-//                if (target < A[middle]) {
-//                    return find(A, start, middle - 1, target);
-//                } else {
-//                    return find(A, middle + 1, end, target);
-//                }
-//            } else {
-//                if (target > A[middle]) {
-//                    return find(A, middle + 1, end, target);
-//                } else {
-//                    return find(A, start, middle - 1, target);
-//                }
-//            }
         }
     }
 }
