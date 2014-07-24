@@ -10,7 +10,7 @@ import com.leetcode.onlinejudge.common.ListNode;
 public class _21_Remove_Duplicates_from_Sorted_List extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

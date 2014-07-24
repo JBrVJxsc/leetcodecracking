@@ -9,7 +9,7 @@ import com.leetcode.onlinejudge.BaseProblem;
 public class _20_Search_Insert_Position extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

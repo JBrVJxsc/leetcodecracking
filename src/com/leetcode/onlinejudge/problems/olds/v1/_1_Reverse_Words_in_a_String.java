@@ -9,7 +9,7 @@ import com.leetcode.onlinejudge.BaseProblem;
 public class _1_Reverse_Words_in_a_String extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

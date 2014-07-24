@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class _9_Copy_List_with_Random_Pointer extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

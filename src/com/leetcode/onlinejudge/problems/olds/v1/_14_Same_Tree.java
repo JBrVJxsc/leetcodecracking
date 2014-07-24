@@ -10,7 +10,7 @@ import com.leetcode.onlinejudge.common.TreeNode;
 public class _14_Same_Tree extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

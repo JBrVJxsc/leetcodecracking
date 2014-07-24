@@ -12,7 +12,7 @@ import java.util.Stack;
 public class _4_Insertion_Sort_List extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

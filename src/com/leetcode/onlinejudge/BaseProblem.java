@@ -18,7 +18,7 @@ public abstract class BaseProblem {
     private SetParameterListener setParameterListener = new SetParameterListener();
     private Stack<Long> timer = new Stack<Long>();
 
-    public Boolean isValid() {
+    public boolean isValid() {
         return true;
     }
 

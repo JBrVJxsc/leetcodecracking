@@ -16,7 +16,7 @@ import java.util.Comparator;
 public class _3_Max_Points_on_a_Line extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

@@ -9,7 +9,7 @@ import com.leetcode.onlinejudge.BaseProblem;
 public class _22_Roman_to_Integer extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

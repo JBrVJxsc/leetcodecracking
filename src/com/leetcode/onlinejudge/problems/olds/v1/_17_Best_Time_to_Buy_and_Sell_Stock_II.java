@@ -12,7 +12,7 @@ import java.util.Collections;
 public class _17_Best_Time_to_Buy_and_Sell_Stock_II extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

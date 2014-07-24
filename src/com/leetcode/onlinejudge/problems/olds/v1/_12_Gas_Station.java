@@ -9,7 +9,7 @@ import com.leetcode.onlinejudge.BaseProblem;
 public class _12_Gas_Station extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

@@ -9,7 +9,7 @@ import com.leetcode.onlinejudge.BaseProblem;
 public class _16_Best_Time_to_Buy_and_Sell_Stock extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

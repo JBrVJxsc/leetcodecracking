@@ -9,7 +9,7 @@ import com.leetcode.onlinejudge.BaseProblem;
 public class _11_Candy extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

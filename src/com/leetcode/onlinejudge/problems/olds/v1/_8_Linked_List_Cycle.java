@@ -10,7 +10,7 @@ import com.leetcode.onlinejudge.common.ListNode;
 public class _8_Linked_List_Cycle extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

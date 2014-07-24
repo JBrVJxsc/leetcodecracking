@@ -13,7 +13,7 @@ import java.util.List;
 public class _6_Binary_Tree_Preorder_Traversal extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 

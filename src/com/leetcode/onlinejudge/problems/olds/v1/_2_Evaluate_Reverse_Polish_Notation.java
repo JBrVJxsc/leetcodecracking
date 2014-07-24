@@ -11,7 +11,7 @@ import java.util.Stack;
 public class _2_Evaluate_Reverse_Polish_Notation extends BaseProblem implements IProblem {
 
     @Override
-    public Boolean isValid() {
+    public boolean isValid() {
         return false;
     }
 
