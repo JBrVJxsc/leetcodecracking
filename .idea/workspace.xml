@@ -4,10 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_Remove_Duplicates_from_Sorted_Array.java" line="26" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8300c76b-980b-4a23-a82e-2049d8d682a1" name="Default" comment="Code">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_Remove_Duplicates_from_Sorted_Array.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_Remove_Duplicates_from_Sorted_Array.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_Remove_Duplicates_from_Sorted_Array_II.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_Remove_Duplicates_from_Sorted_Array_II.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_3_Search_in_Rotated_Sorted_Array.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_3_Search_in_Rotated_Sorted_Array.java" />
+    <list default="true" id="8300c76b-980b-4a23-a82e-2049d8d682a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_4_Search_in_Rotated_Sorted_Array_II.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCodeCracking.iws" />
@@ -51,15 +49,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_3_Search_in_Rotated_Sorted_Array.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_3_Search_in_Rotated_Sorted_Array.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_3_Search_in_Rotated_Sorted_Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1440678" vertical-offset="459" max-vertical-offset="1853">
+            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1853">
               <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1206#1207#0" expanded="true" />
                 <element signature="e#1269#1270#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_4_Search_in_Rotated_Sorted_Array_II.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_4_Search_in_Rotated_Sorted_Array_II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31694916" vertical-offset="0" max-vertical-offset="590">
+              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/p14.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/p15.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/p16.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/p17.java" />
@@ -139,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_Remove_Duplicates_from_Sorted_Array.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_Remove_Duplicates_from_Sorted_Array_II.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_3_Search_in_Rotated_Sorted_Array.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_4_Search_in_Rotated_Sorted_Array_II.java" />
       </list>
     </option>
   </component>
@@ -561,7 +571,11 @@
       <created>1406134236241</created>
       <updated>1406134236241</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Code">
+      <created>1406178867400</created>
+      <updated>1406178867400</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -964,12 +978,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_3_Search_in_Rotated_Sorted_Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1440678" vertical-offset="459" max-vertical-offset="1853">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1853">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1206#1207#0" expanded="true" />
             <element signature="e#1269#1270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_4_Search_in_Rotated_Sorted_Array_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31694916" vertical-offset="0" max-vertical-offset="590">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
