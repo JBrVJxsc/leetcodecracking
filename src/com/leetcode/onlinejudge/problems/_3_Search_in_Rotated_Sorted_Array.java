@@ -18,8 +18,14 @@ public class _3_Search_in_Rotated_Sorted_Array extends BaseProblem implements IP
     @Override
     public void run() {
         int[] a = new int[]{4, 5, 6, 7, 0, 1, 2};
-        a = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-        print(new Solution().search(a, 9));
+//        a = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        print(new Solution().search(a, 4));
+        print(new Solution().search(a, 5));
+        print(new Solution().search(a, 6));
+        print(new Solution().search(a, 7));
+        print(new Solution().search(a, 0));
+        print(new Solution().search(a, 1));
+        print(new Solution().search(a, 2));
     }
 
     public class Solution {
@@ -28,13 +34,70 @@ public class _3_Search_in_Rotated_Sorted_Array extends BaseProblem implements IP
         }
 
         private int find(int[] A, int start, int end, int target) {
+            if (start > end) return -1;
+            int middle = start + (end - start) / 2;
+            if (target == A[middle]) return middle;
+            if (A[start] <= A[middle]) {
+                if (A[start] <= target && target < A[middle])
+                    return find(A, start, middle - 1, target);
+                else return find(A, middle + 1, end, target);
+            } else {
+                if (A[middle] < target && target <= A[end])
+                    return find(A, middle + 1, end, target);
+                else return find(A, start, middle - 1, target);
+            }
+        }
+
+        private int find1(int[] A, int start, int end, int target) {
+            if (start > end) return -1;
+            int middle = start + (end - start) / 2;
+            if (A[middle] == target) return middle;
+            if (A[start] <= A[middle]) {
+                if (A[start] <= target && target < A[middle])
+                    return find(A, start, middle - 1, target);
+                else return find(A, middle + 1, end, target);
+            } else {
+                if (A[middle] < target && target <= A[end])
+                    return find(A, middle + 1, end, target);
+                else return find(A, start, middle - 1, target);
+            }
+        }
+
+        private int binarySearch(int[] A, int start, int end, int target) {
             if (end < start) return -1;
             int middle = start + (end - start) / 2;
             if (A[middle] == target) return middle;
             else if (target < A[middle])
-                return find(A, start, middle - 1, target);
+                return binarySearch(A, start, middle - 1, target);
             else
-                return find(A, middle + 1, end, target);
+                return binarySearch(A, middle + 1, end, target);
+        }
+
+        private int binarySearch1(int[] A, int start, int end, int target) {
+            if (start > end) return -1;
+            int middle = start + (end - start) / 2;
+            if (target == A[middle]) return middle;
+            if (target < A[middle])
+                return binarySearch(A, start, middle - 1, target);
+            else return binarySearch(A, middle + 1, end, target);
+        }
+
+        private int binarySearch2(int[] A, int start, int end, int target) {
+            if (start > end) return -1;
+            int middle = start + (end - start) / 2;
+            if (target == A[middle]) return middle;
+            if (target < A[middle])
+                return binarySearch(A, start, middle - 1, target);
+            else return binarySearch(A, middle + 1, end, target);
+        }
+
+        private int binarySearch3(int[] A, int start, int end, int target) {
+            if (start > end) return -1;
+            int middle = start + (end - start) / 2;
+            if (target == A[middle]) return middle;
+            if (target < A[middle])
+                return binarySearch(A, start, middle - 1, target);
+            else return binarySearch(A, middle + 1, end, target);
         }
     }
 }

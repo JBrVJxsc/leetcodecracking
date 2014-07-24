@@ -20,7 +20,7 @@ public class _1_Remove_Duplicates_from_Sorted_Array extends BaseProblem implemen
     public void run() {
         int[] a = new int[]{0, 1, 1, 2, 2, 2, 3, 3, 4, 5, 6};
         a = new int[]{1, 1, 2};
-        print(new Solution3().removeDuplicates(a));
+        print(new Solution().removeDuplicates(a));
     }
 
     public class Solution {
@@ -38,10 +38,8 @@ public class _1_Remove_Duplicates_from_Sorted_Array extends BaseProblem implemen
             }
             return currentPointer;
         }
-    }
 
-    public class Solution1 {
-        public int removeDuplicates(int[] A) {
+        public int removeDuplicates1(int[] A) {
             if (A == null || A.length == 0)
                 return 0;
             int pointer = 0;
@@ -51,10 +49,8 @@ public class _1_Remove_Duplicates_from_Sorted_Array extends BaseProblem implemen
             }
             return pointer + 1;
         }
-    }
 
-    public class Solution2 {
-        public int removeDuplicates(int[] A) {
+        public int removeDuplicates2(int[] A) {
             if (A == null || A.length == 0) return 0;
             int pointer = 0;
             for (int i = 1; i < A.length; i++)
@@ -62,10 +58,55 @@ public class _1_Remove_Duplicates_from_Sorted_Array extends BaseProblem implemen
                     A[++pointer] = A[i];
             return pointer + 1;
         }
-    }
 
-    public class Solution3 {
-        public int removeDuplicates(int[] A) {
+        public int removeDuplicates3(int[] A) {
+            if (A == null || A.length == 0) return 0;
+            int index = 0;
+            for (int i = 1; i < A.length; i++)
+                if (A[index] != A[i])
+                    A[++index] = A[i];
+            return index + 1;
+        }
+
+        public int removeDuplicates4(int[] A) {
+            if (A == null || A.length == 0) return 0;
+            int index = 0;
+            for (int i = 1; i < A.length; i++) {
+                if (A[index] != A[i])
+                    A[++index] = A[i];
+            }
+            return index + 1;
+        }
+
+        public int removeDuplicates5(int[] A) {
+            if (A == null || A.length == 0) return 0;
+            int index = 0;
+            for (int i = 1; i < A.length; i++) {
+                if (A[index] != A[i])
+                    A[++index] = A[i];
+            }
+            return index + 1;
+        }
+
+        public int removeDuplicates6(int[] A) {
+            if (A == null || A.length == 0) return 0;
+            int index = 0;
+            for (int i = 1; i < A.length; i++)
+                if (A[index] != A[i])
+                    A[++index] = A[i];
+            return index + 1;
+        }
+
+        public int removeDuplicates7(int[] A) {
+            if (A == null || A.length == 0) return 0;
+            int index = 0;
+            for (int i = 1; i < A.length; i++)
+                if (A[index] != A[i])
+                    A[index++] = A[i];
+            return index + 1;
+        }
+
+        public int removeDuplicates8(int[] A) {
             if (A == null || A.length == 0) return 0;
             int index = 0;
             for (int i = 1; i < A.length; i++)
