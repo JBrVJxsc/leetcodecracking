@@ -78,8 +78,8 @@ public class _3_Search_in_Rotated_Sorted_Array extends BaseProblem implements IP
             int middle = start + (end - start) / 2;
             if (target == A[middle]) return middle;
             if (target < A[middle])
-                return binarySearch(A, start, middle - 1, target);
-            else return binarySearch(A, middle + 1, end, target);
+                return binarySearch1(A, start, middle - 1, target);
+            else return binarySearch1(A, middle + 1, end, target);
         }
 
         private int binarySearch2(int[] A, int start, int end, int target) {
@@ -87,8 +87,8 @@ public class _3_Search_in_Rotated_Sorted_Array extends BaseProblem implements IP
             int middle = start + (end - start) / 2;
             if (target == A[middle]) return middle;
             if (target < A[middle])
-                return binarySearch(A, start, middle - 1, target);
-            else return binarySearch(A, middle + 1, end, target);
+                return binarySearch2(A, start, middle - 1, target);
+            else return binarySearch2(A, middle + 1, end, target);
         }
 
         private int binarySearch3(int[] A, int start, int end, int target) {
@@ -96,8 +96,17 @@ public class _3_Search_in_Rotated_Sorted_Array extends BaseProblem implements IP
             int middle = start + (end - start) / 2;
             if (target == A[middle]) return middle;
             if (target < A[middle])
-                return binarySearch(A, start, middle - 1, target);
-            else return binarySearch(A, middle + 1, end, target);
+                return binarySearch3(A, start, middle - 1, target);
+            else return binarySearch3(A, middle + 1, end, target);
+        }
+
+        private int binarySearch4(int[] A, int start, int end, int target) {
+            if (start > end) return -1;
+            int middle = start + (end - start) / 2;
+            if (A[middle] == target) return middle;
+            if (target < A[middle])
+                return binarySearch4(A, start, middle - 1, target);
+            else return binarySearch4(A, middle + 1, end, target);
         }
     }
 }
