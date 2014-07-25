@@ -71,5 +71,15 @@ public class _2_Remove_Duplicates_from_Sorted_Array_II extends BaseProblem imple
                     A[++index] = A[i];
             return index + 1;
         }
+
+        public int removeDuplicate5(int[] A) {
+            if (A == null || A.length == 0) return 0;
+            int index = 0;
+            int occurrence = 2;
+            for (int i = 1; i < A.length; i++)
+                if (A[index] != A[i] || index >= occurrence - 1 && A[index] != A[index - (occurrence - 1)] || index < occurrence - 1)
+                    A[++index] = A[i];
+            return index + 1;
+        }
     }
 }

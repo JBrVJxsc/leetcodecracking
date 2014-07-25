@@ -3,6 +3,9 @@ package com.leetcode.onlinejudge.problems;
 import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 
 /**
@@ -25,12 +28,68 @@ public class _10_4Sum extends BaseProblem implements IProblem {
 
     @Override
     public void run() {
-
+        int[] a = new int[]{1, 0, -1, 0, -2, 2};
+        a = new int[]{-1, 0, 1, 2, -1, -4};
+        print(new Solution().fourSum1(a, -1));
     }
 
     public class Solution {
         public List<List<Integer>> fourSum(int[] num, int target) {
-            return null;
+            HashSet<List<Integer>> listHashSet = new HashSet<List<Integer>>();
+            List<List<Integer>> list = new ArrayList<List<Integer>>();
+            Arrays.sort(num);
+            for (int i = 0; i < num.length; i++)
+                for (int j = i + 1; j < num.length; j++) {
+                    int negate = target - num[i] - num[j];
+                    int start = j + 1;
+                    int end = num.length - 1;
+                    while (start < end) {
+                        if (num[start] + num[end] == negate) {
+                            ArrayList<Integer> subList = new ArrayList<Integer>();
+                            subList.add(0, num[i]);
+                            subList.add(1, num[j]);
+                            subList.add(2, num[start]);
+                            subList.add(3, num[end]);
+                            if (!listHashSet.contains(subList)) {
+                                list.add(subList);
+                                listHashSet.add(subList);
+                            }
+                            start++;
+                            end--;
+                        } else if (num[start] + num[end] < negate) start++;
+                        else end--;
+                    }
+                }
+            return list;
+        }
+
+        public List<List<Integer>> fourSum1(int[] num, int target) {
+            List<List<Integer>> list = new ArrayList<List<Integer>>();
+            HashSet<List<Integer>> listHashSet = new HashSet<List<Integer>>();
+            Arrays.sort(num);
+            for (int i = 0; i < num.length; i++)
+                for (int j = i + 1; j < num.length; j++) {
+                    int negate = target - num[i] - num[j];
+                    int start = j + 1;
+                    int end = num.length - 1;
+                    while (start < end) {
+                        if (num[start] + num[end] == negate) {
+                            ArrayList<Integer> subList = new ArrayList<Integer>();
+                            subList.add(0, num[i]);
+                            subList.add(1, num[j]);
+                            subList.add(2, num[start]);
+                            subList.add(3, num[end]);
+                            if (!listHashSet.contains(subList)) {
+                                list.add(subList);
+                                listHashSet.add(subList);
+                            }
+                            start++;
+                            end--;
+                        } else if (num[start] + num[end] < negate) start++;
+                        else end--;
+                    }
+                }
+            return list;
         }
     }
 }

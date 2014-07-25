@@ -114,5 +114,23 @@ public class _1_Remove_Duplicates_from_Sorted_Array extends BaseProblem implemen
                     A[++index] = A[i];
             return index + 1;
         }
+
+        public int removeDuplicates9(int[] A) {
+            if (A == null || A.length == 0) return 0;
+            int index = 0;
+            for (int i = 1; i < A.length; i++)
+                if (A[index] != A[i])
+                    A[++index] = A[i];
+            return index + 1;
+        }
+
+        public int removeDuplicates10(int[] A) {
+            if (A == null || A.length == 0) return 0;
+            int index = 0;
+            for (int i = 1; i < A.length; i++)
+                if (A[index] != A[i])
+                    A[++index] = A[i];
+            return index + 1;
+        }
     }
 }

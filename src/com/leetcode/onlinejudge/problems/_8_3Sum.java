@@ -27,7 +27,8 @@ public class _8_3Sum extends BaseProblem implements IProblem {
     @Override
     public void run() {
         int[] a = new int[]{-1, 0, 1, 2, -1, -4};
-        List<List<Integer>> list = new Solution().threeSum3(a);
+        a = new int[]{0, 0, 0, 0};
+        List<List<Integer>> list = new Solution().threeSum(a);
         print(list);
     }
 
