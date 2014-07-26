@@ -33,6 +33,10 @@ public abstract class BaseProblem {
         return className.substring(index + 1).replace("_", " ");
     }
 
+    public String getNote() {
+        return null;
+    }
+
     public void addPrintConsoleListener(PrintConsoleListener printConsoleListener) {
         this.printConsoleListener = (PrintConsoleListener) printConsoleListener;
     }

@@ -176,6 +176,10 @@ public class MainForm {
         } else {
             txtConsole.append("\n" + problem.getSummary() + "\n");
         }
+
+        if (problem.getNote() != null) {
+            txtConsole.append("\nNote:\n" + problem.getNote() + "\n");
+        }
     }
 
     private void printConsole(String string) {

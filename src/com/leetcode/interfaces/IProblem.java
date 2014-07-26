@@ -16,6 +16,8 @@ public interface IProblem {
 
     String getSummary();
 
+    String getNote();
+
     void run();
 
     void addPrintConsoleListener(PrintConsoleListener printConsoleListener);
