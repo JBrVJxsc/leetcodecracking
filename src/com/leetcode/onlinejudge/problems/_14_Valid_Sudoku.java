@@ -20,4 +20,48 @@ public class _14_Valid_Sudoku extends BaseProblem implements IProblem {
     public void run() {
 
     }
+
+    public class Solution {
+        public boolean isValidSudoku(char[][] board) {
+            // Row.
+            for (int i = 0; i < 9; i++) {
+                boolean[] used = new boolean[9];
+                for (int j = 0; j < 9; j++) {
+                    if (board[i][j] == '.') continue;
+                    int value = Integer.valueOf(String.valueOf(board[i][j]));
+                    if (used[value - 1])
+                        return false;
+                    else used[value - 1] = true;
+                }
+            }
+
+            // Column.
+            for (int i = 0; i < 9; i++) {
+                boolean[] used = new boolean[9];
+                for (int j = 0; j < 9; j++) {
+                    if (board[j][i] == '.') continue;
+                    int value = Integer.valueOf(String.valueOf(board[j][i]));
+                    if (used[value - 1])
+                        return false;
+                    else used[value - 1] = true;
+                }
+            }
+
+            // Nine range.
+            for (int i = 0; i < 3; i++) {
+                for (int j = 0; j < 3; j++) {
+                    boolean[] used = new boolean[9];
+                    for (int k = 3 * i; k < 3 * i + 3; k++)
+                        for (int l = 3 * j; l < 3 * j + 3; l++) {
+                            if (board[k][l] == '.') continue;
+                            int value = Integer.valueOf(String.valueOf(board[k][l]));
+                            if (used[value - 1])
+                                return false;
+                            else used[value - 1] = true;
+                        }
+                }
+            }
+            return true;
+        }
+    }
 }

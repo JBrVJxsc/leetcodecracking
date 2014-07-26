@@ -2,6 +2,7 @@
   <dictionary name="Who">
     <words>
       <w>hashtable</w>
+      <w>sudoku</w>
     </words>
   </dictionary>
 </component>
