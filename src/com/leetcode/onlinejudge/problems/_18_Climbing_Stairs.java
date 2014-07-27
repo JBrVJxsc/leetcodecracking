@@ -23,31 +23,10 @@ public class _18_Climbing_Stairs extends BaseProblem implements IProblem {
     public void run() {
         Parameter<Integer> num = new Parameter<Integer>(1);
         set(num);
-        print(new Solution1().climbStairs(num.getValue()));
+        print(new Solution().climbStairs3(num.getValue()));
     }
 
     public class Solution {
-        public int climbStairs(int n) {
-            int count = 0;
-            int max = n / 2;
-            for (int i = 1; i <= max; i++)
-                count += c(n - i, i);
-            return count + 1;
-        }
-
-        private int c(int bottom, int top) {
-            return a(bottom, top) / a(top, top);
-        }
-
-        private int a(int bottom, int top) {
-            int result = 1;
-            for (int i = 0; i < top; i++)
-                result *= bottom--;
-            return result;
-        }
-    }
-
-    public class Solution1 {
         public int climbStairs(int n) {
             if (n == 0) {
                 return 1;
@@ -56,6 +35,39 @@ public class _18_Climbing_Stairs extends BaseProblem implements IProblem {
             a[0] = 1;
             a[1] = 1;
             for (int i = 2; i <= n; ++i) {
+                a[i] = a[i - 1] + a[i - 2];
+            }
+            return a[n];
+        }
+
+        public int climbStairs1(int n) {
+            if (n == 0) return 1;
+            int[] a = new int[n + 1];
+            a[0] = 1;
+            a[1] = 1;
+            for (int i = 2; i <= n; i++) {
+                a[i] = a[i - 1] + a[i - 2];
+            }
+            return a[n];
+        }
+
+        public int climbStairs2(int n) {
+            if (n == 0) return 1;
+            int[] a = new int[n + 1];
+            a[0] = 1;
+            a[1] = 1;
+            for (int i = 2; i <= n; i++) {
+                a[i] = a[i - 1] + a[i - 2];
+            }
+            return a[n];
+        }
+
+        public int climbStairs3(int n) {
+            if (n == 0) return 1;
+            int[] a = new int[n + 1];
+            a[0] = 1;
+            a[1] = 1;
+            for (int i = 2; i <= n; i++) {
                 a[i] = a[i - 1] + a[i - 2];
             }
             return a[n];
