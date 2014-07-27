@@ -18,11 +18,31 @@ public class _16_Rotate_Image extends BaseProblem implements IProblem {
     @Override
     public void run() {
         int[][] matrix = new int[][]{new int[]{1, 2, 3}, new int[]{4, 5, 6}, new int[]{7, 8, 9}};
-        new Solution().rotate(matrix);
+        new Solution().rotate1(matrix);
     }
 
     public class Solution {
         public void rotate(int[][] matrix) {
+            int n = matrix.length;
+            for (int i = 0; i < n; i++)
+                for (int j = 0; j < n - i; j++)
+                    swap(matrix, i, j, n - 1 - j, n - 1 - i);
+            for (int i = 0; i < n / 2; i++)
+                for (int j = 0; j < n; j++)
+                    swap(matrix, i, j, n - 1 - i, j);
+        }
+
+        public void rotate1(int[][] matrix) {
+            int n = matrix.length;
+            for (int i = 0; i < n; i++)
+                for (int j = 0; j < n - i; j++)
+                    swap(matrix, i, j, n - 1 - j, n - 1 - i);
+            for (int i = 0; i < n / 2; i++)
+                for (int j = 0; j < n; j++)
+                    swap(matrix, i, j, n - 1 - i, j);
+        }
+
+        public void rotate2(int[][] matrix) {
             int n = matrix.length;
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < n - i; j++)
