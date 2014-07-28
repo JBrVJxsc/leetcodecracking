@@ -3,6 +3,7 @@ package com.leetcode.onlinejudge.problems;
 import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -26,14 +27,43 @@ public class _19_Gray_Code extends BaseProblem implements IProblem {
 
     @Override
     public void run() {
-
+        print(new Solution().grayCode(2));
     }
 
     public class Solution {
         public List<Integer> grayCode(int n) {
-            double total = Math.pow(2, n);
+            List<Integer> list = new ArrayList<Integer>();
+            int total = (int) Math.pow(2, n);
+            for (int i = 0; i < total; i++) {
+                list.add(i ^ (i / 2));
+            }
+            return list;
+        }
 
-            return null;
+        public List<Integer> grayCode1(int n) {
+            List<Integer> list = new ArrayList<Integer>();
+            int total = (int) Math.pow(2, n);
+            for (int i = 0; i < total; i++)
+                list.add(i ^ (i / 2));
+            return list;
+        }
+
+        public List<Integer> grayCode2(int n) {
+            List<Integer> list = new ArrayList<Integer>();
+            int total = (int) Math.pow(2, n);
+            for (int i = 0; i < total; i++) {
+                list.add(i ^ (i / 2));
+            }
+            return list;
+        }
+
+        public List<Integer> grayCode3(int n) {
+            List<Integer> list = new ArrayList<Integer>();
+            int total = (int) Math.pow(2, n);
+            for (int i = 0; i < total; i++) {
+                list.add(i ^ (i / 2));
+            }
+            return list;
         }
     }
 }

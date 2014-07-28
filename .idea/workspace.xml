@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8300c76b-980b-4a23-a82e-2049d8d682a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_19_Gray_Code.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_18_Climbing_Stairs.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_18_Climbing_Stairs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_20_Set_Matrix_Zeroes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_21_Gas_Station.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_19_Gray_Code.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_19_Gray_Code.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCodeCracking.iws" />
@@ -30,100 +31,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_1_Remove_Duplicates_from_Sorted_Array.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_Remove_Duplicates_from_Sorted_Array.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_13_Permutation_Sequence.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_13_Permutation_Sequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2006">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_14_Valid_Sudoku.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_14_Valid_Sudoku.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="1224">
-              <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_15_Trapping_Rain_Water.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_15_Trapping_Rain_Water.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2448">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_16_Rotate_Image.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_16_Rotate_Image.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/base/MainForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1733" max-vertical-offset="4658">
-              <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_17_Plus_One.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_17_Plus_One.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_18_Climbing_Stairs.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_18_Climbing_Stairs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1394">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#745#754#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_19_Gray_Code.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_19_Gray_Code.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_19_Gray_Code.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79173046" vertical-offset="61" max-vertical-offset="765">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="598" max-vertical-offset="1275">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#1399#1408#0" expanded="true" />
+                <element signature="e#1687#1696#0" expanded="true" />
+                <element signature="e#1959#1968#0" expanded="true" />
+                <element signature="e#2247#2256#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_20_Set_Matrix_Zeroes.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_20_Set_Matrix_Zeroes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5982275" vertical-offset="1924" max-vertical-offset="2652">
+              <caret line="137" column="44" selection-start-line="137" selection-start-column="44" selection-end-line="137" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,12 +61,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="System.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/System.java">
+      <file leaf-file-name="_21_Gas_Station.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_21_Gas_Station.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7371" max-vertical-offset="20417">
-              <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/p32.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/p33.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/p1.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/olds/v1/p28.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/olds/v1/p30.java" />
@@ -205,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_17_Plus_One.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_18_Climbing_Stairs.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_19_Gray_Code.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_21_Gas_Station.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_20_Set_Matrix_Zeroes.java" />
       </list>
     </option>
   </component>
@@ -885,7 +817,11 @@
       <created>1406439093119</created>
       <updated>1406439093119</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Code">
+      <created>1406469239588</created>
+      <updated>1406469239588</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -960,20 +896,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/base/Parameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/olds/v1/_6_Binary_Tree_Preorder_Traversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/olds/v1/_10_Single_Number.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
@@ -1199,6 +1121,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1666">
           <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1148#1166#0" expanded="true" />
+            <element signature="e#1697#1715#0" expanded="true" />
+            <element signature="e#2246#2264#0" expanded="true" />
+            <element signature="e#2795#2813#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1342,8 +1271,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_19_Gray_Code.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79173046" vertical-offset="61" max-vertical-offset="765">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="598" max-vertical-offset="1275">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1399#1408#0" expanded="true" />
+            <element signature="e#1687#1696#0" expanded="true" />
+            <element signature="e#1959#1968#0" expanded="true" />
+            <element signature="e#2247#2256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_21_Gas_Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_20_Set_Matrix_Zeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5982275" vertical-offset="1924" max-vertical-offset="2652">
+          <caret line="137" column="44" selection-start-line="137" selection-start-column="44" selection-end-line="137" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
