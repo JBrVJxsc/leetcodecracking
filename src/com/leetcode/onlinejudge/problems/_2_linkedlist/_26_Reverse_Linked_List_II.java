@@ -21,12 +21,43 @@ public class _26_Reverse_Linked_List_II extends BaseProblem implements IProblem 
 
     @Override
     public void run() {
+        ListNode l1 = new ListNode(5);
+        ListNode l2 = new ListNode(4);
+        ListNode l3 = new ListNode(3);
+        ListNode l4 = new ListNode(2);
+        ListNode l5 = new ListNode(1);
 
+        l2.next = l1;
+        l3.next = l2;
+        l4.next = l3;
+        l5.next = l4;
+        ListNode node = new Solution().reverseBetween(l5, 2, 4);
     }
 
     public class Solution {
         public ListNode reverseBetween(ListNode head, int m, int n) {
-            return null;
+            int count = m - 1;
+            ListNode start = head;
+            while (count != 0) {
+                start = start.next;
+                count--;
+            }
+            reverse(start, m, n);
+            return head;
+        }
+
+        private void reverse(ListNode node, int start, int end) {
+            if (start >= end) return;
+            int count = end - start;
+            ListNode target = node;
+            while (count != 0) {
+                target = target.next;
+                count--;
+            }
+            int temp = target.val;
+            target.val = node.val;
+            node.val = temp;
+            reverse(node.next, ++start, --end);
         }
     }
 }
