@@ -21,17 +21,9 @@ public class _26_Reverse_Linked_List_II extends BaseProblem implements IProblem 
 
     @Override
     public void run() {
-        ListNode l1 = new ListNode(5);
-        ListNode l2 = new ListNode(4);
-        ListNode l3 = new ListNode(3);
-        ListNode l4 = new ListNode(2);
-        ListNode l5 = new ListNode(1);
-
-        l2.next = l1;
-        l3.next = l2;
-        l4.next = l3;
-        l5.next = l4;
-        ListNode node = new Solution().reverseBetween(l5, 2, 4);
+        ListNode l1 = ListNode.getListNode(1, 2, 3, 4, 5);
+        ListNode node = new Solution().reverseBetween(l1, 2, 4);
+        print(node);
     }
 
     public class Solution {

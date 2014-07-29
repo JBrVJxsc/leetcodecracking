@@ -20,20 +20,11 @@ public class _25_Add_Two_Numbers extends BaseProblem implements IProblem {
 
     @Override
     public void run() {
-        ListNode l1 = new ListNode(3);
-        ListNode l2 = new ListNode(4);
-        ListNode l3 = new ListNode(2);
+        ListNode l1 = ListNode.getListNode(2, 4, 3);
+        ListNode l2 = ListNode.getListNode(5, 6, 4);
 
-        l2.next = l1;
-        l3.next = l2;
-
-        ListNode l4 = new ListNode(4);
-        ListNode l5 = new ListNode(6);
-        ListNode l6 = new ListNode(5);
-        l5.next = l4;
-        l6.next = l5;
-
-        ListNode node = new Solution().addTwoNumbers(l3, l6);
+        ListNode node = new Solution().addTwoNumbers(l1, l2);
+        print(node);
     }
 
     public class Solution {

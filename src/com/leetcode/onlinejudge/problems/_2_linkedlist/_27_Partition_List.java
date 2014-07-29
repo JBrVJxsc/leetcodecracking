@@ -4,6 +4,8 @@ import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
 import com.leetcode.onlinejudge.common.ListNode;
 
+import java.util.Stack;
+
 /**
  * Created by Who on 2014/7/29.
  */
@@ -19,12 +21,33 @@ public class _27_Partition_List extends BaseProblem implements IProblem {
 
     @Override
     public void run() {
-
+        print(new Solution().partition(ListNode.getListNode(1, 4, 3, 2, 5, 2), 3));
+        print(new Solution().partition(ListNode.getListNode(2, 1), 2));
     }
 
     public class Solution {
         public ListNode partition(ListNode head, int x) {
-            return null;
+            Stack<ListNode> nodeStack = new Stack<ListNode>();
+            ListNode next = head;
+            while (next != null) {
+                nodeStack.push(next);
+                next = next.next;
+            }
+            while (!nodeStack.empty()) {
+                ListNode node = nodeStack.pop();
+                check(node, x);
+            }
+            return head;
+        }
+
+        private void check(ListNode node, int x) {
+            if (node.next == null) return;
+            if (node.val >= x && node.next.val < x) {
+                int temp = node.next.val;
+                node.next.val = node.val;
+                node.val = temp;
+                check(node.next, x);
+            }
         }
     }
 }
