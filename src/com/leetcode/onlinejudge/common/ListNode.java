@@ -12,6 +12,14 @@ public class ListNode {
         next = null;
     }
 
+    public ListNode getLastOne() {
+        ListNode next = this;
+        while (next.next != null) {
+            next = next.next;
+        }
+        return next;
+    }
+
     public static ListNode getListNode(int... values) {
         ListNode root = new ListNode(0);
         ListNode next = root;

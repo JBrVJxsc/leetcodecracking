@@ -24,8 +24,13 @@ public class _33_Reverse_Nodes_in_k_Group extends BaseProblem implements IProble
     public void run() {
         ListNode l1 = ListNode.getListNode(1, 2, 3, 4, 5);
         ListNode l2 = ListNode.getListNode(1, 2, 3, 4, 5, 6);
-        print(new Solution().reverseKGroup(l1, 2));
-        print(new Solution().reverseKGroup(l2, 3));
+        ListNode l3 = ListNode.getListNode(1, 2, 3, 4, 5, 6);
+//        print(new Solution().reverseKGroup(l1, 2));
+//        print(new Solution().reverseKGroup(l2, 3));
+        ListNode dummy = ListNode.getListNode(0);
+        dummy.next = l3;
+        print(new Solution().reverse(dummy, dummy.getLastOne().next));
+        print(dummy);
     }
 
     // A better solution.
@@ -51,15 +56,15 @@ public class _33_Reverse_Nodes_in_k_Group extends BaseProblem implements IProble
         }
 
         public ListNode reverse(ListNode pre, ListNode next) {
-            ListNode last = pre.next;
-            ListNode cur = last.next;
+            ListNode start = pre.next;
+            ListNode cur = start.next;
             while (cur != next) {
-                last.next = cur.next;
+                start.next = cur.next;
                 cur.next = pre.next;
                 pre.next = cur;
-                cur = last.next;
+                cur = start.next;
             }
-            return last;
+            return start;
         }
     }
 
