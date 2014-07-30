@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8300c76b-980b-4a23-a82e-2049d8d682a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_31_Remove_Nth_Node_From_End_of_List.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_32_Swap_Nodes_in_Pairs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_33_Reverse_Nodes_in_k_Group.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_30_Rotate_List.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_30_Rotate_List.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_33_Reverse_Nodes_in_k_Group.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_33_Reverse_Nodes_in_k_Group.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCodeCracking.iws" />
@@ -110,12 +107,10 @@
       <file leaf-file-name="_33_Reverse_Nodes_in_k_Group.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_33_Reverse_Nodes_in_k_Group.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7364341" vertical-offset="130" max-vertical-offset="663">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state vertical-scroll-proportion="2.0450819" vertical-offset="124" max-vertical-offset="1428">
+              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1161#1162#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -930,7 +925,11 @@
       <created>1406648295785</created>
       <updated>1406648295785</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Code">
+      <created>1406696275271</created>
+      <updated>1406696275271</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -943,7 +942,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38152173" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41195652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38152173" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -997,7 +996,7 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="75" />
+      <option name="time" value="91" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1442,12 +1441,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_33_Reverse_Nodes_in_k_Group.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7364341" vertical-offset="130" max-vertical-offset="663">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state vertical-scroll-proportion="2.0450819" vertical-offset="124" max-vertical-offset="1428">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
           </folding>
         </state>
       </provider>

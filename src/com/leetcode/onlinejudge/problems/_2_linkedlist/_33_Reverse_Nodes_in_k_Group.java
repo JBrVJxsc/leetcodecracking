@@ -22,12 +22,57 @@ public class _33_Reverse_Nodes_in_k_Group extends BaseProblem implements IProble
 
     @Override
     public void run() {
-
+        ListNode l1 = ListNode.getListNode(1, 2, 3, 4, 5);
+        ListNode l2 = ListNode.getListNode(1, 2, 3, 4, 5, 6);
+        print(new Solution().reverseKGroup(l1, 2));
+        print(new Solution().reverseKGroup(l2, 3));
     }
 
     public class Solution {
         public ListNode reverseKGroup(ListNode head, int k) {
-            return null;
+            if (head == null || k < 2) return head;
+            int counter = 0;
+            ListNode dummy = new ListNode(0);
+            dummy.next = head;
+            ListNode preStart = dummy;
+            ListNode start = head;
+            ListNode end = head;
+            while (end != null) {
+                counter++;
+                if (counter % k == 0) {
+                    reverse(preStart, start, 0, k - 1);
+                    // Because start is at the end now.
+                    preStart = start;
+                    end = start = preStart.next;
+                    continue;
+                }
+                end = end.next;
+            }
+            return dummy.next;
+        }
+
+        private void reverse(ListNode preStartNode, ListNode startNode, int start, int end) {
+            if (start >= end) return;
+            ListNode preEndNode = startNode;
+            int count = end - start;
+            while (count > 1) {
+                preEndNode = preEndNode.next;
+                count--;
+            }
+            ListNode endNode = preEndNode.next;
+            if (preEndNode == startNode) {
+                startNode.next = endNode.next;
+                endNode.next = startNode;
+                preStartNode.next = endNode;
+            } else {
+                ListNode tempStartNext = startNode.next;
+                startNode.next = endNode.next;
+                preEndNode.next = startNode;
+                preStartNode.next = endNode;
+                endNode.next = tempStartNext;
+                // End is at the start point now.
+                reverse(endNode, endNode.next, ++start, --end);
+            }
         }
     }
 }
