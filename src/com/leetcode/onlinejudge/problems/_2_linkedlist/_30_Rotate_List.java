@@ -21,17 +21,34 @@ public class _30_Rotate_List extends BaseProblem implements IProblem {
     @Override
     public void run() {
         ListNode l1 = ListNode.getListNode(1, 2, 3, 4, 5);
-        ListNode l2 = ListNode.getListNode(1);
-        print(new Solution().rotateRight(l2, 1));
+        ListNode l2 = ListNode.getListNode(1, 2, 3);
+        ListNode l3 = ListNode.getListNode(1);
+        print(new Solution().rotateRight(l3, 1));
     }
 
     public class Solution {
+
         public ListNode rotateRight(ListNode head, int n) {
-            return null;
+            if (head == null || n == 0) return head;
+            int length = 1;
+            ListNode next = head;
+            while (next.next != null) {
+                length++;
+                next = next.next;
+            }
+            next.next = head;
+            n = length - n % length;
+            ListNode preHead = next;
+            for (int i = 0; i < n; i++) {
+                preHead = preHead.next;
+            }
+            head = preHead.next;
+            preHead.next = null;
+            return head;
         }
     }
 
-    // My wrong answer.
+    // My solution with stack.
     public class Solution1 {
         public ListNode rotateRight(ListNode head, int n) {
             if (head == null || n == 0) return head;
@@ -43,7 +60,8 @@ public class _30_Rotate_List extends BaseProblem implements IProblem {
                 next = next.next;
                 count++;
             }
-            if (n >= count) return head;
+            n %= count;
+            if (n == 0) return head;
             ListNode result = null;
             ListNode tail = null;
             for (int i = 0; i < n; i++) {
