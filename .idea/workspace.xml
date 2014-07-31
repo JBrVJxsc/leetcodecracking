@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8300c76b-980b-4a23-a82e-2049d8d682a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_34_Copy_List_with_Random_Pointer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/common/RandomListNode.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/common/RandomListNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_35_Linked_List_Cycle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCodeCracking.iws" />
@@ -30,16 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_31_Remove_Nth_Node_From_End_of_List.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_31_Remove_Nth_Node_From_End_of_List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1156">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="41" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_32_Swap_Nodes_in_Pairs.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_32_Swap_Nodes_in_Pairs.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,16 +51,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_34_Copy_List_with_Random_Pointer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_34_Copy_List_with_Random_Pointer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_34_Copy_List_with_Random_Pointer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26844263" vertical-offset="311" max-vertical-offset="1224">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="1224">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#Solution1#0;class#_34_Copy_List_with_Random_Pointer#0" expanded="false" />
                 <element signature="e#2211#2236#0" expanded="true" />
                 <element signature="e#2307#2332#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_35_Linked_List_Cycle.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_35_Linked_List_Cycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.80122954" vertical-offset="0" max-vertical-offset="578">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/olds/v1/_14_Same_Tree.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/olds/v1/_15_Reverse_Integer.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/olds/v1/_16_Best_Time_to_Buy_and_Sell_Stock.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/olds/v1/_17_Best_Time_to_Buy_and_Sell_Stock_II.java" />
@@ -208,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_33_Reverse_Nodes_in_k_Group.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/common/RandomListNode.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_34_Copy_List_with_Random_Pointer.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_35_Linked_List_Cycle.java" />
       </list>
     </option>
   </component>
@@ -936,7 +937,11 @@
       <created>1406731357672</created>
       <updated>1406731357672</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Code">
+      <created>1406773027748</created>
+      <updated>1406773027748</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1011,13 +1016,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="85017">
-          <caret line="141" column="21" selection-start-line="141" selection-start-column="21" selection-end-line="141" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_3_Search_in_Rotated_Sorted_Array.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1177" max-vertical-offset="1972">
@@ -1396,13 +1394,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_34_Copy_List_with_Random_Pointer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26844263" vertical-offset="311" max-vertical-offset="1224">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="1224">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#Solution1#0;class#_34_Copy_List_with_Random_Pointer#0" expanded="false" />
             <element signature="e#2211#2236#0" expanded="true" />
             <element signature="e#2307#2332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_35_Linked_List_Cycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80122954" vertical-offset="0" max-vertical-offset="578">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
