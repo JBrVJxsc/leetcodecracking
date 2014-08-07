@@ -4,7 +4,6 @@ import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
 
 import java.util.HashMap;
-import java.util.LinkedList;
 
 /**
  * Created by Who on 2014/8/7.
@@ -19,37 +18,103 @@ public class _38_LRU_Cache extends BaseProblem implements IProblem {
 
     @Override
     public void run() {
-
+        LRUCache cache = new LRUCache(2);
+        cache.set(2, 1);
+        cache.set(1, 1);
+        cache.set(2, 3);
+        cache.set(4, 1);
+        print(cache.get(1));
+        print(cache.get(2));
     }
 
     public class LRUCache {
-
-        public class Node {
-            public Node preNode = null;
-            public Node nextNode = null;
-            public int key;
-            public int value;
-
-            public Node(int key, int value) {
-                this.key = key;
-                this.value = value;
-            }
-        }
-
-        private HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
-        private LinkedList<Integer> linkedList = new LinkedList<Integer>();
-        private int maxSize = 0;
+        private HashMap<Integer, Node> map
+                = new HashMap<Integer, Node>();
+        private Node head;
+        private Node end;
+        private int capacity;
+        private int len;
 
         public LRUCache(int capacity) {
-            maxSize = capacity;
+            this.capacity = capacity;
+            len = 0;
         }
 
         public int get(int key) {
-            return hashMap.get(key);
+            if (map.containsKey(key)) {
+                Node latest = map.get(key);
+                removeNode(latest);
+                setHead(latest);
+                return latest.val;
+            } else {
+                return -1;
+            }
+        }
+
+        public void removeNode(Node node) {
+            Node cur = node;
+            Node pre = cur.pre;
+            Node post = cur.next;
+
+            if (pre != null) {
+                pre.next = post;
+            } else {
+                head = post;
+            }
+
+            if (post != null) {
+                post.pre = pre;
+            } else {
+                end = pre;
+            }
+        }
+
+        public void setHead(Node node) {
+            node.next = head;
+            node.pre = null;
+            if (head != null) {
+                head.pre = node;
+            }
+
+            head = node;
+            if (end == null) {
+                end = node;
+            }
         }
 
         public void set(int key, int value) {
+            if (map.containsKey(key)) {
+                Node oldNode = map.get(key);
+                oldNode.val = value;
+                removeNode(oldNode);
+                setHead(oldNode);
+            } else {
+                Node newNode =
+                        new Node(key, value);
+                if (len < capacity) {
+                    len++;
+                } else {
+                    map.remove(end.key);
+                    end = end.pre;
+                    if (end != null) {
+                        end.next = null;
+                    }
+                }
+                setHead(newNode);
+                map.put(key, newNode);
+            }
+        }
+    }
 
+    class Node {
+        public int val;
+        public int key;
+        public Node pre;
+        public Node next;
+
+        public Node(int key, int value) {
+            val = value;
+            this.key = key;
         }
     }
 }
