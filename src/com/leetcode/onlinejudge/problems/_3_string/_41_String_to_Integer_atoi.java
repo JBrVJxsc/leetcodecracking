@@ -22,12 +22,32 @@ public class _41_String_to_Integer_atoi extends BaseProblem implements IProblem 
 
     @Override
     public void run() {
-
+        print(new Solution().atoi("+431"));
     }
 
     public class Solution {
         public int atoi(String str) {
-            return 0;
+            if (str.trim().length() == 0)
+                return 0;
+            char[] chars = str.trim().toCharArray();
+            int num = 0;
+            int len = chars.length;
+            int i = 0;
+            int sign = 1;
+            if (chars[0] == '+')
+                i++;
+            if (chars[0] == '-') {
+                sign = -1;
+                i++;
+            }
+            for (; i < len; i++) {
+                if (chars[i] < '0' || chars[i] > '9')
+                    break;
+                if (num > Integer.MAX_VALUE / 10 || num == Integer.MAX_VALUE / 10 && chars[i] - '0' > Integer.MAX_VALUE % 10)
+                    return sign == -1 ? Integer.MIN_VALUE : Integer.MAX_VALUE;
+                num = num * 10 + chars[i] - '0';
+            }
+            return num * sign;
         }
     }
 }
