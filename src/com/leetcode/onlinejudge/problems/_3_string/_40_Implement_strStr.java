@@ -15,12 +15,32 @@ public class _40_Implement_strStr extends BaseProblem implements IProblem {
 
     @Override
     public void run() {
-
+        String haystack = "abcdefj";
+        String needle = "cd";
+        print(new Solution().strStr(haystack, needle));
     }
 
     public class Solution {
         public String strStr(String haystack, String needle) {
-            return "";
+            if (needle.length() == 0 || needle.equals(haystack))
+                return haystack;
+            if (needle.length() > haystack.length())
+                return null;
+            int hLen = haystack.length();
+            int nLen = needle.length();
+            for (int i = 0; i < hLen; i++) {
+                char c = haystack.charAt(i);
+                if (c == needle.charAt(0) && hLen - i >= nLen) {
+                    int j = 1;
+                    for (; j < nLen; j++) {
+                        if (haystack.charAt(i + j) != needle.charAt(j))
+                            break;
+                    }
+                    if (j == nLen)
+                        return haystack.substring(i);
+                }
+            }
+            return null;
         }
     }
 }
