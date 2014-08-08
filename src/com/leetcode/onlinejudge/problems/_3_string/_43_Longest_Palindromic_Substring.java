@@ -14,61 +14,34 @@ public class _43_Longest_Palindromic_Substring extends BaseProblem implements IP
 
     @Override
     public void run() {
-        print(new Solution().longestPalindrome("abcdedcba"));
+        print(new Solution().longestPalindrome("civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth"));
+        print(new Solution().longestPalindrome("bb"));
     }
 
     public class Solution {
         public String longestPalindrome(String s) {
-            if (s == null)
-                return null;
-            if (s.length() <= 1)
-                return s;
-            int maxLen = 0;
-            String longestStr = null;
-            int length = s.length();
-            int[][] table = new int[length][length];
-            //every single letter is palindrome
-            for (int i = 0; i < length; i++) {
-                table[i][i] = 1;
-            }
-//            printTable(table);
-            //e.g. bcba
-            //two consecutive same letters are palindrome
-            for (int i = 0; i <= length - 2; i++) {
+            int n = s.length();
+            int longestStart = 0;
+            int maxLen = 1;
+            boolean[][] status = new boolean[n][n];
+            for (int i = 0; i < n; i++)
+                status[i][i] = true;
+            for (int i = 0; i < n - 1; i++)
                 if (s.charAt(i) == s.charAt(i + 1)) {
-                    table[i][i + 1] = 1;
-                    longestStr = s.substring(i, i + 2);
+                    status[i][i + 1] = true;
+                    longestStart = i;
+                    maxLen = 2;
                 }
-            }
-            printTable(table);
-            //condition for calculate whole table
-            for (int l = 3; l <= length; l++) {
-                for (int i = 0; i <= length - l; i++) {
-                    int j = i + l - 1;
-                    print(i + ", " + j);
-                    if (s.charAt(i) == s.charAt(j)) {
-                        table[i][j] = table[i + 1][j - 1];
-                        print((i + 1) + ", " + (j - 1));
-                        print();
-                        if (table[i][j] == 1 && l > maxLen)
-                            longestStr = s.substring(i, j + 1);
-                    } else {
-                        table[i][j] = 0;
+            for (int len = 3; len <= n; len++)
+                for (int i = 0; i < n - len + 1; i++) {
+                    int j = i + len - 1;
+                    if (s.charAt(i) == s.charAt(j) && status[i + 1][j - 1]) {
+                        status[i][j] = true;
+                        longestStart = i;
+                        maxLen = len;
                     }
-//                    printTable(table);
                 }
-            }
-            return longestStr;
-        }
-
-        public void printTable(int[][] x) {
-            for (int[] y : x) {
-                for (int z : y) {
-                    System.out.print(z + " ");
-                }
-                System.out.println();
-            }
-            System.out.println("------");
+            return s.substring(longestStart, longestStart + maxLen);
         }
     }
 }
