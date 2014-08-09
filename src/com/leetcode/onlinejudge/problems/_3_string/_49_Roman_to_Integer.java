@@ -15,11 +15,45 @@ public class _49_Roman_to_Integer extends BaseProblem implements IProblem {
 
     @Override
     public void run() {
-
+        print(new Solution().romanToInt("VI"));
+        print(new Solution().romanToInt("IV"));
+        print(new Solution().romanToInt("IIV"));
     }
 
     public class Solution {
         public int romanToInt(String s) {
+            int num = 0;
+            int index = s.length() - 1;
+            while (index >= 0) {
+                char c = s.charAt(index);
+                if (index > 0 && convert(c) > convert(s.charAt(index - 1)) && "IXC".contains(String.valueOf(s.charAt(index - 1)))) {
+                    num += convert(c) - convert(s.charAt(index - 1));
+                    index -= 2;
+                } else {
+                    num += convert(c);
+                    index--;
+                }
+            }
+            return num;
+        }
+
+        public int convert(char c) {
+            switch (c) {
+                case 'I':
+                    return 1;
+                case 'V':
+                    return 5;
+                case 'X':
+                    return 10;
+                case 'L':
+                    return 50;
+                case 'C':
+                    return 100;
+                case 'D':
+                    return 500;
+                case 'M':
+                    return 1000;
+            }
             return 0;
         }
     }
