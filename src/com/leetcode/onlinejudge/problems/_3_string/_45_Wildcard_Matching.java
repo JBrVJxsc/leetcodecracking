@@ -3,6 +3,8 @@ package com.leetcode.onlinejudge.problems._3_string;
 import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
 
+import java.util.Arrays;
+
 /**
  * Created by Who on 2014/8/8.
  */
@@ -23,6 +25,11 @@ public class _45_Wildcard_Matching extends BaseProblem implements IProblem {
                 "isMatch(\"aa\", \"a*\") → true\n" +
                 "isMatch(\"ab\", \"?*\") → true\n" +
                 "isMatch(\"aab\", \"c*a*b\") → false";
+    }
+
+    @Override
+    public String getNote() {
+        return "[UNSOLVED]";
     }
 
     @Override
@@ -58,6 +65,62 @@ public class _45_Wildcard_Matching extends BaseProblem implements IProblem {
                 match[0] = match[0] && p.charAt(i) == '*';
             }
             return match[m];
+        }
+
+        //DP:
+        public boolean isMatchDP(String s, String p) {
+            int n = s.length();
+            int m = p.length();
+            boolean[][] dp = new boolean[2][n + 1];
+            dp[m % 2][n] = true;
+
+            for (int i = m - 1; i >= 0; i--) {
+                Arrays.fill(dp[i % 2], false);
+                if (p.charAt(i) == '*')
+                    for (int j = n; j >= 0; j--) {
+                        if (dp[(i + 1) % 2][j]) {
+                            for (; j >= 0; j--)
+                                dp[i % 2][j] = true;
+                        }
+                    }
+                else
+                    for (int j = n - 1; j >= 0; j--)
+                        dp[i % 2][j] = (p.charAt(i) == s.charAt(j) || p.charAt(i) == '?') && dp[(i + 1) % 2][j + 1];
+
+            }
+            return dp[0][0];
+        }
+
+        //Greedy:
+        public boolean isMatchGreedy(String s, String p) {
+            int n = s.length();
+            int m = p.length();
+
+            int i = 0;
+            int j = 0;
+            int star = -1;
+            int sp = 0;
+
+            while (i < n) {
+                //one * and multiple *, same effect
+                while (j < m && p.charAt(j) == '*') {
+                    star = j++;  //* match 0 character
+                    sp = i;
+                }
+                if (j == m || (p.charAt(j) != s.charAt(i) && p.charAt(j) != '?')) {
+                    if (star < 0)
+                        return false;
+                    else {
+                        j = star + 1;
+                        i = ++sp;     //* match 1 character
+                    }
+                } else {
+                    i++;
+                    j++;
+                }
+            }
+            while (j < m && p.charAt(j) == '*') j++;
+            return j == m;
         }
     }
 }
