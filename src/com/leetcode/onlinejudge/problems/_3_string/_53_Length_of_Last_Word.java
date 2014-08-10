@@ -24,7 +24,17 @@ public class _53_Length_of_Last_Word extends BaseProblem implements IProblem {
 
     public class Solution {
         public int lengthOfLastWord(String s) {
-            return 0;
+            s = s.trim();
+            if (s.length() == 0) {
+                return 0;
+            }
+            int start = 0;
+            for (int i = 0; i < s.length(); i++) {
+                if (s.charAt(i) == ' ') {
+                    start = i + 1;
+                }
+            }
+            return s.length() - start;
         }
     }
 }
