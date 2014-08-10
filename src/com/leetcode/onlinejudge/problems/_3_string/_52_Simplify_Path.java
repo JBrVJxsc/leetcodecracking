@@ -24,6 +24,7 @@ public class _52_Simplify_Path extends BaseProblem implements IProblem {
 
     @Override
     public void run() {
+        print(new Solution().simplifyPath("/."));
         print(new Solution().simplifyPath("/home/"));
         print(new Solution().simplifyPath("/a/./b/../../c/"));
         print(new Solution().simplifyPath("/../"));
@@ -31,33 +32,37 @@ public class _52_Simplify_Path extends BaseProblem implements IProblem {
     }
 
     public class Solution {
-        // 384ms for 252 test cases
         public String simplifyPath(String path) {
-            if (path == null)
+            if (path == null) {
                 return null;
-            if (path.length() == 0)
+            }
+            if (path.trim().length() == 0) {
                 return "/";
-            int n = path.length();
+            }
+            StringBuffer stringBuffer = new StringBuffer();
             Stack<String> stack = new Stack<String>();
-            String[] directories = path.split("/");     // Separate path by "/"
-            for (String dir : directories) {
-                if (dir.length() != 0) {
-                    if (dir.equals("..")) {     // Go up to its parent
-                        if (!stack.empty())
-                            stack.pop();
-                    } else if (!dir.equals(".")) {  // Enter its subdirectory
-                        stack.push(dir);
+            String[] paths = path.split("/");
+            for (String i : paths) {
+                if (i.length() == 0) {
+                    continue;
+                }
+                if (i.equals("..")) {
+                    if (!stack.empty()) {
+                        stack.pop();
+                    }
+                } else {
+                    if (!i.equals(".")) {
+                        stack.push(i);
                     }
                 }
-                // No redundant "/"
             }
-            // Construct simplified path
-            if (stack.empty())  // No subdirectory
+            if (stack.size() == 0) {
                 return "/";
-            StringBuilder result = new StringBuilder();
-            for (String s : stack.toArray(new String[stack.size()]))
-                result.append("/" + s);
-            return result.toString();
+            }
+            for (String i : stack.toArray(new String[stack.size()])) {
+                stringBuffer.append("/" + i);
+            }
+            return stringBuffer.toString();
         }
     }
 }
