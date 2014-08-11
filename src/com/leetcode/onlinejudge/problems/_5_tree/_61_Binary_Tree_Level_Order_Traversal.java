@@ -33,8 +33,29 @@ public class _61_Binary_Tree_Level_Order_Traversal extends BaseProblem implement
 
     }
 
-    // My version with too much codes.
+    // A better version.
     public class Solution {
+        public List<List<Integer>> levelOrder(TreeNode root) {
+            List<List<Integer>> lists = new ArrayList<List<Integer>>();
+            get(lists, 0, root);
+            return lists;
+        }
+
+        private void get(List<List<Integer>> lists, int level, TreeNode node) {
+            if (node == null) {
+                return;
+            }
+            if (lists.size() == level) {
+                lists.add(level, new ArrayList<Integer>());
+            }
+            lists.get(level).add(node.val);
+            get(lists, level + 1, node.left);
+            get(lists, level + 1, node.right);
+        }
+    }
+
+    // My version with too much codes.
+    public class Solution1 {
         public List<List<Integer>> levelOrder(TreeNode root) {
             List<List<Integer>> lists = new ArrayList<List<Integer>>();
             HashMap<Integer, List<Integer>> hashMap = new HashMap<Integer, List<Integer>>();
