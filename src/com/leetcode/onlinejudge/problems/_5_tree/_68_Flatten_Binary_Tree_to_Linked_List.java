@@ -36,27 +36,49 @@ public class _68_Flatten_Binary_Tree_to_Linked_List extends BaseProblem implemen
 
     @Override
     public void run() {
-
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.left.left = new TreeNode(3);
+        new Solution().flatten(root);
+        root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.left.left = new TreeNode(3);
+        new Solution1().flatten(root);
     }
 
     public class Solution {
         public void flatten(TreeNode root) {
-            get(root);
+            if (root == null) {
+                return;
+            }
+            flatten(root.left);
+            flatten(root.right);
+            if (root.left == null) {
+                return;
+            }
+            TreeNode right = root.left;
+            while (right.right != null) {
+                right = right.right;
+            }
+            right.right = root.right;
+            root.right = root.left;
+            root.left = null;
+        }
+    }
+
+    // A shorter version.
+    public class Solution1 {
+        public void flatten(TreeNode root) {
+            flatten(root, null);
         }
 
-        private TreeNode get(TreeNode node) {
-            if (node == null) {
-                return null;
+        private TreeNode flatten(TreeNode root, TreeNode tail) {
+            if (root == null) {
+                return tail;
             }
-            TreeNode left = get(node.left);
-            TreeNode right = get(node.right);
-            node.right = left;
-            if (left == null) {
-                node.right = right;
-            } else {
-                node.right.right = right;
-            }
-            return node;
+            root.right = flatten(root.left, flatten(root.right, tail));
+            root.left = null;
+            return root;
         }
     }
 }
