@@ -17,12 +17,28 @@ public class _70_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal exten
 
     @Override
     public void run() {
-
+        print(new Solution().buildTree(new int[]{1, 2, 3}, new int[]{2, 1, 3}));
     }
 
     public class Solution {
         public TreeNode buildTree(int[] preorder, int[] inorder) {
-            return null;
+            return build(inorder, 0, inorder.length - 1, preorder, 0, preorder.length - 1);
+        }
+
+        private TreeNode build(int[] in, int inS, int inE, int[] pre, int pS, int pE) {
+            if (inS > inE || pS > pE) {
+                return null;
+            }
+            TreeNode root = new TreeNode(pre[pS]);
+            int index = inS;
+            for (; index <= inE; index++) {
+                if (in[index] == root.val) {
+                    break;
+                }
+            }
+            root.left = build(in, inS, index - 1, pre, pS + 1, pS + 1 + (index - inS - 1));
+            root.right = build(in, index + 1, inE, pre, pS + 1 + (index - inS - 1) + 1, pE);
+            return root;
         }
     }
 }

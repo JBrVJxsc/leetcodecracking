@@ -15,12 +15,28 @@ public class _71_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal exte
 
     @Override
     public void run() {
-
+        print(new Solution().buildTree(new int[]{-1}, new int[]{-1}));
     }
 
     public class Solution {
         public TreeNode buildTree(int[] inorder, int[] postorder) {
-            return null;
+            return build(inorder, 0, inorder.length - 1, postorder, 0, postorder.length - 1);
+        }
+
+        private TreeNode build(int[] in, int inS, int inE, int[] post, int pS, int pE) {
+            if (inS > inE || pS > pE) {
+                return null;
+            }
+            TreeNode root = new TreeNode(post[pE]);
+            int index = inS;
+            for (; index < inE; index++) {
+                if (in[index] == root.val) {
+                    break;
+                }
+            }
+            root.left = build(in, inS, index - 1, post, pS, pS + (index - inS - 1));
+            root.right = build(in, index + 1, inE, post, pS + (index - inS - 1) + 1, pE - 1);
+            return root;
         }
     }
 }
