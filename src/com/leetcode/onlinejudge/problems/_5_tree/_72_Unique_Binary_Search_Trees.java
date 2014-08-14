@@ -21,12 +21,19 @@ public class _72_Unique_Binary_Search_Trees extends BaseProblem implements IProb
 
     @Override
     public void run() {
-
+        print(new Solution().numTrees(3));
     }
 
     public class Solution {
         public int numTrees(int n) {
-            return 0;
+            int[] nums = new int[n + 1];
+            nums[0] = 1;
+            for (int i = 1; i <= n; i++) {
+                for (int j = 0; j < i; j++) {
+                    nums[i] += nums[j] * nums[i - 1 - j];
+                }
+            }
+            return nums[n];
         }
     }
 }
