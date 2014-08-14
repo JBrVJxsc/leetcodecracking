@@ -28,9 +28,34 @@ public class _79_Path_Sum extends BaseProblem implements IProblem {
 
     }
 
+    // A better one.
     public class Solution {
         public boolean hasPathSum(TreeNode root, int sum) {
-            return true;
+            if (root == null) {
+                return false;
+            }
+            if (root.val == sum && root.left == null && root.right == null) {
+                return true;
+            }
+            return hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val);
+        }
+    }
+
+    // My solution.
+    public class Solution1 {
+        public boolean hasPathSum(TreeNode root, int sum) {
+            return has(root, 0, sum);
+        }
+
+        private boolean has(TreeNode node, int cur, int sum) {
+            if (node == null) {
+                return false;
+            }
+            cur += node.val;
+            if (cur == sum && node.left == null && node.right == null) {
+                return true;
+            }
+            return has(node.left, cur, sum) || has(node.right, cur, sum);
         }
     }
 }
