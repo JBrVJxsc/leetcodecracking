@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8300c76b-980b-4a23-a82e-2049d8d682a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_73_Unique_Binary_Search_Trees_II.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_74_Validate_Binary_Search_Tree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_72_Unique_Binary_Search_Trees.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_72_Unique_Binary_Search_Trees.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_75_Convert_Sorted_Array_to_Binary_Search_Tree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_76_Convert_Sorted_List_to_Binary_Search_Tree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_77_Minimum_Depth_of_Binary_Tree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_78_Maximum_Depth_of_Binary_Tree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_79_Path_Sum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_74_Validate_Binary_Search_Tree.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_74_Validate_Binary_Search_Tree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCodeCracking.iws" />
@@ -61,15 +64,102 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_74_Validate_Binary_Search_Tree.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_74_Validate_Binary_Search_Tree.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_74_Validate_Binary_Search_Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8907923" vertical-offset="26" max-vertical-offset="612">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="1003">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
+                <element signature="class#Solution#0;class#_74_Validate_Binary_Search_Tree#0" expanded="false" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1681#1690#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_75_Convert_Sorted_Array_to_Binary_Search_Tree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_75_Convert_Sorted_Array_to_Binary_Search_Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="476">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="class#Solution#0;class#_75_Convert_Sorted_Array_to_Binary_Search_Tree#0" expanded="false" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_76_Convert_Sorted_List_to_Binary_Search_Tree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_76_Convert_Sorted_List_to_Binary_Search_Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#823#832#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_77_Minimum_Depth_of_Binary_Tree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_77_Minimum_Depth_of_Binary_Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="867">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_78_Maximum_Depth_of_Binary_Tree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_78_Maximum_Depth_of_Binary_Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="493">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#Solution#0;class#_78_Maximum_Depth_of_Binary_Tree#0" expanded="false" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_79_Path_Sum.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_79_Path_Sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.1212121" vertical-offset="137" max-vertical-offset="714">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/common/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,11 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_28_Remove_Duplicates_from_Sorted_List.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_29_Remove_Duplicates_from_Sorted_List_II.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_30_Rotate_List.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_31_Remove_Nth_Node_From_End_of_List.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_32_Swap_Nodes_in_Pairs.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/common/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_33_Reverse_Nodes_in_k_Group.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/common/RandomListNode.java" />
@@ -139,6 +224,11 @@
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_72_Unique_Binary_Search_Trees.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_73_Unique_Binary_Search_Trees_II.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_74_Validate_Binary_Search_Tree.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_75_Convert_Sorted_Array_to_Binary_Search_Tree.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_76_Convert_Sorted_List_to_Binary_Search_Tree.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_77_Minimum_Depth_of_Binary_Tree.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_78_Maximum_Depth_of_Binary_Tree.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_79_Path_Sum.java" />
       </list>
     </option>
   </component>
@@ -847,7 +937,11 @@
       <created>1407941348394</created>
       <updated>1407941348394</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Code">
+      <created>1408020443386</created>
+      <updated>1408020443387</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -860,7 +954,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18421052" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21546052" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20559211" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -920,7 +1014,7 @@
           <option name="timeStamp" value="230" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="240" />
+      <option name="time" value="244" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -928,41 +1022,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2681" max-vertical-offset="20349">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_37_Reorder_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="901">
-          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_2_linkedlist/_38_LRU_Cache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="2142">
-          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_3_string/_39_Valid_Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="1003">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="27217">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_3_string/_42_Add_Binary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="1581">
@@ -1195,14 +1254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/common/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="425">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/common/TreeLinkNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
@@ -1295,12 +1346,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_74_Validate_Binary_Search_Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8907923" vertical-offset="26" max-vertical-offset="612">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="1003">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
+            <element signature="class#Solution#0;class#_74_Validate_Binary_Search_Tree#0" expanded="false" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1681#1690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/common/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_75_Convert_Sorted_Array_to_Binary_Search_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="476">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="class#Solution#0;class#_75_Convert_Sorted_Array_to_Binary_Search_Tree#0" expanded="false" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_76_Convert_Sorted_List_to_Binary_Search_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#823#832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_78_Maximum_Depth_of_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="493">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Solution#0;class#_78_Maximum_Depth_of_Binary_Tree#0" expanded="false" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_77_Minimum_Depth_of_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="867">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_79_Path_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1212121" vertical-offset="137" max-vertical-offset="714">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
           </folding>
         </state>
       </provider>
