@@ -32,7 +32,14 @@ public class _80_Path_Sum_II extends BaseProblem implements IProblem {
 
     @Override
     public void run() {
+        TreeNode node = TreeNode.getTreeNode(5, 4, 8, 11, TreeNode.N, 13, 4, 7, 2, TreeNode.N, TreeNode.N, TreeNode.N, TreeNode.N, 5, 1);
+        TreeNode node1 = TreeNode.getTreeNode(5, 4, 8, 11, TreeNode.N, 13, 4, 7, 2, TreeNode.N, TreeNode.N, TreeNode.N, TreeNode.N, 5, 1, TreeNode.N, TreeNode.N, TreeNode.N, TreeNode.N, TreeNode.N, TreeNode.N);
+        print(node.toLongArray());
+        print(node1.toLongArray());
 
+        print(node.getDepth());
+        print(node.size());
+        print(new Solution().pathSum(node, 22));
     }
 
     public class Solution {
@@ -47,13 +54,12 @@ public class _80_Path_Sum_II extends BaseProblem implements IProblem {
             if (node == null) {
                 return;
             }
+            list.add(node.val);
             if (node.left == null && node.right == null && sum == node.val) {
-                list.add(node.val);
                 lists.add(new ArrayList<Integer>(list));
                 list.remove(list.size() - 1);
                 return;
             }
-            list.add(node.val);
             get(lists, list, node.left, sum - node.val);
             get(lists, list, node.right, sum - node.val);
             list.remove(list.size() - 1);
