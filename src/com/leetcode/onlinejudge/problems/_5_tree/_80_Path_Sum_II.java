@@ -32,10 +32,8 @@ public class _80_Path_Sum_II extends BaseProblem implements IProblem {
 
     @Override
     public void run() {
-        TreeNode node = TreeNode.getTreeNode(5, 4, 8, 11, TreeNode.N, 13, 4, 7, 2, TreeNode.N, TreeNode.N, TreeNode.N, TreeNode.N, 5, 1);
-        TreeNode node1 = TreeNode.getTreeNode(5, 4, 8, 11, TreeNode.N, 13, 4, 7, 2, TreeNode.N, TreeNode.N, TreeNode.N, TreeNode.N, 5, 1, TreeNode.N, TreeNode.N, TreeNode.N, TreeNode.N, TreeNode.N, TreeNode.N);
-        print(node.toLongArray());
-        print(node1.toLongArray());
+        TreeNode node = TreeNode.getTreeNode(5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, null, 5, 1);
+        print(node.toArray());
 
         print(node.getDepth());
         print(node.size());

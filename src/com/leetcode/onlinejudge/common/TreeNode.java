@@ -11,21 +11,20 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
-    public static final long N = Long.MIN_VALUE;
     private int size = 0;
 
     public TreeNode(int x) {
         val = x;
     }
 
-    public static TreeNode getTreeNode(long... values) {
+    public static TreeNode getTreeNode(Integer... values) {
         if (values.length == 0) {
             return null;
         }
         TreeNode[] treeNodes = new TreeNode[values.length + 1];
         for (int i = 0; i < values.length; i++) {
-            long value = values[i];
-            if (value == N) {
+            Integer value = values[i];
+            if (value == null) {
                 continue;
             }
             treeNodes[i + 1] = new TreeNode((int) value);
@@ -68,29 +67,26 @@ public class TreeNode {
         return Math.max(getDepth(node.left, depth + 1), getDepth(node.right, depth + 1));
     }
 
-    public long[] toLongArray() {
+    public Integer[] toArray() {
         int depth = getDepth();
-        long[] nodes = new long[(int) Math.pow(2, depth) + 1];
-        fillLongArray(nodes, this, 1);
+        Integer[] nodes = new Integer[(int) Math.pow(2, depth) + 1];
+        fillArray(nodes, this, 1);
         int nullCounter = 0;
         int index = nodes.length - 1;
-        while (index > 0 && nodes[index] == N) {
+        while (index > 0 && nodes[index] == null) {
             nullCounter++;
             index--;
         }
         return Arrays.copyOfRange(nodes, 1, nodes.length - nullCounter);
     }
 
-    private void fillLongArray(long[] nodes, TreeNode node, int index) {
+    private void fillArray(Integer[] nodes, TreeNode node, int index) {
         if (node == null) {
-            if (index < nodes.length) {
-                nodes[index] = N;
-            }
             return;
         }
         nodes[index] = node.val;
-        fillLongArray(nodes, node.left, index * 2);
-        fillLongArray(nodes, node.right, index * 2 + 1);
+        fillArray(nodes, node.left, index * 2);
+        fillArray(nodes, node.right, index * 2 + 1);
     }
 
     @Override

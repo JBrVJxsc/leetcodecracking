@@ -65,7 +65,11 @@ public abstract class BaseProblem {
     protected String print(Object[] objects) {
         String string = "";
         for (Object object : objects) {
-            string += object.toString() + " ";
+            if (object == null) {
+                string += "null" + " ";
+            } else {
+                string += object.toString() + " ";
+            }
         }
         return print(string);
     }
