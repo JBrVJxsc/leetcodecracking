@@ -57,7 +57,15 @@ public abstract class BaseProblem {
         String string = "";
         Iterator iterator = list.iterator();
         while (iterator.hasNext()) {
-            string += iterator.next().toString() + " ";
+            Object object = iterator.next();
+            if (object == null) {
+                string += "null" + ", ";
+            } else {
+                string += iterator.next().toString() + ", ";
+            }
+        }
+        if (string.length() > 2) {
+            string = string.substring(0, string.length() - 2);
         }
         return print(string);
     }
@@ -66,10 +74,13 @@ public abstract class BaseProblem {
         String string = "";
         for (Object object : objects) {
             if (object == null) {
-                string += "null" + " ";
+                string += "null" + ", ";
             } else {
-                string += object.toString() + " ";
+                string += object.toString() + ", ";
             }
+        }
+        if (string.length() > 2) {
+            string = string.substring(0, string.length() - 2);
         }
         return print(string);
     }
