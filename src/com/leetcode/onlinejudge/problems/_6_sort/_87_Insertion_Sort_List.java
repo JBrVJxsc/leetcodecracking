@@ -15,12 +15,24 @@ public class _87_Insertion_Sort_List extends BaseProblem implements IProblem {
 
     @Override
     public void run() {
-
+        print(new Solution().insertionSortList(ListNode.getListNode(3, 2, 1, 5, 4, 7, 6)));
     }
 
     public class Solution {
         public ListNode insertionSortList(ListNode head) {
-            return null;
+            ListNode dummy = new ListNode(Integer.MIN_VALUE);
+            ListNode next = head;
+            while (next != null) {
+                ListNode dummyNext = dummy;
+                while (dummyNext.next != null && dummyNext.next.val < next.val) {
+                    dummyNext = dummyNext.next;
+                }
+                ListNode temp = next.next;
+                next.next = dummyNext.next;
+                dummyNext.next = next;
+                next = temp;
+            }
+            return dummy.next;
         }
     }
 }
