@@ -31,12 +31,17 @@ public class _80_Path_Sum_II extends BaseProblem implements IProblem {
     }
 
     @Override
+    public String getNote() {
+        return "The reason that removing the last one inserted: " +
+                "If do not do this, the List will be filled with whole tree;" +
+                "If do this, you can image that the List is a hand which continually in and out from the tree," +
+                "when whole search has been done, the List will be empty.";
+    }
+
+    @Override
     public void run() {
         TreeNode node = TreeNode.getTreeNode(5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, null, 5, 1);
         print(node.toArray());
-
-        print(node.getDepth());
-        print(node.size());
         print(new Solution().pathSum(node, 22));
     }
 
@@ -78,7 +83,7 @@ public class _80_Path_Sum_II extends BaseProblem implements IProblem {
             }
             list.add(node.val);
             if (node.val == sum && node.left == null && node.right == null) {
-                lists.add(list);
+                lists.add(new ArrayList<Integer>(list));
             }
             get(lists, list, node.left, sum - node.val);
             get(lists, list, node.right, sum - node.val);
