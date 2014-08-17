@@ -19,6 +19,8 @@ public class _89_First_Missing_Positive extends BaseProblem implements IProblem 
     @Override
     public void run() {
         Solution solution = new Solution();
+        print(solution.firstMissingPositive(new int[]{100, 99, 1}));
+        print(solution.firstMissingPositive(new int[]{100, 99}));
         print(solution.firstMissingPositive(new int[]{9, -1, 2, 2, 2, 3, 4, 5, 6, 7}));
         print(solution.firstMissingPositive(new int[]{-1, 8, 234, 10, 3, 4, 5, 6, 7}));
         print(solution.firstMissingPositive(new int[]{3, 4, 5, 6, 7}));
