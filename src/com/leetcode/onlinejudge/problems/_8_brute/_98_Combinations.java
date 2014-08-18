@@ -3,7 +3,7 @@ package com.leetcode.onlinejudge.problems._8_brute;
 import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Created by Who on 2014/8/18.
@@ -25,13 +25,68 @@ public class _98_Combinations extends BaseProblem implements IProblem {
     }
 
     @Override
-    public void run() {
-        new Solution().combine(3, 3);
+    public String getNote() {
+        return "UNSOLVED";
     }
 
+    @Override
+    public void run() {
+        new Solution().combine(4, 2);
+    }
+
+    // Solution one.
     public class Solution {
-        public List<List<Integer>> combine(int n, int k) {
-            return null;
+        public ArrayList<ArrayList<Integer>> combine(int n, int k) {
+            if (n <= 0 || k <= 0) {
+                return null;
+            }
+            ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
+            int start = 1;
+            int num = 0;
+            ArrayList<Integer> subResult = new ArrayList<Integer>();
+            buildResult(start, num, n, k, subResult, result);
+            return result;
+        }
+
+        // DFS classical format
+        private void buildResult(int start, int currentNum, int n, int k, ArrayList<Integer> subResult, ArrayList<ArrayList<Integer>> result) {
+            if (currentNum == k) {
+                ArrayList<Integer> temp = new ArrayList<Integer>(subResult);
+                result.add(temp);
+                return;
+            }
+            for (int i = start; i <= n; i++) {
+                subResult.add(i);
+                buildResult(i + 1, currentNum + 1, n, k, subResult, result);
+                subResult.remove(subResult.size() - 1);
+            }
+        }
+    }
+
+    // Solution two.
+    public class Solution1 {
+        public ArrayList<ArrayList<Integer>> combine(int n, int k) {
+            ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
+            ArrayList<Integer> subset = new ArrayList<Integer>();
+            int[] num = new int[n];
+            for (int j = 0; j < n; j++) {
+                num[j] = j + 1;
+            }
+            subsets(n, k, num, 0, subset, result);
+            return result;
+        }
+
+        private void subsets(int n, int k, int[] num, int begin, ArrayList<Integer> subset, ArrayList<ArrayList<Integer>> result) {
+            if (subset.size() >= k) {
+                ArrayList<Integer> c = new ArrayList<Integer>(subset);
+                result.add(c);
+            } else {
+                for (int i = begin; i < num.length; i++) {
+                    subset.add(num[i]);
+                    subsets(n, k, num, i + 1, subset, result);
+                    subset.remove(subset.size() - 1);
+                }
+            }
         }
     }
 }
