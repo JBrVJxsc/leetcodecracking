@@ -28,6 +28,30 @@ public class _89_First_Missing_Positive extends BaseProblem implements IProblem 
 
     public class Solution {
         public int firstMissingPositive(int[] A) {
+            if (A == null || A.length == 0) {
+                return 1;
+            }
+            int i = 0;
+            while (i < A.length) {
+                if (A[i] > 0 && A[i] <= A.length && A[i] != i + 1 && A[A[i] - 1] != A[i]) {
+                    int temp = A[A[i] - 1];
+                    A[A[i] - 1] = A[i];
+                    A[i] = temp;
+                } else {
+                    i++;
+                }
+            }
+            for (i = 0; i < A.length; i++) {
+                if (A[i] != i + 1) {
+                    break;
+                }
+            }
+            return i + 1;
+        }
+    }
+
+    public class Solution1 {
+        public int firstMissingPositive(int[] A) {
             int i = 0;
             while (i < A.length) {
                 if (A[i] != i + 1 && A[i] >= 1 && A[i] <= A.length && A[A[i] - 1] != A[i]) {
