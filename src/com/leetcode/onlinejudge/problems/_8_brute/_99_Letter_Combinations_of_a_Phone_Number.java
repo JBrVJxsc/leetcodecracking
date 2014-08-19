@@ -34,10 +34,8 @@ public class _99_Letter_Combinations_of_a_Phone_Number extends BaseProblem imple
                 return result;
             }
             String[] strings = new String[]{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-            int len = digits.length();
-            char[] chars = digits.toCharArray();
-            for (int i = 0; i < len; i++) {
-                char[] cs = strings[Integer.parseInt(String.valueOf(chars[i]))].toCharArray();
+            for (int i = 0; i < digits.length(); i++) {
+                char[] cs = strings[Integer.parseInt(String.valueOf(digits.charAt(i)))].toCharArray();
                 if (result.size() > 0) {
                     int size = result.size();
                     for (int index = 0; index < size; index++) {
@@ -54,7 +52,7 @@ public class _99_Letter_Combinations_of_a_Phone_Number extends BaseProblem imple
                     }
                 }
             }
-            while (result.get(0).length() < len) {
+            while (result.get(0).length() < digits.length()) {
                 result.remove(0);
             }
             return result;
