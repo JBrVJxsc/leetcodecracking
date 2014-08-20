@@ -86,6 +86,9 @@ public abstract class BaseProblem {
     }
 
     protected String print(Object object) {
+        if (object == null) {
+            return print("null");
+        }
         String string = object.toString();
         return print(string);
     }
