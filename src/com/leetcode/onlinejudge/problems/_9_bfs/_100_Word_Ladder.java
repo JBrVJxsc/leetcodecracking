@@ -3,7 +3,9 @@ package com.leetcode.onlinejudge.problems._9_bfs;
 import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
 
+import java.util.ArrayDeque;
 import java.util.HashSet;
+import java.util.Queue;
 import java.util.Set;
 
 /**
@@ -39,8 +41,37 @@ public class _100_Word_Ladder extends BaseProblem implements IProblem {
         print(new Solution().ladderLength("hit", "cog", dict));
     }
 
-    // My TLE solution.
     public class Solution {
+        public int ladderLength(String start, String end, Set<String> dict) {
+            Queue<String> queue = new ArrayDeque<String>();
+            Queue<Integer> length = new ArrayDeque<Integer>();
+            queue.add(start);
+            length.add(1);
+            while (!queue.isEmpty()) {
+                String string = queue.remove();
+                int curLen = length.remove();
+                for (int i = 0; i < string.length(); i++) {
+                    char[] chars = string.toCharArray();
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        chars[i] = c;
+                        String str = String.valueOf(chars);
+                        if (str.equals(end)) {
+                            return curLen + 1;
+                        }
+                        if (!str.equals(string) && dict.contains(str)) {
+                            dict.remove(str);
+                            queue.add(str);
+                            length.add(curLen + 1);
+                        }
+                    }
+                }
+            }
+            return 0;
+        }
+    }
+
+    // My TLE solution.
+    public class Solution1 {
 
         private int minLen = 0;
 
