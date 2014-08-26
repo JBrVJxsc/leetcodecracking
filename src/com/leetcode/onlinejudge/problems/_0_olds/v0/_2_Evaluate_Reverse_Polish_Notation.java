@@ -1,4 +1,4 @@
-package com.leetcode.onlinejudge.problems._0_olds.v1;
+package com.leetcode.onlinejudge.problems._0_olds.v0;
 
 import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;

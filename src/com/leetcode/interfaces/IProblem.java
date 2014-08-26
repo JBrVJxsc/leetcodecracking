@@ -10,6 +10,8 @@ public interface IProblem {
 
     boolean isValid();
 
+    int getVersion();
+
     long getID();
 
     String getName();

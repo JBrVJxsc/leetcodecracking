@@ -30,16 +30,25 @@ public class _101_Word_Ladder_II extends BaseProblem implements IProblem {
     }
 
     @Override
-    public void run() {
-        Set<String> dict = new HashSet<String>();
-        dict.add("hot");
-        dict.add("dot");
-        dict.add("dog");
-        dict.add("lot");
-        dict.add("log");
-        print(new Solution().findLadders("hit", "cog", dict));
+    public String getNote() {
+        return "UNSOLVED";
     }
 
+    @Override
+    public void run() {
+        Set<String> dict = new HashSet<String>();
+        dict.add("ted");
+        dict.add("tex");
+        dict.add("red");
+        dict.add("tax");
+        dict.add("tad");
+        dict.add("den");
+        dict.add("rex");
+        dict.add("pee");
+        print(new Solution().findLadders("red", "tax", dict));
+    }
+
+    // My wrong solution.
     public class Solution {
         public List<List<String>> findLadders(String start, String end, Set<String> dict) {
             List<List<String>> lists = new ArrayList<List<String>>();
