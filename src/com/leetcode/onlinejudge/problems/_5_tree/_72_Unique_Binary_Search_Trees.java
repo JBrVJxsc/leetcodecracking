@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _72_Unique_Binary_Search_Trees extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given n, how many structurally unique BST's (binary search trees) that store values 1...n?\n" +
                 "For example,\n" +

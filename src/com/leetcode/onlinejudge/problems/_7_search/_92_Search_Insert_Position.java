@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _92_Search_Insert_Position extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.\n" +
                 "You may assume no duplicates in the array.\n" +

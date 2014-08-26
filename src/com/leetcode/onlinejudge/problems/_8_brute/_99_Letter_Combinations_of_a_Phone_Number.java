@@ -11,6 +11,11 @@ import java.util.List;
  */
 public class _99_Letter_Combinations_of_a_Phone_Number extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a digit string, return all possible letter combinations that the number could represent.\n" +
                 "A mapping of digit to letters (just like on the telephone buttons) is given below.\n" +

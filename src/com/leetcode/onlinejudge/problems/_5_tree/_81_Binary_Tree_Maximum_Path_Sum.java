@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
  */
 public class _81_Binary_Tree_Maximum_Path_Sum extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, find the maximum path sum.\n" +
                 "The path may start and end at any node in the tree.\n" +

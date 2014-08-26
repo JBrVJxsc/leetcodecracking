@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class _95_Subsets_II extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a collection of integers that might contain duplicates, S, return all possible subsets.\n" +
                 "Note:\n" +

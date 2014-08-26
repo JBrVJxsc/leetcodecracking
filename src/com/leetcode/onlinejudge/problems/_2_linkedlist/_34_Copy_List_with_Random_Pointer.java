@@ -11,6 +11,11 @@ import java.util.HashMap;
  */
 public class _34_Copy_List_with_Random_Pointer extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null.\n" +
                 "Return a deep copy of the list.";

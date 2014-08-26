@@ -10,6 +10,11 @@ import java.util.Stack;
  */
 public class _52_Simplify_Path extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given an absolute path for a file (Unix-style), simplify it.\n" +
                 "For example,\n" +

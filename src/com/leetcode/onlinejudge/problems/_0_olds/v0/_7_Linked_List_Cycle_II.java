@@ -15,6 +15,11 @@ public class _7_Linked_List_Cycle_II extends BaseProblem implements IProblem {
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getName() {
         return "[HELPED]Linked List Cycle II";
     }

@@ -14,6 +14,11 @@ public class _1_Reverse_Words_in_a_String extends BaseProblem implements IProble
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Given an input string, reverse the string word by word.\n" +
                 "For example,\n" +

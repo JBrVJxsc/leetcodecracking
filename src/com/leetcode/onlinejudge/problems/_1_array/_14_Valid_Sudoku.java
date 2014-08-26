@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _14_Valid_Sudoku extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules\n" +
                 "http://sudoku.com.au/TheRules.aspx .\n" +

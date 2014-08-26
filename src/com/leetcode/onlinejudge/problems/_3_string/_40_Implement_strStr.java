@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _40_Implement_strStr extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Implement strStr().\n" +
                 "Returns a pointer to the first occurrence of needle in haystack, or null if needle is not part of haystack.";

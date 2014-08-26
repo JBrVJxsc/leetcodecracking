@@ -10,6 +10,11 @@ import java.util.ArrayList;
  */
 public class _98_Combinations extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.\n" +
                 "For example,\n" +

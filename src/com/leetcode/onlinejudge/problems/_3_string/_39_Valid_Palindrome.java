@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _39_Valid_Palindrome extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.\n" +
                 "For example,\n" +

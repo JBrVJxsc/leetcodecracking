@@ -10,6 +10,11 @@ import java.util.HashMap;
  */
 public class _7_Two_Sum extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given an array of integers, find two numbers such that they add up to a specific target number.\n" +
                 "The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.\n" +

@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _91_Search_for_a_Range extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a sorted array of integers, find the starting and ending position of a given target value.\n" +
                 "Your algorithm's runtime complexity must be in the order of O(log n).\n" +

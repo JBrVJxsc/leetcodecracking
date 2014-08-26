@@ -10,6 +10,11 @@ import java.util.Arrays;
  */
 public class _84_Merge_Sorted_Array extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given two sorted integer arrays A and B, merge B into A as one sorted array.\n" +
                 "Note:\n" +

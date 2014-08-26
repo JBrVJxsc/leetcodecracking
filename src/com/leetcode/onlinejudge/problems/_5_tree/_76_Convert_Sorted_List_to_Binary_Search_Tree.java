@@ -13,6 +13,11 @@ import java.util.List;
  */
 public class _76_Convert_Sorted_List_to_Binary_Search_Tree extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.";
     }

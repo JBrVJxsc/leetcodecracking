@@ -18,6 +18,11 @@ public class _6_Binary_Tree_Preorder_Traversal extends BaseProblem implements IP
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, return the preorder traversal of its nodes' values.\n" +
                 "For example:\n" +

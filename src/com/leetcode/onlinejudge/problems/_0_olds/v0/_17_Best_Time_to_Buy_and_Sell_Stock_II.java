@@ -17,6 +17,11 @@ public class _17_Best_Time_to_Buy_and_Sell_Stock_II extends BaseProblem implemen
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getName() {
         return "[HELPED: TLE]Best Time to Buy and Sell Stock II";
     }

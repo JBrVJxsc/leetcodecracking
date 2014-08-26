@@ -14,6 +14,11 @@ public class _20_Search_Insert_Position extends BaseProblem implements IProblem 
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.\n" +
                 "You may assume no duplicates in the array.\n" +

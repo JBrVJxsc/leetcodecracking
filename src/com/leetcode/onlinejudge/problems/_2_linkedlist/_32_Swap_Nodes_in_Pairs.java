@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.ListNode;
  */
 public class _32_Swap_Nodes_in_Pairs extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a linked list, swap every two adjacent nodes and return its head.\n" +
                 "For example, Given 1->2->3->4, you should return the list as 2->1->4->3.\n" +

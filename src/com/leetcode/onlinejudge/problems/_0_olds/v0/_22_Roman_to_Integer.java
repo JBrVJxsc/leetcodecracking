@@ -14,6 +14,11 @@ public class _22_Roman_to_Integer extends BaseProblem implements IProblem {
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a roman numeral, convert it to an integer.\n" +
                 "Input is guaranteed to be within the range from 1 to 3999.";

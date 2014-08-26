@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _2_Remove_Duplicates_from_Sorted_Array_II extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Follow up for \"Remove Duplicates\": What if duplicates are allowed at most twice?\n" +
                 "For example, Given sorted array A = [1,1,1,2,2,3],\n" +

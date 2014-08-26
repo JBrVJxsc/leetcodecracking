@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _21_Gas_Station extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "There are N gas stations along a circular route, where the amount of gas at station i is gas[i].\n" +
                 "You have a car with an unlimited gas tank and it costs cost[i] of gas to travel from station i to its next\n" +

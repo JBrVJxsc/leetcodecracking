@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class _73_Unique_Binary_Search_Trees_II extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given n, generate all structurally unique BST's (binary search trees) that store values 1...n.\n" +
                 "For example,\n" +

@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
  */
 public class _68_Flatten_Binary_Tree_to_Linked_List extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, flatten it to a linked list in-place.\n" +
                 "For example,\n" +

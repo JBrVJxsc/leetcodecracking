@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _13_Permutation_Sequence extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "The set [1,2,3,…,n] contains a total of n! unique permutations.\n" +
                 "By listing and labeling all of the permutations in order,\n" +

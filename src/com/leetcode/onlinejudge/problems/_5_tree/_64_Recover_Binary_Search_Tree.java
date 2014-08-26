@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class _64_Recover_Binary_Search_Tree extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Two elements of a binary search tree (BST) are swapped by mistake.\n" +
                 "Recover the tree without changing its structure.\n" +

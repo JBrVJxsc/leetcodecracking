@@ -13,6 +13,11 @@ import java.util.List;
  */
 public class _62_Binary_Tree_Level_Order_Traversal_II extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).\n" +
                 "For example:\n" +

@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class _63_Binary_Tree_Zigzag_Level_Order_Traversal extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, return the zigzag level order traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).\n" +
                 "For example:\n" +

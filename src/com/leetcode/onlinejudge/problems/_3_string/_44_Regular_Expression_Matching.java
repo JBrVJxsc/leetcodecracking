@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _44_Regular_Expression_Matching extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Implement regular expression matching with support for '.' and '*'.\n" +
                 "'.' Matches any single character.\n" +

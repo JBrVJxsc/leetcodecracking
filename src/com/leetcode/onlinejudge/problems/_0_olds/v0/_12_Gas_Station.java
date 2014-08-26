@@ -14,6 +14,11 @@ public class _12_Gas_Station extends BaseProblem implements IProblem {
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getName() {
         return "[UNSOLVED: TLE]Gas Station";
     }

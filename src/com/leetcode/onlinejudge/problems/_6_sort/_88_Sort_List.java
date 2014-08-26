@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.ListNode;
  */
 public class _88_Sort_List extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Sort a linked list in O(n log n) time using constant space complexity.";
     }

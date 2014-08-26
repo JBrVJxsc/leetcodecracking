@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.ListNode;
  */
 public class _31_Remove_Nth_Node_From_End_of_List extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a linked list, remove the nth node from the end of list and return its head.\n" +
                 "For example,\n" +

@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.common.TreeLinkNode;
  * Created by Who on 2014/8/12.
  */
 public class _69_Populating_Next_Right_Pointers_in_Each_Node_II extends BaseProblem implements IProblem {
+    @Override
+    public int getVersion() {
+        return 1;
+    }
+
 
     @Override
     public String getSummary() {

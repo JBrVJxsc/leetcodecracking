@@ -15,6 +15,11 @@ public class _21_Remove_Duplicates_from_Sorted_List extends BaseProblem implemen
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a sorted linked list, delete all duplicates such that each element appear only once.\n" +
                 "For example,\n" +

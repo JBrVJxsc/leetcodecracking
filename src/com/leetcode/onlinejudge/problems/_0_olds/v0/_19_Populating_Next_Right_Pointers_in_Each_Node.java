@@ -15,6 +15,11 @@ public class _19_Populating_Next_Right_Pointers_in_Each_Node extends BaseProblem
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getName() {
         return "[UNSOLVED]Populating Next Right Pointers in Each Node";
     }

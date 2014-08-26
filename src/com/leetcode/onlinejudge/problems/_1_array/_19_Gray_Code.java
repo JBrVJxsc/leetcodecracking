@@ -11,6 +11,11 @@ import java.util.List;
  */
 public class _19_Gray_Code extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "The gray code is a binary numeral system where two successive values differ in only one bit.\n" +
                 "Given a non-negative integer n representing the total number of bits in the code, print the sequence of gray code. A gray code sequence must begin with 0.\n" +

@@ -5,5 +5,5 @@ package com.leetcode.base;
  */
 public class Setting {
 
-    public static final int displayVersion = 1;
+    public static final int DisplayedVersion = 1;
 }

@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
  */
 public class _79_Path_Sum extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.\n" +
                 "For example:\n" +

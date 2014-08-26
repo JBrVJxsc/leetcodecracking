@@ -11,6 +11,11 @@ import java.util.Set;
  */
 public class _6_Longest_Consecutive_Sequence extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given an unsorted array of integers, find the length of the longest consecutive elements sequence.\n" +
                 "For example, Given [100, 4, 200, 1, 3, 2], The longest consecutive elements sequence is [1, 2, 3, 4]. Return its length: 4.\n" +

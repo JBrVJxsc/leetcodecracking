@@ -14,6 +14,11 @@ public class _11_Candy extends BaseProblem implements IProblem {
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getName() {
         return "[UNSOLVED: TLE]Candy";
     }

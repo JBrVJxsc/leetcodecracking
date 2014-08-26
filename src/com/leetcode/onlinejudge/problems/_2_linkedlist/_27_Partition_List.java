@@ -11,6 +11,11 @@ import java.util.Stack;
  */
 public class _27_Partition_List extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.\n" +
                 "You should preserve the original relative order of the nodes in each of the two partitions.\n" +

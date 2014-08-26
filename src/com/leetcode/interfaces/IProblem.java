@@ -8,9 +8,9 @@ import com.leetcode.listeners.SetParameterListener;
  */
 public interface IProblem {
 
-    boolean isValid();
-
     int getVersion();
+
+    boolean isValid();
 
     long getID();
 

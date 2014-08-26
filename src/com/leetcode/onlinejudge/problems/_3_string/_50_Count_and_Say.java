@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _50_Count_and_Say extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "The count-and-say sequence is the sequence of integers beginning as follows:\n" +
                 "1, 11, 21, 1211, 111221, ...\n" +

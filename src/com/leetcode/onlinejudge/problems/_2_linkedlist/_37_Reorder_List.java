@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.ListNode;
  */
 public class _37_Reorder_List extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a singly linked list L: L0→L1→…→Ln-1→Ln,\n" +
                 "reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…\n" +

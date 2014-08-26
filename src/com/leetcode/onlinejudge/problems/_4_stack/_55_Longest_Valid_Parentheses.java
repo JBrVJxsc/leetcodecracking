@@ -10,6 +10,11 @@ import java.util.Stack;
  */
 public class _55_Longest_Valid_Parentheses extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.\n" +
                 "For \"(()\", the longest valid parentheses substring is \"()\", which has length = 2.\n" +

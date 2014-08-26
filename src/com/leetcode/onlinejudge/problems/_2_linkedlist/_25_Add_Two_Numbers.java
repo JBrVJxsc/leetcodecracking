@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class _25_Add_Two_Numbers extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.\n" +
                 "Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)\n" +

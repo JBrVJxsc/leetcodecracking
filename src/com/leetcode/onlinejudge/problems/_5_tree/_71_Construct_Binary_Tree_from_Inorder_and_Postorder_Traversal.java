@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
  */
 public class _71_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given inorder and postorder traversal of a tree, construct the binary tree.";
     }

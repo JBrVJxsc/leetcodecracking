@@ -10,6 +10,11 @@ import java.util.Arrays;
  */
 public class _15_Trapping_Rain_Water extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.\n" +
                 "For example, \n" +

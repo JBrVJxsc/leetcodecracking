@@ -13,6 +13,11 @@ import java.util.Set;
  */
 public class _100_Word_Ladder extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given two words (start and end), and a dictionary, find the length of shortest transformation sequence from start to end, such that:\n" +
                 "Only one letter can be changed at a time\n" +

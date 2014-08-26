@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class _96_Permutations extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a collection of numbers, return all possible permutations.\n" +
                 "For example,\n" +

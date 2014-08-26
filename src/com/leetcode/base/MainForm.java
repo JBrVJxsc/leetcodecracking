@@ -107,7 +107,7 @@ public class MainForm {
         Collections.sort(problemList, new ProblemsComparator());
         for (int i = problemList.size() - 1; i >= 0; i--) {
             IProblem problem = (IProblem) problemList.get(i);
-            if (problem.isValid()) {
+            if (problem.isValid() && problem.getVersion() == Setting.DisplayedVersion) {
                 cmbProblems.addItem(problem);
             }
         }

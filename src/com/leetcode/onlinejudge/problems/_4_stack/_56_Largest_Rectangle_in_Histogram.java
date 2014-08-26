@@ -11,6 +11,11 @@ import java.util.Stack;
  */
 public class _56_Largest_Rectangle_in_Histogram extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.\n" +
                 "Above is a histogram where width of each bar is 1, given height = [2,1,5,6,2,3].\n" +

@@ -10,6 +10,11 @@ import java.util.Arrays;
  */
 public class _12_Next_Permutation extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.\n" +
                 "If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).\n" +

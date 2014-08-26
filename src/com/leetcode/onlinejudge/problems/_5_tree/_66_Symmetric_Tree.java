@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
  */
 public class _66_Symmetric_Tree extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).\n" +
                 "For example, this binary tree is symmetric:\n" +

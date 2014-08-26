@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.ListNode;
  */
 public class _26_Reverse_Linked_List_II extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Reverse a linked list from position m to n. Do it in-place and in one-pass.\n" +
                 "For example:\n" +

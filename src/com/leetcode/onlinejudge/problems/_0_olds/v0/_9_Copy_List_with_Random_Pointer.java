@@ -17,6 +17,11 @@ public class _9_Copy_List_with_Random_Pointer extends BaseProblem implements IPr
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getName() {
         return "[UNSOLVED]Copy List with Random Pointer";
     }

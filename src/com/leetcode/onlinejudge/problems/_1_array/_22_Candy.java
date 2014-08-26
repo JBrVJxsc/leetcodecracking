@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _22_Candy extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "There are N children standing in a line. Each child is assigned a rating value.\n" +
                 "You are giving candies to these children subjected to the following requirements:\n" +

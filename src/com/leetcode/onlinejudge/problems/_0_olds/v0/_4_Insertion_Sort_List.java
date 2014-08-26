@@ -17,6 +17,11 @@ public class _4_Insertion_Sort_List extends BaseProblem implements IProblem {
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Sort a linked list using insertion sort.";
     }

@@ -15,6 +15,11 @@ public class _13_Maximum_Depth_of_Binary_Tree extends BaseProblem implements IPr
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, find its maximum depth.\n" +
                 "The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.";

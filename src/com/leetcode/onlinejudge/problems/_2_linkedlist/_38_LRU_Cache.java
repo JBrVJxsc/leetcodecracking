@@ -10,6 +10,11 @@ import java.util.HashMap;
  */
 public class _38_LRU_Cache extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and set.\n" +
                 "get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.\n" +

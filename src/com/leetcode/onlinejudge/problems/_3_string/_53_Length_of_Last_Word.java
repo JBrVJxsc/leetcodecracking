@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _53_Length_of_Last_Word extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.\n" +
                 "If the last word does not exist, return 0.\n" +

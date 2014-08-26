@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _11_Remove_Element extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given an array and a value, remove all instances of that value in place and return the new length.\n" +
                 "The order of elements can be changed. It doesn't matter what you leave beyond the new length.";

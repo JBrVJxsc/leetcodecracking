@@ -11,6 +11,11 @@ import java.util.*;
  */
 public class _61_Binary_Tree_Level_Order_Traversal extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).\n" +
                 "For example:\n" +

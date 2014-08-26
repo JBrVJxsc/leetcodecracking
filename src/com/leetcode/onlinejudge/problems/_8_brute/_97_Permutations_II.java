@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class _97_Permutations_II extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a collection of numbers that might contain duplicates, return all possible unique permutations.\n" +
                 "For example,\n" +

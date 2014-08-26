@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _17_Plus_One extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a non-negative number represented as an array of digits, plus one to the number.\n" +
                 "The digits are stored such that the most significant digit is at the head of the list.";

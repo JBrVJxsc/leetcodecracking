@@ -21,6 +21,11 @@ public class _3_Max_Points_on_a_Line extends BaseProblem implements IProblem {
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.";
     }

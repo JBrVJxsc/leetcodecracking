@@ -10,6 +10,11 @@ import java.util.Stack;
  */
 public class _57_Evaluate_Reverse_Polish_Notation extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Evaluate the value of an arithmetic expression in Reverse Polish Notation.\n" +
                 "Valid operators are +, -, *, /. Each operand may be an integer or another expression.\n" +

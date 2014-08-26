@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.ListNode;
  */
 public class _35_Linked_List_Cycle extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a linked list, determine if it has a cycle in it.\n" +
                 "Follow up: Can you solve it without using extra space?";

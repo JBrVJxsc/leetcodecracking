@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class _86_Merge_k_Sorted_Lists extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.";
     }

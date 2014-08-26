@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class _74_Validate_Binary_Search_Tree extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, determine if it is a valid binary search tree (BST).\n" +
                 "Assume a BST is defined as follows:\n" +

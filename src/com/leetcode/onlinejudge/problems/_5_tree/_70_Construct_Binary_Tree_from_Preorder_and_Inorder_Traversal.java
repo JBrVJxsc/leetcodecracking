@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
  */
 public class _70_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given preorder and inorder traversal of a tree, construct the binary tree.\n" +
                 "Note:\n" +

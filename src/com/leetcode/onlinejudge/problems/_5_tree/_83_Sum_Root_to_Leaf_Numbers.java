@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
  */
 public class _83_Sum_Root_to_Leaf_Numbers extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.\n" +
                 "An example is the root-to-leaf path 1->2->3 which represents the number 123.\n" +

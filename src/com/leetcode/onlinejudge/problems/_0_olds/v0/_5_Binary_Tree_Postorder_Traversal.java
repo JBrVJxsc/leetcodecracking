@@ -18,6 +18,11 @@ public class _5_Binary_Tree_Postorder_Traversal extends BaseProblem implements I
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, return the postorder traversal of its nodes' values.\n" +
                 "For example:\n" +

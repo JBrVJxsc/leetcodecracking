@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.ListNode;
  */
 public class _85_Merge_Two_Sorted_Lists extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.";
     }

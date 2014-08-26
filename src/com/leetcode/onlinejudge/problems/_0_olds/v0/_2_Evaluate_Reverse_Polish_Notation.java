@@ -16,6 +16,11 @@ public class _2_Evaluate_Reverse_Polish_Notation extends BaseProblem implements 
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Evaluate the value of an arithmetic expression in Reverse Polish Notation.\n" +
                 "Valid operators are +, -, *, /. Each operand may be an integer or another expression.\n" +

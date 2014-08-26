@@ -10,6 +10,11 @@ import java.util.Arrays;
  */
 public class _45_Wildcard_Matching extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Implement wildcard pattern matching with support for '?' and '*'.\n" +
                 "'?' Matches any single character.\n" +

@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _93_Search_a_2D_Matrix extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:\n" +
                 "Integers in each row are sorted from left to right.\n" +

@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class _58_Binary_Tree_Preorder_Traversal extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, return the preorder traversal of its nodes' values.\n" +
                 "For example:\n" +

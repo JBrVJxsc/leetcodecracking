@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
  */
 public class _77_Minimum_Depth_of_Binary_Tree extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, find its minimum depth.\n" +
                 "The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.";

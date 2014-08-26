@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
  */
 public class _65_Same_Tree extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given two binary trees, write a function to check if they are equal or not.\n" +
                 "Two binary trees are considered equal if they are structurally identical and the nodes have the same value.";

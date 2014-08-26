@@ -10,6 +10,11 @@ import java.util.*;
  */
 public class _51_Anagrams extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given an array of strings, return all groups of strings that are anagrams.\n" +
                 "Note: All inputs will be in lower-case.";

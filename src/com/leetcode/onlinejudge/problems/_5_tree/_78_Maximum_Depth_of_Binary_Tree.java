@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
  */
 public class _78_Maximum_Depth_of_Binary_Tree extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree, find its maximum depth.\n" +
                 "The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.";

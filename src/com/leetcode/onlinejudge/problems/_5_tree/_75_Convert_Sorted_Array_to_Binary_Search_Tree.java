@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.TreeNode;
  */
 public class _75_Convert_Sorted_Array_to_Binary_Search_Tree extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given an array where elements are sorted in ascending order, convert it to a height balanced BST.";
     }

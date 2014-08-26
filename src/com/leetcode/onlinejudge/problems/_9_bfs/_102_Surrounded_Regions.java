@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _102_Surrounded_Regions extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a 2D board containing 'X' and 'O', capture all regions surrounded by 'X'.\n" +
                 "A region is captured by flipping all 'O's into 'X's in that surrounded region.\n" +

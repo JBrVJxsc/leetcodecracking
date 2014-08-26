@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.ListNode;
  */
 public class _36_Linked_List_Cycle_II extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a linked list, return the node where the cycle begins. If there is no cycle, return null.\n" +
                 "Follow up:\n" +

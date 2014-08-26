@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _4_Search_in_Rotated_Sorted_Array_II extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Follow up for \"Search in Rotated Sorted Array\": What if duplicates are allowed?\n" +
                 "Would this affect the run-time complexity? How and why?\n" +

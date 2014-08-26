@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.ListNode;
  */
 public class _28_Remove_Duplicates_from_Sorted_List extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a sorted linked list, delete all duplicates such that each element appear only once.\n" +
                 "For example,\n" +

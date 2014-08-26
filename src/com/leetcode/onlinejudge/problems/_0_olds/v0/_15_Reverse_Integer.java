@@ -14,6 +14,11 @@ public class _15_Reverse_Integer extends BaseProblem implements IProblem {
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Reverse digits of an integer.\n" +
                 "Example1: x = 123, return 321\n" +

@@ -11,6 +11,11 @@ import java.util.Stack;
  */
 public class _30_Rotate_List extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a list, rotate the list to the right by k places, where k is non-negative.\n" +
                 "For example:\n" +

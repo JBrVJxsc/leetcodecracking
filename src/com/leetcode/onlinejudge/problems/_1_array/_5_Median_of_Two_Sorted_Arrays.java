@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _5_Median_of_Two_Sorted_Arrays extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "There are two sorted arrays A and B of size m and n respectively. Find the median of the two sorted\n" +
                 "arrays. The overall run time complexity should be O(log(m + n)).";

@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _16_Rotate_Image extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "You are given an n × n 2D matrix representing an image.\n" +
                 "Rotate the image by 90 degrees (clockwise).\n" +

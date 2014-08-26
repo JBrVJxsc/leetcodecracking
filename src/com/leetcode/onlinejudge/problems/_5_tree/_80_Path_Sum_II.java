@@ -12,6 +12,11 @@ import java.util.List;
  */
 public class _80_Path_Sum_II extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.\n" +
                 "For example:\n" +

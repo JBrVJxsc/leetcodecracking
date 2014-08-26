@@ -15,6 +15,11 @@ public class _8_Linked_List_Cycle extends BaseProblem implements IProblem {
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a linked list, determine if it has a cycle in it.\n" +
                 "Follow up:\n" +

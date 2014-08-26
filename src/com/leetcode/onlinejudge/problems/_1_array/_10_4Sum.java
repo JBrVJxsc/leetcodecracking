@@ -13,6 +13,11 @@ import java.util.List;
  */
 public class _10_4Sum extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given an array S of n integers, are there elements a, b, c, and d in S such that a + b + c + d = target?\n" +
                 "Find all unique quadruplets in the array which gives the sum of target.\n" +

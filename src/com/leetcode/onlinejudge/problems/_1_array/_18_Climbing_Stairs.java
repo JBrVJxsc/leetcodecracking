@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _18_Climbing_Stairs extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "You are climbing a stair case. It takes n steps to reach to the top.\n" +
                 "Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?";

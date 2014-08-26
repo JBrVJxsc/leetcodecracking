@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _1_Remove_Duplicates_from_Sorted_Array extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a sorted array, remove the duplicates in place such that each element appear only once\n" +
                 "and return the new length.\n" +

@@ -10,6 +10,11 @@ import java.util.Stack;
  */
 public class _54_Valid_Parentheses extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.\n" +
                 "The brackets must close in the correct order, \"()\" and \"()[]{}\" are all valid but \"(]\" and \"([)]\" are not.";

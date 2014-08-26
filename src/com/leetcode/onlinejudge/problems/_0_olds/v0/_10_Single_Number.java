@@ -14,6 +14,11 @@ public class _10_Single_Number extends BaseProblem implements IProblem {
     }
 
     @Override
+    public int getVersion() {
+        return 0;
+    }
+
+    @Override
     public String getName() {
         return "[HELPED]Single Number";
     }

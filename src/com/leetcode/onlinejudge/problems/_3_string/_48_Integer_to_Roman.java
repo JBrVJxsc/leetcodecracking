@@ -8,6 +8,11 @@ import com.leetcode.onlinejudge.BaseProblem;
  */
 public class _48_Integer_to_Roman extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given an integer, convert it to a roman numeral.\n" +
                 "Input is guaranteed to be within the range from 1 to 3999.";

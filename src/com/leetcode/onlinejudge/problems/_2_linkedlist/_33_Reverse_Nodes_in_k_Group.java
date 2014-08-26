@@ -9,6 +9,11 @@ import com.leetcode.onlinejudge.common.ListNode;
  */
 public class _33_Reverse_Nodes_in_k_Group extends BaseProblem implements IProblem {
     @Override
+    public int getVersion() {
+        return 1;
+    }
+
+    @Override
     public String getSummary() {
         return "Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.\n" +
                 "If the number of nodes is not a multiple of k then left-out nodes in the end should remain as it is.\n" +
