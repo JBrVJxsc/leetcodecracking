@@ -29,6 +29,11 @@ public class _102_Surrounded_Regions extends BaseProblem implements IProblem {
     }
 
     @Override
+    public String getNote() {
+        return "UNSOLVED";
+    }
+
+    @Override
     public void run() {
 
     }
