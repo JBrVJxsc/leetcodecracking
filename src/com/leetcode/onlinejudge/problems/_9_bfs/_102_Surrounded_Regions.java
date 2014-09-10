@@ -32,4 +32,10 @@ public class _102_Surrounded_Regions extends BaseProblem implements IProblem {
     public void run() {
 
     }
+
+    public class Solution {
+        public void solve(char[][] board) {
+
+        }
+    }
 }
