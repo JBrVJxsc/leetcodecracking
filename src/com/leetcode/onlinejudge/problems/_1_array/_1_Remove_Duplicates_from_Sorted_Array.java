@@ -28,7 +28,16 @@ public class _1_Remove_Duplicates_from_Sorted_Array extends BaseProblem implemen
 
     public class Solution {
         public int removeDuplicates(int[] A) {
-            return 0;
+            if (A == null || A.length == 0) {
+                return 0;
+            }
+            int currentPointer = 1;
+            for (int i = 1; i < A.length; i++) {
+                if (A[i - 1] != A[i]) {
+                    A[currentPointer++] = A[i];
+                }
+            }
+            return currentPointer;
         }
     }
 }
