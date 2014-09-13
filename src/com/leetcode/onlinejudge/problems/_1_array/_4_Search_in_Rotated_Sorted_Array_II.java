@@ -38,7 +38,28 @@ public class _4_Search_in_Rotated_Sorted_Array_II extends BaseProblem implements
             if (A[middle] == target) {
                 return true;
             }
+            // Find the correct sequence.
+            if (A[start] < A[middle] || A[start] == A[middle] && check(A, start, middle)) {
+                if (A[start] <= target && target < A[middle]) {
+                    return binarySearch(A, start, middle - 1, target);
+                } else {
+                    return binarySearch(A, middle + 1, end, target);
+                }
+            } else {
+                if (A[middle] < target && target <= A[end]) {
+                    return binarySearch(A, middle + 1, end, target);
+                } else {
+                    return binarySearch(A, start, middle - 1, target);
+                }
+            }
+        }
 
+        private boolean check(int[] A, int start, int end) {
+            for (int i = start; i < end; i++) {
+                if (A[i] != A[i + 1]) {
+                    return false;
+                }
+            }
             return true;
         }
     }

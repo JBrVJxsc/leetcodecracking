@@ -39,6 +39,7 @@ public class _3_Search_in_Rotated_Sorted_Array extends BaseProblem implements IP
             if (A[middle] == target) {
                 return middle;
             }
+            // Find the correct sequence.
             if (A[start] <= A[middle]) {
                 if (A[start] <= target && target < A[middle]) {
                     return binarySearch(A, start, middle - 1, target);
