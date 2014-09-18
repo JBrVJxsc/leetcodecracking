@@ -2,6 +2,9 @@ package com.leetcode.onlinejudge.problems._1_array;
 
 import com.leetcode.interfaces.IProblem;
 import com.leetcode.onlinejudge.BaseProblem;
+import com.leetcode.onlinejudge.common.ListNode;
+import com.leetcode.onlinejudge.problems.sketchbook.CC150_2_1;
+import com.leetcode.onlinejudge.problems.sketchbook.CC150_2_4;
 
 /**
  * Created by Xu on 9/13/14.
@@ -19,7 +22,12 @@ public class _5_Median_of_Two_Sorted_Arrays extends BaseProblem implements IProb
 
     @Override
     public void run() {
+        char[] chars = "String".toCharArray();
+        chars[2] = 0;
+        print(String.valueOf(chars));
 
+        new CC150_2_1().run();
+        new CC150_2_4().run();
     }
 
     public class Solution {
