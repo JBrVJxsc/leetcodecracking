@@ -30,7 +30,7 @@ public class _5_Median_of_Two_Sorted_Arrays extends BaseProblem implements IProb
     public class Solution {
         public double findMedianSortedArrays(int A[], int B[]) {
             int k = A.length + B.length;
-            return (A.length + B.length) % 2 != 0 ? findK(A, 0, A.length - 1, B, 0, B.length - 1, k / 2 + 1) : (findK(A, 0, A.length - 1, B, 0, B.length - 1, k / 2) + findK(A, 0, A.length - 1, B, 0, B.length - 1, k / 2 + 1)) / 2;
+            return k % 2 != 0 ? findK(A, 0, A.length - 1, B, 0, B.length - 1, k / 2 + 1) : (findK(A, 0, A.length - 1, B, 0, B.length - 1, k / 2) + findK(A, 0, A.length - 1, B, 0, B.length - 1, k / 2 + 1)) / 2;
         }
 
         private int findK(int[] A, int aStart, int aEnd, int[] B, int bStart, int bEnd, int k) {
