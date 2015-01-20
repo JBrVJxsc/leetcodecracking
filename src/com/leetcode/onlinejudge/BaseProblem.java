@@ -61,7 +61,7 @@ public abstract class BaseProblem {
             if (object == null) {
                 string += "null" + ", ";
             } else {
-                string += iterator.next().toString() + ", ";
+                string += object.toString() + ", ";
             }
         }
         if (string.length() > 2) {

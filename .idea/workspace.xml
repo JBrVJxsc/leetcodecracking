@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8300c76b-980b-4a23-a82e-2049d8d682a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_5_Median_of_Two_Sorted_Arrays.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_5_Median_of_Two_Sorted_Arrays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/BaseProblem.java" afterPath="$PROJECT_DIR$/src/com/leetcode/onlinejudge/BaseProblem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCodeCracking.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,103 +31,118 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_4_Search_in_Rotated_Sorted_Array_II.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_4_Search_in_Rotated_Sorted_Array_II.java">
+      <file leaf-file-name="_96_Permutations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_8_brute/_96_Permutations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1224">
-              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1411">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_5_Median_of_Two_Sorted_Arrays.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_5_Median_of_Two_Sorted_Arrays.java">
+      <file leaf-file-name="_100_Word_Ladder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_9_bfs/_100_Word_Ladder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="748">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="2006">
+              <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/base/MainForm.java">
+      <file leaf-file-name="_101_Word_Ladder_II.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_9_bfs/_101_Word_Ladder_II.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4862" max-vertical-offset="5236">
-              <caret line="286" column="13" selection-start-line="286" selection-start-column="13" selection-end-line="286" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1700">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CC150_2_1.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/sketchbook/CC150_2_1.java">
+      <file leaf-file-name="_103_Palindrome_Partitioning.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_10_dfs/_103_Palindrome_Partitioning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1139">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CC150_2_4.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/sketchbook/CC150_2_4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="274" max-vertical-offset="833">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1445">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#365#366#0" expanded="false" />
+                <element signature="e#389#390#0" expanded="false" />
+                <element signature="e#963#964#0" expanded="false" />
+                <element signature="e#1010#1011#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_37_Reorder_List.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_2_linkedlist/_37_Reorder_List.java">
+      <file leaf-file-name="_102_Surrounded_Regions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_9_bfs/_102_Surrounded_Regions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1649">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="799">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_36_Linked_List_Cycle_II.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_2_linkedlist/_36_Linked_List_Cycle_II.java">
+      <file leaf-file-name="_38_LRU_Cache.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_2_linkedlist/_38_LRU_Cache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="884">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2142">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#333#334#0" expanded="false" />
+                <element signature="e#357#358#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_8_3Sum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_8_3Sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="1717">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <folding>
+                <element signature="e#2217#2237#0" expanded="true" />
+                <element signature="e#2357#2377#0" expanded="true" />
+                <element signature="e#2842#2851#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainForm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/base/MainForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3427" max-vertical-offset="4658">
+              <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_5_Median_of_Two_Sorted_Arrays.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_5_Median_of_Two_Sorted_Arrays.java">
+      <file leaf-file-name="BaseProblem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/BaseProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7151052" vertical-offset="119" max-vertical-offset="1632">
-              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-              <folding />
+            <state vertical-scroll-proportion="0.73261505" vertical-offset="136" max-vertical-offset="2567">
+              <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+              <folding>
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_3_Search_in_Rotated_Sorted_Array.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_3_Search_in_Rotated_Sorted_Array.java">
+      <file leaf-file-name="_1_Remove_Duplicates_from_Sorted_Array.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_1_Remove_Duplicates_from_Sorted_Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1088">
-              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_4_Search_in_Rotated_Sorted_Array_II.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_4_Search_in_Rotated_Sorted_Array_II.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1190">
-              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="782">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -142,67 +159,35 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_66_Symmetric_Tree.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_67_Balanced_Binary_Tree.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_68_Flatten_Binary_Tree_to_Linked_List.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_69_Populating_Next_Right_Pointers_in_Each_Node_II.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_70_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_71_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_72_Unique_Binary_Search_Trees.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_73_Unique_Binary_Search_Trees_II.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_74_Validate_Binary_Search_Tree.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_75_Convert_Sorted_Array_to_Binary_Search_Tree.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_76_Convert_Sorted_List_to_Binary_Search_Tree.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_77_Minimum_Depth_of_Binary_Tree.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_78_Maximum_Depth_of_Binary_Tree.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_79_Path_Sum.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_80_Path_Sum_II.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_81_Binary_Tree_Maximum_Path_Sum.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_82_Populating_Next_Right_Pointers_in_Each_Node.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_5_tree/_83_Sum_Root_to_Leaf_Numbers.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_6_sort/_84_Merge_Sorted_Array.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_6_sort/_85_Merge_Two_Sorted_Lists.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_6_sort/_86_Merge_k_Sorted_Lists.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_6_sort/_87_Insertion_Sort_List.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_6_sort/_88_Sort_List.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_6_sort/_89_First_Missing_Positive.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_6_sort/_90_Sort_Colors.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_7_search/_91_Search_for_a_Range.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_7_search/_92_Search_Insert_Position.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_7_search/_93_Search_a_2D_Matrix.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_8_brute/_94_Subsets.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_8_brute/_95_Subsets_II.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_8_brute/_96_Permutations.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_8_brute/_97_Permutations_II.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_8_brute/_98_Combinations.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_8_brute/_99_Letter_Combinations_of_a_Phone_Number.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_9_bfs/_100_Word_Ladder.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_9_bfs/_101_Word_Ladder_II.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/interfaces/IProblem.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/base/MainForm.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v0/_1_Reverse_Words_in_a_String.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_9_bfs/_102_Surrounded_Regions.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_10_dfs/_103_Palindrome_Partitioning.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_10_dfs/_103_Palindrome_Partitioning.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/base/Setting.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_1_Remove_Duplicates_from_Sorted_Array.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_2_Remove_Duplicates_from_Sorted_Array_II.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_3_Search_in_Rotated_Sorted_Array.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_4_Search_in_Rotated_Sorted_Array_II.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/sketchbook/CC150_2_1.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_5_Median_of_Two_Sorted_Arrays.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/sketchbook/CC150_2_4.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_5_Median_of_Two_Sorted_Arrays.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_6_sort/_88_Sort_List.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_2_linkedlist/_38_LRU_Cache.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_8_3Sum.java" />
+        <option value="$PROJECT_DIR$/src/com/leetcode/onlinejudge/BaseProblem.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="38" />
-    <option name="width" value="1319" />
-    <option name="height" value="705" />
+    <option name="x" value="-2560" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -335,87 +320,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_0_olds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCodeCracking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcodecracking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinejudge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="problems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_0_olds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="_1_array" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCodeCracking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcodecracking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlinejudge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="problems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_0_olds" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -453,7 +358,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="project.propGUI" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -466,7 +371,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="LayoutCode.rearrangeEntriesJava" value="true" />
   </component>
   <component name="RecentsManager">
@@ -481,27 +386,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -511,6 +395,8 @@
       <method />
     </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
       <module name="" />
       <setting name="path" value="" />
       <setting name="package" value="" />
@@ -521,6 +407,7 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -537,6 +424,7 @@
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -563,34 +451,8 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -608,6 +470,79 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -631,6 +566,8 @@
       <method />
     </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
       <module name="" />
       <setting name="path" value="" />
       <setting name="package" value="" />
@@ -641,9 +578,11 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="false" name="LeetCode" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.leetcode.base.MainForm" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -686,395 +625,335 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="8300c76b-980b-4a23-a82e-2049d8d682a1" name="Default" comment="" />
       <created>1404963089937</created>
+      <option name="number" value="Default" />
       <updated>1404963089937</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Code">
-      <created>1404963493987</created>
-      <updated>1404963493987</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Code">
-      <created>1405055713352</created>
-      <updated>1405055713352</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Code">
-      <created>1405852837017</created>
-      <updated>1405852837017</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Code">
-      <created>1406007374298</created>
-      <updated>1406007374298</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Code">
-      <created>1406010704533</created>
-      <updated>1406010704533</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Code">
-      <created>1406038580365</created>
-      <updated>1406038580365</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Code">
-      <created>1406085005017</created>
-      <updated>1406085005017</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Code">
-      <created>1406091107449</created>
-      <updated>1406091107449</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Code">
-      <created>1406107796530</created>
-      <updated>1406107796530</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Code">
-      <created>1406107810292</created>
-      <updated>1406107810292</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Code">
-      <created>1406134236241</created>
-      <updated>1406134236241</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Code">
-      <created>1406178867400</created>
-      <updated>1406178867400</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Code">
-      <created>1406178973210</created>
-      <updated>1406178973210</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Code">
-      <created>1406197234515</created>
-      <updated>1406197234515</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Code">
-      <created>1406215410485</created>
-      <updated>1406215410485</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Code">
-      <created>1406254023453</created>
-      <updated>1406254023453</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Code">
-      <created>1406265435390</created>
-      <updated>1406265435390</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Code">
-      <created>1406269144533</created>
-      <updated>1406269144533</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Code">
-      <created>1406297588762</created>
-      <updated>1406297588762</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Code">
-      <created>1406301062398</created>
-      <updated>1406301062398</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Code">
-      <created>1406302552117</created>
-      <updated>1406302552117</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Code">
-      <created>1406385075260</created>
-      <updated>1406385075261</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Code">
-      <created>1406390355250</created>
-      <updated>1406390355250</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Code">
-      <created>1406430258608</created>
-      <updated>1406430258608</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Code">
-      <created>1406439093119</created>
-      <updated>1406439093119</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Code">
-      <created>1406469239588</created>
-      <updated>1406469239588</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Code">
-      <created>1406537569250</created>
-      <updated>1406537569250</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Code">
-      <created>1406561134962</created>
-      <updated>1406561134962</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Code">
-      <created>1406561507726</created>
-      <updated>1406561507726</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Code">
-      <created>1406601025768</created>
-      <updated>1406601025768</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Code">
-      <created>1406610939021</created>
-      <updated>1406610939021</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Code">
-      <created>1406628327640</created>
-      <updated>1406628327640</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Code">
-      <created>1406648295785</created>
-      <updated>1406648295785</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Code">
-      <created>1406696275271</created>
-      <updated>1406696275271</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Code">
-      <created>1406702658731</created>
-      <updated>1406702658731</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Code">
-      <created>1406703239313</created>
-      <updated>1406703239313</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Code">
-      <created>1406731357672</created>
-      <updated>1406731357672</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Code">
-      <created>1406773027748</created>
-      <updated>1406773027748</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Code">
-      <created>1407336398364</created>
-      <updated>1407336398364</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Code">
-      <created>1407376058208</created>
-      <updated>1407376058208</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Code">
-      <created>1407390062264</created>
-      <updated>1407390062264</updated>
     </task>
     <task id="LOCAL-00042" summary="Code">
       <created>1407393299147</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
       <updated>1407393299147</updated>
     </task>
     <task id="LOCAL-00043" summary="Code">
       <created>1407404215871</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
       <updated>1407404215871</updated>
     </task>
     <task id="LOCAL-00044" summary="Code">
       <created>1407409944389</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
       <updated>1407409944389</updated>
     </task>
     <task id="LOCAL-00045" summary="Code">
       <created>1407469237629</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
       <updated>1407469237629</updated>
     </task>
     <task id="LOCAL-00046" summary="Code">
       <created>1407508798924</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
       <updated>1407508798924</updated>
     </task>
     <task id="LOCAL-00047" summary="Code">
       <created>1407551931652</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
       <updated>1407551931652</updated>
     </task>
     <task id="LOCAL-00048" summary="Code">
       <created>1407553762277</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
       <updated>1407553762277</updated>
     </task>
     <task id="LOCAL-00049" summary="Code">
       <created>1407593401459</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
       <updated>1407593401459</updated>
     </task>
     <task id="LOCAL-00050" summary="Code">
       <created>1407594957265</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
       <updated>1407594957265</updated>
     </task>
     <task id="LOCAL-00051" summary="Code">
       <created>1407630717776</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
       <updated>1407630717776</updated>
     </task>
     <task id="LOCAL-00052" summary="Code">
       <created>1407662679676</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
       <updated>1407662679676</updated>
     </task>
     <task id="LOCAL-00053" summary="Code">
       <created>1407676782098</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
       <updated>1407676782098</updated>
     </task>
     <task id="LOCAL-00054" summary="Code">
       <created>1407771670743</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
       <updated>1407771670743</updated>
     </task>
     <task id="LOCAL-00055" summary="Code">
       <created>1407819251995</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
       <updated>1407819251995</updated>
     </task>
     <task id="LOCAL-00056" summary="Code">
       <created>1407847123488</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
       <updated>1407847123488</updated>
     </task>
     <task id="LOCAL-00057" summary="Code">
       <created>1407934203659</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
       <updated>1407934203659</updated>
     </task>
     <task id="LOCAL-00058" summary="Code">
       <created>1407941348394</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
       <updated>1407941348394</updated>
     </task>
     <task id="LOCAL-00059" summary="Code">
       <created>1408020443386</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
       <updated>1408020443387</updated>
     </task>
     <task id="LOCAL-00060" summary="Code">
       <created>1408027479290</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
       <updated>1408027479290</updated>
     </task>
     <task id="LOCAL-00061" summary="Code">
       <created>1408033416120</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
       <updated>1408033416120</updated>
     </task>
     <task id="LOCAL-00062" summary="Code">
       <created>1408072647732</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
       <updated>1408072647732</updated>
     </task>
     <task id="LOCAL-00063" summary="Code">
       <created>1408081747100</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
       <updated>1408081747100</updated>
     </task>
     <task id="LOCAL-00064" summary="Code">
       <created>1408098319004</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
       <updated>1408098319004</updated>
     </task>
     <task id="LOCAL-00065" summary="Code">
       <created>1408158546907</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
       <updated>1408158546907</updated>
     </task>
     <task id="LOCAL-00066" summary="Code">
       <created>1408177126019</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
       <updated>1408177126019</updated>
     </task>
     <task id="LOCAL-00067" summary="Code">
       <created>1408198906951</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
       <updated>1408198906951</updated>
     </task>
     <task id="LOCAL-00068" summary="Code">
       <created>1408261238085</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
       <updated>1408261238085</updated>
     </task>
     <task id="LOCAL-00069" summary="Code">
       <created>1408280586380</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
       <updated>1408280586380</updated>
     </task>
     <task id="LOCAL-00070" summary="Code">
       <created>1408281351073</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
       <updated>1408281351073</updated>
     </task>
     <task id="LOCAL-00071" summary="Code">
       <created>1408281420913</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
       <updated>1408281420914</updated>
     </task>
     <task id="LOCAL-00072" summary="Code">
       <created>1408347292921</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
       <updated>1408347292921</updated>
     </task>
     <task id="LOCAL-00073" summary="Code">
       <created>1408374445626</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
       <updated>1408374445626</updated>
     </task>
     <task id="LOCAL-00074" summary="Code">
       <created>1408410250677</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
       <updated>1408410250677</updated>
     </task>
     <task id="LOCAL-00075" summary="Code">
       <created>1408499263402</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
       <updated>1408499263402</updated>
     </task>
     <task id="LOCAL-00076" summary="Code">
       <created>1408507429545</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
       <updated>1408507429545</updated>
     </task>
     <task id="LOCAL-00077" summary="Code">
       <created>1408890959248</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
       <updated>1408890959248</updated>
     </task>
     <task id="LOCAL-00078" summary="Code">
       <created>1408891695456</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
       <updated>1408891695456</updated>
     </task>
     <task id="LOCAL-00079" summary="Code">
       <created>1408891746881</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
       <updated>1408891746881</updated>
     </task>
     <task id="LOCAL-00080" summary="Code">
       <created>1409013953629</created>
+      <option name="number" value="00080" />
+      <option name="project" value="LOCAL" />
       <updated>1409013953629</updated>
     </task>
     <task id="LOCAL-00081" summary="Code">
       <created>1409364088531</created>
+      <option name="number" value="00081" />
+      <option name="project" value="LOCAL" />
       <updated>1409364088531</updated>
     </task>
     <task id="LOCAL-00082" summary="Code">
       <created>1409364115246</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
       <updated>1409364115247</updated>
     </task>
     <task id="LOCAL-00083" summary="Code">
       <created>1409364805051</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
       <updated>1409364805051</updated>
     </task>
     <task id="LOCAL-00084" summary="Code">
       <created>1410363367653</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
       <updated>1410363367653</updated>
     </task>
     <task id="LOCAL-00085" summary="Code">
       <created>1410366734753</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
       <updated>1410366734753</updated>
     </task>
     <task id="LOCAL-00086" summary="Code">
       <created>1410367031636</created>
+      <option name="number" value="00086" />
+      <option name="project" value="LOCAL" />
       <updated>1410367031637</updated>
     </task>
     <task id="LOCAL-00087" summary="Code">
       <created>1410564816251</created>
+      <option name="number" value="00087" />
+      <option name="project" value="LOCAL" />
       <updated>1410564816252</updated>
     </task>
     <task id="LOCAL-00088" summary="Code">
       <created>1410640219112</created>
+      <option name="number" value="00088" />
+      <option name="project" value="LOCAL" />
       <updated>1410640219112</updated>
     </task>
     <task id="LOCAL-00089" summary="Code">
       <created>1411079928299</created>
+      <option name="number" value="00089" />
+      <option name="project" value="LOCAL" />
       <updated>1411079928299</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Code">
+      <created>1412351456967</created>
+      <option name="number" value="00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1412351456967</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="38" width="1319" height="705" extended-state="0" />
-    <editor active="true" />
+    <frame x="-2560" y="0" width="2560" height="1440" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32527205" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23262618" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20559211" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32153392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22213799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.077302635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16171876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.076696165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32406288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1099,12 +978,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_6_Longest_Consecutive_Sequence.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_8_3Sum.java</url>
           <line>42</line>
           <properties />
@@ -1128,215 +1001,31 @@
           <properties />
           <option name="timeStamp" value="347" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_8_3Sum.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/BaseProblem.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="378" />
+      <option name="time" value="384" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_73_Unique_Binary_Search_Trees_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1037">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_74_Validate_Binary_Search_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1258">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_75_Convert_Sorted_Array_to_Binary_Search_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="714">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_76_Convert_Sorted_List_to_Binary_Search_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="884">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_77_Minimum_Depth_of_Binary_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="918">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_78_Maximum_Depth_of_Binary_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="731">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_79_Path_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="1156">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_80_Path_Sum_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="1666">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_81_Binary_Tree_Maximum_Path_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="1020">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_82_Populating_Next_Right_Pointers_in_Each_Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1326">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_83_Sum_Root_to_Leaf_Numbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="1003">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_6_sort/_84_Merge_Sorted_Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1326">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_6_sort/_85_Merge_Two_Sorted_Lists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="1972">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_6_sort/_88_Sort_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="2414">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_6_sort/_87_Insertion_Sort_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="731">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_6_sort/_86_Merge_k_Sorted_Lists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="1173">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_6_sort/_89_First_Missing_Positive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="1394">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_6_sort/_90_Sort_Colors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="952">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_7_search/_91_Search_for_a_Range.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="1071">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_7_search/_92_Search_Insert_Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="1309">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_7_search/_93_Search_a_2D_Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="1088">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_8_brute/_94_Subsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="1139">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_8_brute/_95_Subsets_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="1139">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_8_brute/_96_Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="1445">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_8_brute/_97_Permutations_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="1547">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_8_brute/_98_Combinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="1632">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_8_brute/_99_Letter_Combinations_of_a_Phone_Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1122">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/BaseProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2533">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/interfaces/IProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
@@ -1351,38 +1040,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_9_bfs/_101_Word_Ladder_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="1500">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_9_bfs/_100_Word_Ladder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="1770">
-          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3803" max-vertical-offset="20925">
           <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_9_bfs/_102_Surrounded_Regions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="705">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_10_dfs/_103_Palindrome_Partitioning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1393,32 +1054,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_1_Remove_Duplicates_from_Sorted_Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2160">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_2_Remove_Duplicates_from_Sorted_Array_II.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="871" max-vertical-offset="1380">
           <caret line="83" column="24" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_1_Remove_Duplicates_from_Sorted_Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="705">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_3_Search_in_Rotated_Sorted_Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2006">
-          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -1429,27 +1068,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_3_Search_in_Rotated_Sorted_Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1020">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_4_Search_in_Rotated_Sorted_Array_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1139">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_2_linkedlist/_37_Reorder_List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1457,31 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/base/MainForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4203" max-vertical-offset="4658">
-          <caret line="286" column="13" selection-start-line="286" selection-start-column="13" selection-end-line="286" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/sketchbook/CC150_2_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="1139">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_5_Median_of_Two_Sorted_Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="680">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1489,25 +1086,331 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="598" max-vertical-offset="1105">
           <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_6_Longest_Consecutive_Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="3043">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_8_3Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="535" max-vertical-offset="3536">
+          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_10_4Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1666">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_13_Permutation_Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2057">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_11_Remove_Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1088">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_12_Next_Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="891" max-vertical-offset="1564">
+          <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_3_Search_in_Rotated_Sorted_Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="307" max-vertical-offset="1003">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_5_Median_of_Two_Sorted_Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/sketchbook/CC150_2_4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="274" max-vertical-offset="833">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="799">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/sketchbook/CC150_2_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="1003">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_4_Search_in_Rotated_Sorted_Array_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1139">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_15_Trapping_Rain_Water.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1790" max-vertical-offset="2499">
+          <caret line="119" column="19" selection-start-line="119" selection-start-column="19" selection-end-line="119" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_72_Unique_Binary_Search_Trees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="765">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v0/_16_Best_Time_to_Buy_and_Sell_Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="986">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v0/_17_Best_Time_to_Buy_and_Sell_Stock_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1853">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_5_tree/_74_Validate_Binary_Search_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="1224">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_22_Candy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_21_Gas_Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_20_Set_Matrix_Zeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2686">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_19_Gray_Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_9_3Sum_Closest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2057">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_7_Two_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_1_Remove_Duplicates_from_Sorted_Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2448">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_6_sort/_88_Sort_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1654" max-vertical-offset="2380">
+          <caret line="102" column="26" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_5_Median_of_Two_Sorted_Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7151052" vertical-offset="119" max-vertical-offset="1632">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="583" max-vertical-offset="1632">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_1_array/_3_Search_in_Rotated_Sorted_Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2006">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_3_string/_40_Implement_strStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_7_search/_92_Search_Insert_Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_7_search/_91_Search_for_a_Range.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_7_search/_93_Search_a_2D_Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_8_brute/_94_Subsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_8_brute/_95_Subsets_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_8_brute/_96_Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_9_bfs/_100_Word_Ladder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1003" max-vertical-offset="2006">
+          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_9_bfs/_101_Word_Ladder_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1700">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_1_Remove_Duplicates_from_Sorted_Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="782">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_10_dfs/_103_Palindrome_Partitioning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1445">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#963#964#0" expanded="false" />
+            <element signature="e#1010#1011#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_9_bfs/_102_Surrounded_Regions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="799">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_0_olds/v1/_2_linkedlist/_38_LRU_Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#357#358#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/base/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3427" max-vertical-offset="4658">
+          <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/problems/_1_array/_8_3Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1717">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding>
+            <element signature="e#2217#2237#0" expanded="true" />
+            <element signature="e#2357#2377#0" expanded="true" />
+            <element signature="e#2842#2851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/leetcode/onlinejudge/BaseProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73261505" vertical-offset="136" max-vertical-offset="2567">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding>
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1588,4 +1491,3 @@
     </states>
   </component>
 </project>
-
